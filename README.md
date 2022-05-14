@@ -8,17 +8,34 @@ http://Candydate.xyz
 ## Join the discussion:
 * https://matrix.to/#/!BPkctNZIOBJqnNnYCM:matrix.org?via=matrix.org
 
+or gitter is also easy:
+[![Gitter](https://badges.gitter.im/elasticdotventures/community.svg)](https://gitter.im/elasticdotventures/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
+
+
+This is based on my earlier work _b00t_ related to complex stack device-deployable packaging system. 
+
+
+## Repo Summary
 
 👋 I'm just starting to organize this for peer validation.  Thank you for your time. 🙏
 
-To help visualize the system architecture of Candy Date it is helpful to envision a game of telephone with an AI Large Language model in the center relaying answers between two parties (seekerrr => $err and err$ => daterrr ) 
+To help visualize the system architecture of Candy Date it is helpful to envision a game of telephone with an AI Large Language model in the center relaying answers between two parties ( seekerrr  => $err & err$ => daterrr ) 
 
 The AI language module also assigns episodic seeker coins based on feedback from the daterr.  The AI is a facilitator, it is roughly following an idiomatic (natural language) instructional script. The Agent requires gratuities and customs be observed based on rituals. 
 
-This is an application for crypto-staked funding to an ERC-20 wallet address (to describe that at some point you create a wallet, sign with it, and funds are deposited to operate the find-hire-work game "Candy Date" targeting crypto-coins for liquidity & consensus stages across 3x different networks ({ETH2 MATIC DOTS}) - this most likely won't work with the coinbase wallet until they accept an invite to peer.  
-```
+This is an application for crypto-staked funding to an ERC-20 wallet address (to describe that at some point you create a wallet, sign with it, and funds are deposited to operate the find-hire-work game "Candy Date" targeting crypto-coins for liquidity & consensus stages across 3x different networks ({ETH2 MATIC DOTS}) - this most likely won't work with the coinbase wallet(s) - plan to use metamask.  (and initially my work here is on helping people get the environment auto-builds setup to run -- and making this available in the various microsoft, android, chrome, linux distribution and apple appstores)
+
+### TLDR: Advanced Route
+# // VOTE: which style 
+
+```bash
+git clone --template https://github.com/elasticdotventures/candydated0txyz ~/.candy
+cd ~/.candy
 cargo install 
 ```
+
+
+
 
 It is asynchronous social chat including organizational survivorship & good-will (how many people would be likely to work there again, or return to work under which conditions) hive mind survey of technical people.
 
