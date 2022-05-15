@@ -7,9 +7,21 @@ Polkadot Polychain ERC-20 Wallet
 HR/Hiring Facilitation Experiment
 
 
+ Free to use and payment is strictly on the honor policy in the way the game is played.   The application itself uses the git protocol hash from the log of emoji feedback as a way to index & reward participation. This is common on sites like discord and in organizations. 
+
 
 
 This is  to be reading about or interested in learing how to play "Candy Date" .  filter to determine the likelyhood of a good match selecting staking crypto to do your exercises and offering to share the result for others who may want to administratively review the feedback instead of properly characterizing the state of your Tech Stack internal systems or desires or aspirations.  For candidates, it is a public recognition of which interviews process is broken and one-sided.  For employers, it is an opinionated explanation of how you should be indexing & archiving your job requirements.   You upload your encrypted CV of qualifications or perform tutorials and small exercises. 
+
+In development, it will be operated collectively using this repository and other founTional ("⛲") (founTional: an amaglamation of functional-technical documentation) 
+
+Providing "Sources of Truth" for the stack described herein, how to operate said machine on your own computer, and to take you through the steps of setting up an ERC-20 wallet, and trying to automate as much tedium as possible.  I and possibly others will gladly pay companies to properly screen these opportunities and protect my data & privacy.   The present online recruiting model requires too much disclosure on the candidate and Candꭵ.ⅆa𝕥e hopes to fix that by speeding up the "is role a fit" answering simple questions about roles or jobs you represent. 
+
+The intention of this ⛲ README.md is to serve as a guide-post to the systems source contained inside this repository.  It is to provide a employee-employer block-chain cryptocoin-operated "Freemium" incentivized that can be run & mine its coins on your computer as a "paid to play" for performing nominal inference tasks such as captchas.  HR Authentication & on-boarding systems checklist "Candy Date" match-making service for finding & hiring highly techincal people. 
+
+You, yei, we: The player, will receive coins for multi-factor authenticating and verifying identities, providing validation & exit-interview crypto-wallet & proof of employment contract in the form of an ERC-771 smart-contract, discussion facilitation.  Disclosure requires all parties such as work history and targeting the information with various disclosure levels in a negotiation crowd-sourced hiring.  
+ 
+
 
 ## Reputation & LUCK
  Reputation is built by professional operators who screen DALLE-2 driven models for companies they represent in initial screening interviews & ongoing work-from-home or office complex negotiation engagement that is modern post COVID society but also cyber-safety screening.  Recruiting data storage in IT Recruiting & Corporate HR IT systems is usually absolutely horrid so the network will pay them in crypto-currenty to answer profile questions, and they will pay the same coins asynchronously.  People could maintain as many identities as they want professionally and this has the added advantage of long term crypto-key vault recovery 'horcrux' identity sharding.  For now, this REPO will store your secure information in a system known as github git identity private vault.

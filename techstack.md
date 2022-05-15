@@ -18,6 +18,11 @@ Technical Stack Proposed is POLYglot (many to many language binding):
 
 
 
+# Steps
+ * Setup, github, clone this repo as template - install windows WSL-2 or equivalent command line containerized environment. 
+
+
+
 
 The commands to setup the system with-ease would require non-technical operators should not hire one or more consultants or utilize resources inside their own organization to enter profiles.   
 

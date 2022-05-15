@@ -45,13 +45,17 @@ This is written in a tool & idiomatic venacular built for 𝟚 audiences.
     * erc-20 wallet
     * discord
 
-## Matrix Chat:
+
+## Feedback is welcome
+[contribute.md]()
+
+### Find me at Matrix.Org:
 ![][image_ref_a32ff4ads]
 
 [https://matrix.to/#/#candydated0txyz:matrix.org]()
 
 
-## Twitter:
+### Check Twitter for Updates:
 <!--
 https://img.shields.io/twitter/follow/brianhorakh?style=social
 -->
@@ -66,30 +70,43 @@ https://img.shields.io/twitter/follow/brianhorakh?style=social
 
 
 
+
 <!--
 ![GitHub contributors (via allcontributors.org)](https://img.shields.io/github/all-contributors/elasticdotventures/candydated0txyz/main)
 -->
 
 
 
-## 🤓 Technical Detail
+# 🤓 Technical Detail & FAQ
+
+## 👋 Dear Recruitsers
+Dear Recruiters, I will pay you in crypto-currency to answer these questions and screen these emails better.  The job descriptions I see are retarded with a higher degree of word precision and with less repetition (the answers don't change, so this does a better job screening, asynchronously via chat).  The follow up with the person offering the job is too cumbersome, the whole process is very poor. 
+
+ Where companies and employees can upload their encrypted profiles, link their organizational accounts, and have bi-directional robots converstationally take turns in successive-rounds finding and eliminating candidates until a position is filled. 
+
+Don't worry, it's easy to use because everybody starts with 1,000 free tokens sponsored by "Candy Date" Crypto Coin co. a command line driven "cli" / interactive menu driven/run on your own machine. 
+
+You can power the system and generate coins by joining and it is mostly explained below. 
+
+Candꭵ.ⅆa𝕥e is a conversational AI that simplifies the review &
+processing of both job advertisements and CVs. 
 
 ### 👋 Hi from Melvin 
-🤓 "Melvin" (the nerd emoji) represents technical specifications that may not be relevant or difficult to understand outside of knowledge in a specific field.  For people in the field these specifications are important.  If you see a nerd emoji and you don't understand it that's probably fine and not super important. 
+🤓 "Melvin" (the nerd emoji) is for technical specification hints/background.  Melvins can be difficult to understand for some non-experts.   For experts in the AI & blockchain field these specifications are very important because they remove ambiguity.  If you see a Melvin and you don't understand what it's saying, thats fine - it's probably not important and you can skip it. 
 
 The Candy date system is designed to introduce new skills to the user to play the game as part of an interactive find-hire-work humorously named Errs (produced like Errors)
 
-### 🤓 Candy Date is built on the Vegemight Stack
-🙏 Candy Date will take the good ideas from my earlier work \_b00t\_ but will incorporate RUST Cargo, WASM and deno (all were absent from \_b00t\_) called the Vegemight Stack (as opposed to the JAM stack, which also goes on toast).  Vegemite is a popular Australian breakfast spread, that is illegal to import to the US.  The Vegemight stack was designed in Australia. 
+### 🤓 Candy Date and the Vegemight Stack
+🙏 Candy Date will recycle the good ideas from my earlier work \_b00t\_ but will incorporate RUST Cargo, WASM and deno (all were absent from \_b00t\_) called the Vegemight Stack (as opposed to the JAM stack, which also goes on toast).  Vegemite is a popular Australian breakfast spread, that is illegal to import to the US.  The Vegemight stack was designed in Australia.  The naming convention also removes the mandarin pinyin in favor of all shorthand emoji. 
 
-### 🤓 What is the Vegemight Stack>
-Vegemight is intended to provide simplification of complex 'highly-technical' machine-learning stacks device-deployable multi-os build & packaging system using WASM (web assembler) which allows polyglot coding between Rust, TypeScript, Python and C++ (at least these) and a full build of Linux & OCI containers running the deno serverless engine.  If any of the information I just said made sense to you then you *might* be qualified to read the [techstack.md]()
+### 🤓 What is the VegeMight Stack (VMS)?
+VegeMight Stack (VMS) is intended to provide simplification of complex 'highly-technical' machine-learning stacks device-deployable multi-os build & packaging system using WASM (web assembler) which allows polyglot coding between Rust, TypeScript, Python and C++ (at least these) and a full build of Linux & OCI containers running the deno serverless engine.  If any of the information I just said made sense to you then you *might* be qualified to read the [techstack.md]()
 
 ### 🤓 What is/was \_b00t\_
 Vegemight is a refactor of the good ideas from [http://github.com/elasticdotventures/\_b00t\_]() into Candꭵ.ⅆa𝕥e(®️®️) v0.0.1 using cargo - second attempt at a universal installer for less/least technical people.  But this is mostly intended for technical recruiting initially. 
 
-## 🤓 How much will a Candy Date cost? 
-Neglible real dollar amounts. Freemium, lots of coins getting dropped.  The system will be very efficient, especially ETH2 post merge, the fees will be very low, and the candidates are pre-screened.   While there is crypto-currency, the idea is to keep the fees very low and the crypto is a way to reward individuals for successfully completing steps.  Maybe the crypto will be working someday, but that isn't why people are playing the game.   It will take probably 6-10 weeks to build the prototype system, or something that resembles a prototype? It's unknown how long it will take to get connections to networks & exchanges setup. 
+### 🤓 How much crypto-currency will a Candy Date cost? 
+Neglible real dollar amounts, pennies or less.  It's Freemium business model with lots of coins getting dropped.  The system will be very efficient, especially ETH2 post merge, the fees will be very low, and the candidates are pre-screened.   While there is crypto-currency, the idea is to keep the fees very low and the crypto is a way to reward individuals for successfully completing steps.  Maybe the crypto will be working someday, but that isn't why people are playing the game.   It will take probably 6-10 weeks to build the prototype system, or something that resembles a prototype? It's unknown how long it will take to get connections to networks & exchanges setup. 
 
 ## Present obstacles
 ``` 
@@ -347,60 +364,6 @@ Candy Date will create a github password vault of your cryptographic wallet.
 
 The fees are expected to be only a few dollars.  This is crypto not highway robbery! 
 
-
------ LINE OF OBSOLECENCE ------
-👽 plz. ignore everytghing below this line. 
-
-# Steps
- * Setup, github, clone this repo as template - install windows WSL-2 or equivalent command line containerized environment. 
-
- * Once you have logged into github and made a clone of this repo.  Install VS
-
- 
- Free to use and payment is strictly on the honor policy in the way the game is played.   The application itself uses the git protocol hash from the log of emoji feedback as a way to index & reward participation. This is common on sites like discord and in organizations. 
-
-I will now attempt to explain that which does not yet exist. 
-Please bear with me.  Why I am building this, the audience and how it will be used concurrently.  The types of people who may use this application are technical people who are keen to do tasks or are looking for work. 
-
-
-Dear Recruiters, I will pay you in crypto-currency to answer these questions and screen these emails better, with a higher degree of word precision and with less repetition (the answers don't change, so this does a better job screening, asynchronously via chat)
-
- Where companies and employees can upload their encrypted profiles, link their organizational accounts, and have bi-directional robots converstationally take turns in successive-rounds finding and eliminating candidates until a position is filled. 
-
-Don't worry, it's easy to use because everybody starts with 1,000 free tokens sponsored by "Candy Date" Crypto Coin co. a command line driven "cli" / interactive menu driven/run on your own machine. 
-
-You can power the system and generate coins by joining and it is mostly explained below. 
-
-Candꭵ.ⅆa𝕥e is a conversational AI that simplifies the review &
-processing of both job advertisements and CVs.  In development, it will be operated collectively using this repository and other founTional ("⛲") (founTional: an amaglamation of functional-technical documentation) providing "Sources of Truth" for the stack described herein, how to operate said machine on your own computer, and to take you through the steps of setting up an ERC-20 wallet, and trying to automate as much tedium as possible.  I and possibly others will gladly pay companies to properly screen these opportunities and protect my data & privacy.   The present online recruiting model requires too much disclosure on the candidate and Candꭵ.ⅆa𝕥e hopes to fix that by speeding up the "is role a fit" answering simple questions about roles or jobs you represent. 
-
-The intention of this ⛲ README.md is to serve as a guide-post to the systems source contained inside this repository.  It is to provide a employee-employer block-chain cryptocoin-operated "Freemium" incentivized that can be run & mine its coins on your computer as a "paid to play" for performing nominal inference tasks such as captchas.  HR Authentication & on-boarding systems checklist "Candy Date" match-making service for finding & hiring highly techincal people. 
- 
- You, yei, we: The player, will receive coins for multi-factor authenticating and verifying identities, providing validation & exit-interview crypto-wallet & proof of employment contract in the form of an ERC-771 smart-contract, discussion facilitation.  Disclosure requires all parties such as work history and targeting the information with various disclosure levels in a negotiation crowd-sourced hiring.  
- 
- As an individual looking for a technical work-remote job - I'm tired of giving up all this information blindly to proprietary job apps.   If you want to make copies that's fine, but my job application from here on is here. 
- 
- .  At some point when this is finished, this is a cargo and ios.🍎/windows/android.-linux/mac package install
-
-This is a new method of recruiting that requires groups of people (non-scientists, non-system engineers) to be able to setup the tool to prove that it works is another feat entirely.  So this document will define the goals
-
-A crypto-paid bounty & multi-party ETH/Polygon L2 encrypted blockchain record & book keeping negotation system employee-employer work-for-hire match making and data-classification performance analysis system. 
-
-Information is presented in a venacular to potential business & for-hire candidates using Candꭵ.ⅆa𝕥e the "latest" (latest: "next idea") processing gamified "find-hire-work = win scenario" system real crypto-job token/game setup interface as an auto-responder to 
-my inboxes and trying to train AI to find and filter job applications on various job boards and just whitelist & flag-delete the rest of the email. 
-
-In terms of actually playing with/in the game to hire me, or potentially the dozens of other candidates who might want to play in this game to build a fire-hire-work Match Making asychronous conversational chat robot.  Companies or recruiters wishing to hire me are going to need to pay for the interview.  
-
-Resume: 
-
-
-documents, fill out, Get paid in crypto for doing captchas, job matching. 
-
-Using Candꭵ.ⅆa𝕥e will reduce the toil of finding a job and/or finding/hiring people by efficiently electronically processing their questions using an AI technique known as LLM "Large Language Models"
-interactive conver𝕥ional chat-bot for massive reduction in toil
-by matching & reviewing preferences and having a simplified install environment is my primary focus.  The intention is to provide a robot that will screen employment opportunities using crowd sourced information.  
-
-The system is free to sign up, you need a github.
 
 
 # ----
