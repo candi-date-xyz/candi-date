@@ -15,7 +15,9 @@ https://img.balancebadge.io/token/<TOKEN>/<ADDRESS>.svg
 * expressions of interest
     - get early access & extra coins by donating before our AirDrop
     - send amounts as small as 0.01 ETH, MATIC (Polygon), or DODS (Polkadot) to the address above
-    - there will be another address for SOL as I get a bit closer. 
+    - there will be another address for SOL as I get a bit closer
+    - getting some trivial amount of current will really help me explain to the wife that people are 'pre-registering'
+
 
 
 * DAO partners
