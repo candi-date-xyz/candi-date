@@ -33,6 +33,18 @@ This is written in a tool & idiomatic venacular built for 𝟚 audiences.
     * discord
 
 ## Join the discussion:
+<!--
+https://img.shields.io/twitter/follow/brianhorakh?style=social
+-->
+![Twitter Follow](https://img.shields.io/twitter/follow/brianhorakh?style=social)
+![GitHub contributors (via allcontributors.org)](https://img.shields.io/github/all-contributors/elasticdotventures/candydated0txyz)
+
+nerdsin.space.svg
+!BPkctNZIOBJqnNnYCM:matrix.org
+
+
+/matrix/!OjvOEGLmupvmEYhadQ/nerdsin.space.svg
+
 * https://matrix.to/#/!BPkctNZIOBJqnNnYCM:matrix.org?via=matrix.org
 
 ## 🤓 Technical Detail
