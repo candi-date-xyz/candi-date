@@ -1,63 +1,153 @@
 
-# Introduction
+# Introduction to the Vegemight Stack & Candy Coin company
 
-## Subject LFG: Looking for Group 
+earn spendable crypto-coins for conversationally training an ai-bot to complete job applications. 
+
+## Subject [LFG] Looking for Guild?, LMK!
 RE: Candꭵ.ⅆa𝕥e(®️®️) - project plan. 
+
+## Candꭵ.ⅆa𝕥e(tm) Marketing & Target Audience(s)
+This is written in a tool & idiomatic venacular built for 𝟚 audiences. 
+
+### 1. seekErrs
+* 2(A): young engineering or science students who are starting their careers
+* 2(B): older versions of the same
+* 2(C): self-taught non-credentialled technical people
+* 2(E): People who are already employed, but curious
+
+### 2.  valiDaterrs
+* 2(A): HR & Recruiting professionals
+* 2(B): those companies which seek IT expertise
+* 2(C): IT or Engineering departments looking for candidates
+* 2(E): Education or undergradate opportunities
+
+## how to enroll/play
+* limited number of HR hiring firms offering crypto
+* questions & answers will be classified by sensitivity, such that there are both public and vaulted.  access to vaulted information requires coin staking and both agents build detailed profiles of questions & answers between candidates using github issues.
+
+* can use different language models to process the same neutral data format. 
 
 * http://Candydate.xyz : corporate website
 * http://Candydate.eth : onboarding
     * erc-20 wallet
     * discord
 
-
 ## Join the discussion:
 * https://matrix.to/#/!BPkctNZIOBJqnNnYCM:matrix.org?via=matrix.org
 
-or gitter is also easy:
+## 🤓 Technical Detail
+🙏 Candy Date is consuming the good ideas from my earlier work \_b00t\_ related to simplification of complex 'highly-technical' machine-learning stacks device-deployable multi-os build & packaging system using WASM (web assembler) which allows polyglot coding between Rust, TypeScript, Python and C++ (at least these) and a full build of Linux & OCI containers running the deno serverless engine.  If this information made sense to you then you may be qualified to read the [techstack.md]()
 
-🙏 This is consuming my earlier work _b00t_ related to complex stack device-deployable multi-os build & packaging system.  I'm rewriting my ideas from _b00t_ into Candꭵ.ⅆa𝕥e(®️®️) v0.0.1 using cargo - second attempt. 
+
+I'm rewriting my ideas from [http://github.com/elasticdotventures/\_b00t\_]() into Candꭵ.ⅆa𝕥e(®️®️) v0.0.1 using cargo - second attempt at a universal installer for less/least technical people.  But this is mostly intended for technical recruiting initially. 
 
 
-## BLockers
+## Present obstacles
 ``` 
-# installing gh repo is bumpy. 
+# installing gh repo is bumpy.  that happens pretty earily in the install. 
 gh repo clone elasticdotventures/candydated0txyz
+
 ```
 
 🙏 Please be patient. Rome was not built in a day. 
-```
-wip=$(git add --all ; git commit -m "wip; checkpoint")
-```
 
 ## example file & directory structure, for tasks & chores
 * [n00b.md](n00b.md) what is Candy Date for n00bs (beginners)
     * how to sign up and get into queue
 * [contribute.md](contribute.md) How to contribute
-    * ways to reach me
+    * github issues on this repository. 
+    * i'm accessible. plenty of ways to reach me. twitter,linked in etc.
 * [techstack.md](techstack.md) Technical stack specification
     * explains directory structure
     * overview of which tools will be used
-* Detail
+* 🤓 Detail
     * [tokenomics.md](tokenomics.md) crypto-currency
     * [cognitive.md](cognitive.md) AI/ML/NLP/LLM
 
-## Candy Operational Summary
+## Candy Date Operational Summary
 
 👋 I'm just starting to organize this for peer validation.  
-🙏 Thank you for your time.  
+🙏 Thank you for your time.  Please checkout contribute or follow me on twitter, linkedin, whatever social media you happen to use. 
 
-To help visualize the game-format and operation of Candy Date it is helpful to envision a game of telephone with an AI Large Language model in the center relaying answers between two parties ( seekerrr  => $err & err$ => daterrr ) and speed-dating questions to rational-skill & location & attribute matching & job filtering. 
+To help visualize the game-format and operation of Candy Date it is helpful to envision a game of telephone with an AI Large Language model in the center relaying answers between two parties 
+
+## Simplified Operation
+
+Please realize the process as described below is happening for many weight attributes per candidate and validator (organization) to improve accurate. 
 
 ```mermaid
+flowchart LR
+
+A2[valiDatErr] -->|has job| B(agent)
+A1[seekErr] -->|get job| B(agent)
+B --> C{is  good match?}
+C -->|Yes| D[keep match, get more]
+C -->|Love| E[Let's get IT on ... date time!]
+C --->|No| F[Sorry about that .. Why?]
+F -->|Dunna, Just don't| Fx0[ignore & try again]
+F -->|Don't like Role| Fx10[Discard Roles like this]
+F -->|Don't like Company| Fx20[Blacklist Company]
+F -->|Don't like Area| Fx30[Create Address Filter]
+
+
+```
+The instructions to the agent are to perform speed dating rounds with many collaborative agents periodically signing in and answer questions.
+The rational-skill & location & attribute matching & job filtering.  
+
+Once the agents are primed they can tear through and analyize why they removed particular roles (conversationally).  Each persons private information is put into one system and it is only provided to job roles which are likely to be high matches for both parties.  This allows a canidate to talk back at the job. 
+
+At this stage i'm still building the installer since this needs to run on peoples computers or business networks and connect to single service sign-on settings and whatnot it's fairly complex. 
+
+## Conceptual seekErr to Agent Workflow
+  _the chart below should render in mermaid charts_
+```mermaid
+sequenceDiagram
+    participant S as seekErr
+    actor S
+    participant A as Agent.🤖
+    S -->> A: 🙏 Candy Date plz? 
+    A ->> S: /say Install Software Stack okay?
+    S -->> A: 👇😱 no. got error. something bad! 
+    A -->> A: 👇👹 oh-no, software is required. contact. will fix.
+    A ->> S: /say is fixed?
+
+    S -->> A: 👍 okay, done. software installed.
+    A ->> S: 🐙 setup go to github.com create account.
+    S -->> A: 🐙👍 okay, have github account
+    A ->> S: 🐙🔗 now link github account to software
+    S -->> A: 👍🐙🔗 okay, linked github account
+
+    A ->> S: 🧱 Create ERC-20 Wallet (use software)
+    S --> A: 👍🧱 okay, have wallet
+    A ->> S: 🦊💌🧱 Add Wallet to Browser MetaMask plugin
+
+    A ->> S: 🦊🔗🤝 Link wallet at http://candydate.eth
+    A ->> S: 🦊🔗🐙 backup wallet in github vault
+    A ->> S: 🦊🔗🪩 Link wallet to discord id chatbot
+    A ->> S: 🦊🔗Ⓜ️ Link wallet to instragram
+    A ->> S: 🦊🔗🐤 Link wallet to twitter
+ 
+    
+    S --> A: 👍 wallet is link(ed), coin awards!
+    A ->> S: 🧛‍♂️ associate SSO accounts, get coins
+
+    S --> A: 👍 enroll using SSO
+    A ->> S: 📄 Upload CV Resume documents, get coins
+    S --> A: 👍 anwer questions (optional) - each day, get coins
+
 ```
 
 # Aspirational goals
 Some of the aspirational goals of this repo is to produce artificats that appear in every app store.  The initial configuration(s) selected must be broad enough that they can begin & ultimately pass the certification processes for Google, Microsoft, Apple, etc. A software project like this is never complete.
 
+🙏 the goal is to eliminate the toil, and setup what are effectively install a plurality "spinning-rims", once the software is setup and installed we'll have lots of features but before that we need to do a bunch of foundational cybersecurity housekeeping tasks to be able to pass future ISO27001 software audits and offer corporate organization SSO for organizational crypto-wallet & gamified hiring process with AI natural language agent in the middle - it's a project. 
 
-This is an application for crypto-staked funding to an ERC-20 wallet address (to describe that at some point you create a wallet, sign with it, and funds are deposited to operate the find-hire-work game "Candy Date" targeting crypto-coins for liquidity & consensus stages across 3x different networks ({ETH2 MATIC DOTS}) - this most likely won't work with the coinbase wallet(s) - plan to use metamask.  (and initially my work here is on helping people get the environment auto-builds setup to run -- and making this available in the various microsoft, android, chrome, linux distribution and apple appstores)
+This project specifically uses the NLP LLM generative AI to perform data-privacy and anonymouse.🐭  Your information remains encrypted on your machine or in your github.com or similar vault.  For companies hiring technical people this system allows you to post job descriptions directly into IpFS under your own organizational repo.  
+
+One aspect that is difficult about launching a system like this is both 'want job' and 'have job' persons (seekErrs & valiDatErrs respectively) must arrive at roughly the same time.  To mitigate this requirement this is being designed inside out. You get as far into the process as you can.  Use github issues. 
 
 ### TLDR: Advanced Route (present)
+
 
 * install WSL2 ubuntu 22.04 LTS
     * 🤓 reference https://ubuntu.com/wsl
@@ -65,21 +155,17 @@ This is an application for crypto-staked funding to an ERC-20 wallet address (to
     * 🤓👍 this may work on older builds but I can't promise anything, please report success
 
 * install RUST using rustup
-    * 🤓 reference 
+    * 🤓 reference (below)
 
-* i need to figure out how to install a lot of RUST packages in a workspace.
-* developing cargo skills. 
+* i need to figure out how to install a lot of RUST packages in a workspace, but this will ultimately a system within a system.  so the user experience starts with the installer. 
 
-```wsl2
+* every module, sugar-syntax, etc. should have an install.sh
+* FUTURE: install.sh will be convered by bats (bourne again test scripts)
+* the big challenge is starting from a mostly bear system. 
 
-# setup a shared system version (store on c drive, between windows & linux)
-# the 0de location is used for OCI container mounts and WASM
-# the location is not presently a variable but the code is structured for backups
-    * /mnt/g/0de : Google Drive
-    * /mnt/m/1dr : Microsoft One Drive
+```bash
 
-curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
-ln -s ~/.candy /mnt/c/0de/candydated0txyz
+~./install.sh
 
 # this is easy because it means there can be a local system template created by
 rm ~/.candy
@@ -107,21 +193,10 @@ cargo run
 
 # Menu driving VOTE: 
 
-[]
-
-
 It is asynchronous social chat including organizational survivorship & good-will (how many people would be likely to work there again, or return to work under which conditions) hive mind survey of technical people.
 
 This application is incredibly well suited to curate the internal organizational technologies & share + curate systems documentation (including periodically holding & decisionally wagering different forms of currency based on outcomes)
 
-## Welcome
-```bash
-# 🤓 https://git-scm.com/docs/git-clone
-git clone --template=elasticdotventures/_b00t_ Candꭵ.ⅆa𝕥e(®️) 
-cd ~Candꭵ.ⅆa𝕥e(®️) 
-
-
-```
 
 
 Not everybody who will arrive at this page knows what Github, crypto-currency, discord, programming and other details of technical stacks. I will try and present the topics gently.  Not everybody will understand the benefits of a Compiler Linter, or what a real-time continuous code-live share jam sessions. 
@@ -132,30 +207,14 @@ greetings to Candꭵ.ⅆa𝕥e(tm) v0.0.1
 
 
 ## Contribute
-A need functional assesment model - regional questions of industry specific jargon (such as "office in CBD" for Melbourne VIC) regional ways to categorize communities and clarifications by language models to ensure they are properly aligned and performing accurately & efficiently. 
+see [contribute.md]()
+
+Even non-programmers will be needed to fill this system and build out it's synapses with regional hiring jargon & nomenclature.  Agents who are hiring people can represent employers.  Especially people who do HR or Recruiting tasks for a living, or anybody who is technical that is looking for a new or better job role and would rather than the AI autoresponder feel the sting of rejection. 
+
+A need functional assesment model - regional questions of industry specific jargon (such as "office in CBD" for Melbourne VIC, AU) regional ways to categorize communities and clarifications by language models to ensure they are properly aligned and performing accurately & efficiently. 
 
 Examples of commutes and make better decisions, questions and answers that are selected by employers to assess candidates as Alpha & Beta validation testers for the system. 
 
-## Candꭵ.ⅆa𝕥e(tm) Marketing: Audience(s)
-This is written in a tool & idiomatic venacular built for 𝟚 audiences. 
-
-### 1. Daterr Seekerrs
-* 2(A): young engineering or science students who are starting their careers
-* 2(B): older versions of the same
-* 2(C): self-taught non-credentialled technical people
-* 2(E): People who are already employed, but curious
-
-### 2. Candꭵ.ⅆa𝕥e(tm) Daterrs
-* 2(A): HR & Recruiting professionals
-* 2(B): those companies which seek IT expertise
-* 2(C): IT or Engineering departments looking for candidates
-* 2(E): Education or undergradate opportunities
-
-## how to play
-* limited number of HR hiring firms offering crypto
-* questions & answers will be classified by sensitivity, either public or vaulted.  access to vaulted information requires coin staking and both agents build detailed profiles of questions & answers between candidates using github issues.
-
-* can use different language models to process the same neutral data format. 
 
 
 ## TODO: Setup Affiliate Referral Code
