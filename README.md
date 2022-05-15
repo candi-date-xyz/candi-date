@@ -36,19 +36,23 @@ This is written in a tool & idiomatic venacular built for 𝟚 audiences.
 <!--
 https://img.shields.io/twitter/follow/brianhorakh?style=social
 -->
+
 ![Twitter Follow](https://img.shields.io/twitter/follow/brianhorakh?style=social)
-![GitHub contributors (via allcontributors.org)](https://img.shields.io/github/all-contributors/elasticdotventures/candydated0txyz)
 
-nerdsin.space.svg
-!BPkctNZIOBJqnNnYCM:matrix.org
+[http://twitter.com/brianhorakh](http://twitter.com/brianhorakh)
+
+![][image_ref_a32ff4ads]
+
+[https://matrix.to/#/#candydated0txyz:matrix.org]()
 
 
-/matrix/!OjvOEGLmupvmEYhadQ/nerdsin.space.svg
+<!--
+![GitHub contributors (via allcontributors.org)](https://img.shields.io/github/all-contributors/elasticdotventures/candydated0txyz/main)
+-->
 
-* https://matrix.to/#/!BPkctNZIOBJqnNnYCM:matrix.org?via=matrix.org
 
 ## 🤓 Technical Detail
-🙏 Candy Date is consuming the good ideas from my earlier work \_b00t\_ related to simplification of complex 'highly-technical' machine-learning stacks device-deployable multi-os build & packaging system using WASM (web assembler) which allows polyglot coding between Rust, TypeScript, Python and C++ (at least these) and a full build of Linux & OCI containers running the deno serverless engine.  If this information made sense to you then you may be qualified to read the [techstack.md]()
+🙏 Candy Date is consuming the good ideas from my earlier work \_b00t\_ related to simplification of complex 'highly-technical' machine-learning stacks device-deployable multi-os build & packaging system using WASM (web assembler) which allows polyglot coding between Rust, TypeScript, Python and C++ (at least these) and a full build of Linux & OCI containers running the deno serverless engine.  If any of the information I just said made sense to you then you *might* be qualified to read the [techstack.md]()
 
 
 I'm rewriting my ideas from [http://github.com/elasticdotventures/\_b00t\_]() into Candꭵ.ⅆa𝕥e(®️®️) v0.0.1 using cargo - second attempt at a universal installer for less/least technical people.  But this is mostly intended for technical recruiting initially. 
@@ -235,37 +239,12 @@ fn roll_🥐.seekerrs(): {
     // but yes, someday! 
     }
 
-## What is an Epoch (⌚) // sounds like: ep-clocks
-^-- memetic: Epclock or Epoch is a frequency based date or deadline. 
-
-An EPOCH is used in crypto-coin decentralized organizations conceptually is an area for engagement, business cycle, popular network generated or used questions.  In depending on the cultures an epoch means one day, or one year, or one moon phase on any number of astrological zodiac signs. 
-
-During dates both sides ask & answer questions (screened by the AI) in either voice transcription or command line written responses, short responses (more like tweets) the system records their answers, and in the future answers related questions automatically.  During the process by truthfully answering long and short term answers for both party to provide recruiting packages know as LOVE.💌 and LOLE.🍭 at different EPCLOCKS.⌚  both accure during the relationship.  Which are a form of gratuity for the process (no gratuity is wasting our time) and preloading or fast tracking the 
-Candꭵ.ⅆa𝕥e(tm) process includes multiple concurrently running EPOCHS & cultural festivus (community bulletin board, for example on mastodon) smalltalk, limiting the social engagement.  The summary bot might say "I scanned 56 job advertisments, here are the top 3, would you like me to follow up"
-
-
-
-fn roll_📅.daterrs() {
-    # flexible epochs
-        * mayan()
-        * lunar() .. one moon
-        * julian()
-}
 
 ## Conceptual
 High speed "pay for priority" the higher bounties offered the better ranked engineers, more questions per epoch, such that in the game mechanics each player, each epoch gets a biscuit.🍪 as a participation toys.🪀 (toys,or trophys are granted for participation). 
 
 to register to be an affiliate and receive coin for referring people, simply use the fork repo, add your organization, or your profile(s) resumes into the vault.  
 job the most appropriate resume will be selected.  keep the system up to date with how your job satisfaction is going by providing positive or negative sentiment.
-
-## TODO: Markdown Resume Lint
-one entry, automated form-filler and job-scanning application auto-pilot with connections to your favorite job board. 
-
-* Register yourself by forking this repo, adding your own interpretation of what a Markdown Resume LINT. 
-
-## Large Language Models
-Large Language Models such as GPT3
-* GPT-Neo or similar 
 
 
 ```
@@ -509,5 +488,11 @@ Login:
 
 
 # ----
+<!-- matrix room qr code -->
+
+[image_ref_a32ff4ads]: 
+data:image/png;base64,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
+
+
 
 
