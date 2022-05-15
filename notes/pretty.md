@@ -16,3 +16,18 @@ with generative people that keep appearing and getting matched
 
 
 
+## ---=[ vision board:  "The Login Screen" ]=---
+
+candꭵ.ⅆa𝕥e: 0.0.1
+
+Recruiters, HR People, & future employed apes.
+
+Welcome to candꭵ.ⅆa𝕥e!
+
+Login: 
+
+/* 
+^--- is the target "welcome screen"
+
+*/
+

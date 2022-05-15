@@ -29,3 +29,10 @@ DBU6 : TEST - Application Lifecycle Debug, Monitor
 _0P5 : OPS  - Operations, gitops chat/ops, etc. (secure)
 T34M : TEAM - Operations, human resources
 T00L : TOOL - extension, or anything else. 
+
+
+# Triz Task: Follow the rule of 3
+Each system should ultimately have 3 connections Many-Factor, not just multi-factor systems such as 2FA are insufficient.  The rule of 3 states that having a minimum of 3, ideally six or more redundant ways to measure.  
+
+⛲ FounTional : A Repo is technical documentation for a piece of software that you install on your computer, usually in roles which  correspond with via email "recruiter <=> agent <=> company" dynamic of the hiring process.  That is the target audience "lithmus test" for question, time to response, age of account, authenticity of offer (having to stake crypto currency upon a successful outcome with an arbiter Human supervised-AI agent making decisions)
+

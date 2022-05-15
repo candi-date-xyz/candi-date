@@ -1,4 +1,20 @@
 
+** unfinished **
+
+## 
+Some type of DAO startup, probably based on Notion.
+Polkadot Polychain ERC-20 Wallet
+HR/Hiring Facilitation Experiment
+
+
+
+
+This is  to be reading about or interested in learing how to play "Candy Date" .  filter to determine the likelyhood of a good match selecting staking crypto to do your exercises and offering to share the result for others who may want to administratively review the feedback instead of properly characterizing the state of your Tech Stack internal systems or desires or aspirations.  For candidates, it is a public recognition of which interviews process is broken and one-sided.  For employers, it is an opinionated explanation of how you should be indexing & archiving your job requirements.   You upload your encrypted CV of qualifications or perform tutorials and small exercises. 
+
+## Reputation & LUCK
+ Reputation is built by professional operators who screen DALLE-2 driven models for companies they represent in initial screening interviews & ongoing work-from-home or office complex negotiation engagement that is modern post COVID society but also cyber-safety screening.  Recruiting data storage in IT Recruiting & Corporate HR IT systems is usually absolutely horrid so the network will pay them in crypto-currenty to answer profile questions, and they will pay the same coins asynchronously.  People could maintain as many identities as they want professionally and this has the added advantage of long term crypto-key vault recovery 'horcrux' identity sharding.  For now, this REPO will store your secure information in a system known as github git identity private vault.
+
+
 ## Crypto: Tokenomics
 Both systems trade DOTS and LOLE's based on the acceptance or rejectance/outcome of matchings.  LOLE's limited or long term engagements LOLE's (🍭) measure a date from the time of the first auto-response, a public record of employment of a mutually agreed upon deadline, and subsequent re-negotiation tool that ensures pay equity within a group but also selects one or more winners and losers, with the losers.  DOTS refers to Polkadot a cross-chain 
 
@@ -20,5 +36,6 @@ This is an application for crypto-staked funding to an ERC-20 wallet address (to
 
 
 The AI natural language processing ("NLP") module grants episodic seeker coins based on feedback from the daterr at each round the game both parties may decide to continue one or more paths to form a Long or Lean Engagement LOLE.🍭 (employment), or go on other dates.  While people can always create a new wallet, start over there is a factor of LUCK.🍀 which accures the longer an individual is playing and the more identity information they give over to the agent.   These coins roughly churn into different formats and while it isn't explicitly gambling there are concepts borrowed from a Freemium business model to keep the application & network sustainable.   
+
 
 

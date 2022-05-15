@@ -3,10 +3,16 @@
 
 earn spendable crypto-coins for conversationally training an ai-bot to complete job applications. 
 
-## Subject [LFG] Looking for Guild?, LMK!
-RE: Candꭵ.ⅆa𝕥e(®️®️) - project plan. 
 
-## Candꭵ.ⅆa𝕥e(tm) Marketing & Target Audience(s)
+## Subject [LFG] Looking for Guild?, LMK!
+RE: Candꭵ.ⅆa𝕥e(®️®️) - project plan. v0.0.1
+
+Candy Date is a HR/Recruiter gamified crypto-currency AI chatbot learning & pre-trained Language Model pre-screening qualifier of job details using conversational natural language. 
+
+🧨WARNING🧨: If you work professional in the recruiting-industry you are playing with disruptive dynamite right now! 
+
+
+## Who will use Candꭵ.ⅆa𝕥e(®️®️)?
 This is written in a tool & idiomatic venacular built for 𝟚 audiences. 
 
 ### 1. seekErrs
@@ -14,7 +20,7 @@ This is written in a tool & idiomatic venacular built for 𝟚 audiences.
 * 2(A): young engineering or science students who are starting their careers
 * 2(B): older versions of the same
 * 2(C): self-taught non-credentialled technical people
-* 2(E): People who are already employed, but curious
+* 2(E): Person who are already employed, but curious & open to switch. 
 * 🤓 Learn More: [notes/seekErrs.md]()
 
 ### 2.  valiDatErrs
@@ -23,6 +29,12 @@ This is written in a tool & idiomatic venacular built for 𝟚 audiences.
 * 2(C): IT or Engineering departments looking for candidates
 * 2(E): Education or undergradate opportunities
 * 🤓 Learn More: [notes/valiDatErrs.md]()
+
+### 3. DAO's (additional)
+* 3(A): DAOs decentralized autonomous organizations are crypto-native organizations. DAO's can also use Candy Date, keen to discuss your specific recruitment needs.  
+
+* 3(B): DAOs in particular are unique from a recruiting fit because they are 'volunteer to work' and allow a person to sign up for a job where they may be paid based on recognition for work/effort they contribution.
+
 
 ## The how-why to enroll, play, & win
 * FOMO "Fear of Missing Out" when you're using humans versus robots to do initial screening the resource cost is too high.  When you are wasting your time interviewing your not doing something else productive. 
@@ -59,12 +71,25 @@ https://img.shields.io/twitter/follow/brianhorakh?style=social
 -->
 
 
+
 ## 🤓 Technical Detail
-🙏 Candy Date is consuming the good ideas from my earlier work \_b00t\_ related to simplification of complex 'highly-technical' machine-learning stacks device-deployable multi-os build & packaging system using WASM (web assembler) which allows polyglot coding between Rust, TypeScript, Python and C++ (at least these) and a full build of Linux & OCI containers running the deno serverless engine.  If any of the information I just said made sense to you then you *might* be qualified to read the [techstack.md]()
 
+### 👋 Hi from Melvin 
+🤓 "Melvin" (the nerd emoji) represents technical specifications that may not be relevant or difficult to understand outside of knowledge in a specific field.  For people in the field these specifications are important.  If you see a nerd emoji and you don't understand it that's probably fine and not super important. 
 
-I'm rewriting my ideas from [http://github.com/elasticdotventures/\_b00t\_]() into Candꭵ.ⅆa𝕥e(®️®️) v0.0.1 using cargo - second attempt at a universal installer for less/least technical people.  But this is mostly intended for technical recruiting initially. 
+The Candy date system is designed to introduce new skills to the user to play the game as part of an interactive find-hire-work humorously named Errs (produced like Errors)
 
+### 🤓 Candy Date is built on the Vegemight Stack
+🙏 Candy Date will take the good ideas from my earlier work \_b00t\_ but will incorporate RUST Cargo, WASM and deno (all were absent from \_b00t\_) called the Vegemight Stack (as opposed to the JAM stack, which also goes on toast).  Vegemite is a popular Australian breakfast spread, that is illegal to import to the US.  The Vegemight stack was designed in Australia. 
+
+### 🤓 What is the Vegemight Stack>
+Vegemight is intended to provide simplification of complex 'highly-technical' machine-learning stacks device-deployable multi-os build & packaging system using WASM (web assembler) which allows polyglot coding between Rust, TypeScript, Python and C++ (at least these) and a full build of Linux & OCI containers running the deno serverless engine.  If any of the information I just said made sense to you then you *might* be qualified to read the [techstack.md]()
+
+### 🤓 What is/was \_b00t\_
+Vegemight is a refactor of the good ideas from [http://github.com/elasticdotventures/\_b00t\_]() into Candꭵ.ⅆa𝕥e(®️®️) v0.0.1 using cargo - second attempt at a universal installer for less/least technical people.  But this is mostly intended for technical recruiting initially. 
+
+## 🤓 How much will a Candy Date cost? 
+Neglible real dollar amounts. Freemium, lots of coins getting dropped.  The system will be very efficient, especially ETH2 post merge, the fees will be very low, and the candidates are pre-screened.   While there is crypto-currency, the idea is to keep the fees very low and the crypto is a way to reward individuals for successfully completing steps.  Maybe the crypto will be working someday, but that isn't why people are playing the game.   It will take probably 6-10 weeks to build the prototype system, or something that resembles a prototype? It's unknown how long it will take to get connections to networks & exchanges setup. 
 
 ## Present obstacles
 ``` 
@@ -98,6 +123,24 @@ gh repo clone elasticdotventures/candydated0txyz
 
 To help visualize the game-format and operation of Candy Date it is helpful to envision a game of telephone with an AI Large Language model in the center relaying answers between two parties 
 
+```mermaid
+sequenceDiagram
+    actor S3 as jobSeekErr 3
+    actor S2 as jobSeekErr 2
+    actor S1 as jobSeekErr 1
+    participant A as Agent.🤖
+    actor V1 as verifyErr1
+    participant CD as CandyDate
+    S1 ->> A: send resume/cv
+    V1 ->> A: send job description
+    S2 -->> A: send resume/cv
+    S3 -->> A: send resume/cv
+    A ->> CD: most qualified move forward to candydate (next async round of questions)
+
+```
+
+The same agent is scanning multiple resume/cv's and job-descriptions and learning both parties individual preferences based on feedback it solicits trying to confirm answers. 
+
 ## Simplified Operation
 
 Please realize the process as described below is happening for many weight attributes per candidate and validator (organization) to improve accurate. 
@@ -118,12 +161,35 @@ F -->|Don't like Area| Fx30[Create Address Filter]
 
 
 ```
-The instructions to the agent are to perform speed dating rounds with many collaborative agents periodically signing in and answer questions.
-The rational-skill & location & attribute matching & job filtering.  
+The agent name is Errs (Employee Recruitment & Records System).
 
-Once the agents are primed they can tear through and analyize why they removed particular roles (conversationally).  Each persons private information is put into one system and it is only provided to job roles which are likely to be high matches for both parties.  This allows a canidate to talk back at the job. 
+This is not a SAAS, this is decentralized, you must run your own Errs system
+locally since the app deals with crypto-currency & vaulted-wallets. 
 
-At this stage i'm still building the installer since this needs to run on peoples computers or business networks and connect to single service sign-on settings and whatnot it's fairly complex. 
+The agent instructions are to prevent disclosure and compartmentalizing information received by each party.   
+
+Please do not confuse this with other job-search websites.  Technically under the hood of the software it's using an entirely different type of engine that is far more clever. 
+
+This is not an SQL join like traditional job sites, this is a join based on unsupervised reinforced cognitive inference using:
+
+* NLP Natural Language Processing ... "conversational AI"
+* GPT Generative Predictive Text ...  "generate & autocomplete sentences"
+* LLM Large Language Models    ... "larger usually means 'more clever & intelligent'"
+
+Candy Date will perform many pre-qualifying speed dating rounds, in parallel,
+and when necessary reaching out to either party to confirm answers to questions.
+
+The system is intended to be pragmatic pairing requirements such as skill & office-location or wfh schedule, many facet matching & role filtering.  
+
+Once Errs auto-pilot is primed with either a CV or Job description it analyize job history, hiring profile and other details which may demonstrate biases and help candidates not submit if they are likely to be rejected.  
+
+Each persons private information is put into one system and it is only provided to job roles which found agreement on suitable pre-requisite matches for both parties (or was disqualified, in which case the result fails, and waits for a different candy date.)
+
+This also means qualified candy dates (and their agents) can talk back at the job via chat.  Neither party actually exchanges information until long it is was matched by Errs.  Errs sits in the middle of all the conversations as a cognitive privacy screen. 
+
+At this stage i'm still building the installer since this needs to run on peoples computers or business networks and connect to single service sign-on settings and whatnot it's fairly complex.   The installer will be the most complex aspect since it will require I setup a neural net directly on the users machine (in their browser) so that I don't need to store information.  
+
+It's a local installer because it stores security keys, wallets, confidential information.   The message passing happens via an API on the cloud, but the processing is local or can be deployed to a cloud and I may offer a hosted version as well. 
 
 ## Conceptual seekErr to Agent Workflow
   _the chart below should render in mermaid charts_
@@ -216,55 +282,19 @@ cargo run
 
 ```
 
-### ... progress
-
-# Menu driving VOTE: 
-
-It is asynchronous social chat including organizational survivorship & good-will (how many people would be likely to work there again, or return to work under which conditions) hive mind survey of technical people.
-
-This application is incredibly well suited to curate the internal organizational technologies & share + curate systems documentation (including periodically holding & decisionally wagering different forms of currency based on outcomes)
-
-
-
-Not everybody who will arrive at this page knows what Github, crypto-currency, discord, programming and other details of technical stacks. I will try and present the topics gently.  Not everybody will understand the benefits of a Compiler Linter, or what a real-time continuous code-live share jam sessions. 
-
-So if you are technically inclined or not, please let me explain what you are reading in the broadest terms
-
-greetings to Candꭵ.ⅆa𝕥e(tm) v0.0.1
-
-
 ## Contribute
 see [contribute.md]()
 
-Even non-programmers will be needed to fill this system and build out it's synapses with regional hiring jargon & nomenclature.  Agents who are hiring people can represent employers.  Especially people who do HR or Recruiting tasks for a living, or anybody who is technical that is looking for a new or better job role and would rather than the AI autoresponder feel the sting of rejection. 
-
-A need functional assesment model - regional questions of industry specific jargon (such as "office in CBD" for Melbourne VIC, AU) regional ways to categorize communities and clarifications by language models to ensure they are properly aligned and performing accurately & efficiently. 
-
-Examples of commutes and make better decisions, questions and answers that are selected by employers to assess candidates as Alpha & Beta validation testers for the system. 
-
-
-
+### Source of Truth
 
 The purpose of this respository is to establish a foundational document and source of truth for the project in a version control system.  
+
+
+
 
 # Keep it simplest terms:
 * organizations (called validators) post dates
 * candidates seek dates
-^--- Candy Date .. Candꭵ.ⅆa𝕥e(tm) may you find what you seek. 
-* the system is efficient, the fees are very low, and the candidates are pre-screened.  it will take probably 6-10 weeks to build the prototype system, or something that resembles a prototype?
-
-```
-git clone --template ssh://github.com/fungibled0tfarm/Candꭵ.ⅆa𝕥e
-
-cargo test
-cargo run
-```
-
-# Task: Can you join Discord? Matrix.Org? 
-Sometimes describing something is boring and its easier to just get in and learn something new.  What needs to happen, track survey, the best way to do this would be to join Discord.  Twitter Polls, and other engagement tools.   Certain environments like discord have features such as emojis in chat which can be used for voting and governance of an organization.  
-
-# Triz Task: Follow the rule of 3
-Each system should ultimately have 3 connections Many-Factor, not just multi-factor systems such as 2FA are insufficient.  The rule of 3 states that having a minimum of 3, ideally six or more redundant ways to measure.  
 
 # How the bot works:
 The bot will camp a variety of online communities and monitor profiles, and curate data on people who have indicated they may be looking for a role. 
@@ -287,52 +317,39 @@ sudo apt get cargo
 ```
 ... ... Much Later
 
+## Very high level questions. 
 
 
 
+### Why do I need to install anything?
+This is a technical recruiting application, so it requires some coordination to understand that it is designed to run on your computer, or via a website in your browser our on device for security reasons.  This uses a block-chain for coordination but not sensitive information is published there. 
 
-How to apply & free initial screening for Candy Date, a HR/Recruiter crypto-currency Gameified Conversational AI bot-driven survey trained Language Model qualification pre-screening of job details.
+### What is Github.com and why do I need an account? 
+Candy Date will create a github password vault of your cryptographic wallet.
 
-## Open an issue on any part of the system you would like to comment.
-
-Some people offering coin for consideration, with a pass/fail even on rejection - blockchain employment HR e-records & retention system err$.😜 (Errors, or pronoucned Ugghhs, it's a new sound that you already know - but from the future, err$ sounds like your best Donald Trump uuuuugh, I'm gonna build a giant wall, except in the case of err$ not to be confused with Errors the interactive customer service department). 
-
-
-## Risks
-
-The commands to setup the system with-ease would require non-technical operators should not hire one or more consultants or utilize resources inside their own organization to enter profiles.   
-
-
-Anybody should be able to run the whole thing in your browser or install to your PC using WASM.   
-
-What you as perhaps a non-technical HR person won't know how to setup k8s or so this tutorial is designed to be run on an individual PC or target device.   The root of the game is having people post their 
-
-The bot-facilitated conversation is asynchronous, answer once, it gets paid for parrot the answer with high confidence in the future, meaning that both party has time to consider their response in a slow-conversation that might happen over days or weeks (based on the duration of the epoch).  The goals of the system is intended to someday provide a universal basic income UBI for people (the "yei") who contribute & audit the software crypto-cyberspace DAO organizational structure which can be a bit much for people who do not follow the space.  It seeks to be a good-will ambassador & onboarding tool for the Polygon L2, Polkadot and Solana blockchains.   People who are employed and looking for a better job can buy tokens as a way to engage with prospective employers for an assessment/validation or rejection pass-fail summary or score within a batch of candidates "speed interviewing" as a group in cycles known as epochs or hash generations of the game which are tied to various indigenous clocks, iteratively timed exercises.  The game at this point is in a seed stage to build the system and promise everybody who participates in the discussion by commenting future coins to play the machine.  I have a nominal six-figure budget to build the system over the next few weeks & months and am keen to have anybody who is looking for a few extra bucks to consider joining the team as a validator. 
-
-⛲ FounTional : A Repo is technical documentation for a piece of software that you install on your computer, usually in roles which  correspond with via email "recruiter <=> agent <=> company" dynamic of the hiring process.  That is the target audience "lithmus test" for question, time to response, age of account, authenticity of offer (having to stake crypto currency upon a successful outcome with an arbiter Human supervised-AI agent making decisions)
-
-This is  to be reading about or interested in learing how to play "Candy Date" .  filter to determine the likelyhood of a good match selecting staking crypto to do your exercises and offering to share the result for others who may want to administratively review the feedback instead of properly characterizing the state of your Tech Stack internal systems or desires or aspirations.  For candidates, it is a public recognition of which interviews process is broken and one-sided.  For employers, it is an opinionated explanation of how you should be indexing & archiving your job requirements.   You upload your encrypted CV of qualifications or perform tutorials and small exercises. 
-
-This is a technical recruiting application, so it requires some coordination to understand that it is designed to run on your computer, or via a website in your browser our on device. 
-
+### github also provides public hosting & version control of text files
  This github, is where you can submit your digital requirements.
  Each time, each party gives an answer.  The answers, profiles, and other data must be verified which service do you want to validate first and linking identities to the wallets of these coins as historical validators for key-shard identity recovery.   Their interest in the long term success of the outcome by validating the decision (such as employment, but possibly others).  Negligible appearance & gratuity payment is gifted crypto-currency for the participation in the live-fire tutorial.  Pay people to give references and use intentional AI LLM model to arrange a date using fictional presently but intended to be real-money equivalent in-game crypto-currency Web3 application. 
  
- This is a bit of Social Art experiment. If written as a novel hopes to proffer a solution of offering coins for data as social capital & value of social data to simplify the match making with me, and *hopefully* other technical candidates who would like to improve the job-seeking experience.  But I'm not making this as a political statement or whatever, other than to say I think this system will work better for technical candidates to become 
+ ### Is Candy Date real? 
+ I start a lot of personal projects I never finish.  This is a bit of Social Art experiment. If written as a novel hopes to proffer a solution of offering coins for data as social capital & value of social data to simplify the match making with me, and *hopefully* other technical candidates who would like to improve the job-seeking experience.  But I'm not making this as a political statement or whatever, other than to say I think this system will work better for technical candidates to become 
  
- For the technically minded people, this is a poly-stack self-installing coin-operated HR hiring & match making system where I/we/yei "the collective us" must pay employers or agents in crypto-coin as bounties/incentives to address my bot instead of me and help them screen me/others better.  Each person runs their own agent, and such that it must ultimately support a wide variety  "plurality" of devices to be successful requires a bit of plumbing and tooling so I need to explain the reason I'm asking people to install my resume. /😉😜 (at least that is the goal, to ask employers to provide details to an ai llm agent that attempts to match other seekers with a qualified position.) 
+ ### How does a poly-stack cloud coin-op work? 
+ For the technically minded people, this was envisioned as a poly-stack self-installing coin-operated HR hiring & match making system where I/we/yei "the collective us" must pay employers or agents in crypto-coin as bounties/incentives to address my bot instead of me and help them screen me/others better.  Each person runs their own agent, and such that it must ultimately support a wide variety  "plurality" of devices to be successful requires a bit of plumbing and tooling so I need to explain the reason I'm asking people to install my resume. /😉😜 (at least that is the goal, to ask employers to provide details to an ai llm agent that attempts to match other seekers with a qualified position.) 
  
+ ### how does the Honor policy work? 
  The Candꭵ.ⅆa𝕥e(tm) functional compiler system is built on the honor policy, you pay people in crypto to read your job based on the preferences & goals they have stated match-making service.  The network pays for successful authentication disclosure, captchas and other nuisances so everybody can earn a few tokens easily.  You must/have or generate an organizational ERC-20 wallet, and you may be asked to provide one or more forms of qualification disclosure (paid de-encryption of matching recruitment data to your needs)
 
- All the software and requirements in this are FREE to download, there is no cost, the software runs on your computer or in your browser. 
- 
-/🤓 "Melvin" represents technical specifications that may not be relevant or difficult to understand outside of knowledge in a specific field.  This system is designed to introduce new skills to the user to play the game as part of an interactive find-aidmmt-hire-work politely named err$ (produced like Errors)
+### Does Candy Date cost anything?
+ All the software and requirements in this are FREE to download, there is no cost, the software runs on your computer or in your browser.   The application is mostly free and should never be very expensive to operate. 
 
-nerd As mentioned in this document will have links appear when this is commited using an RUST cargo action, documentation generation.  Markdown++ is the documentation format with ornamentation for entertainment. 
+ When an account reaches zero available coins then it will need to wait to mint more or perform tasks to earn more.  Accounts can continue to seek & recruit once their balance reaches zero but they will experience delays days and will be displayed as in-arrears to potential seekers. 
 
- This requires people download VS-Code is opinionated dev environment for live-share coding & problem solving exercises & pre-interview and interview transcription q&a pre-screen typewriter with a button that says "ask" and you write a question and it provides better fitment of candidates during Candy Date recruiting exercises. 
- 
- Reputation is built by professional operators who screen DALLE-2 driven models for companies they represent in initial screening interviews & ongoing work-from-home or office complex negotiation engagement that is modern post COVID society but also cyber-safety screening.  Recruiting data storage in IT Recruiting & Corporate HR IT systems is usually absolutely horrid so the network will pay them in crypto-currenty to answer profile questions, and they will pay the same coins asynchronously.  People could maintain as many identities as they want professionally and this has the added advantage of long term crypto-key vault recovery 'horcrux' identity sharding.  For now, this REPO will store your secure information in a system known as github git identity private vault.  To do this:
+The fees are expected to be only a few dollars.  This is crypto not highway robbery! 
+
+
+----- LINE OF OBSOLECENCE ------
+👽 plz. ignore everytghing below this line. 
 
 # Steps
  * Setup, github, clone this repo as template - install windows WSL-2 or equivalent command line containerized environment. 
@@ -340,16 +357,11 @@ nerd As mentioned in this document will have links appear when this is commited 
  * Once you have logged into github and made a clone of this repo.  Install VS
 
  
- Linking crypto wallets and ending the toil of clown coding exercises letting several companies participate in a hiring cycle offering crypto-bounties to their projects. Potentially wager on your mates by providing validation of high level details (reference checks, etc.) for my mates who I've worked with over the years or are seeing this on my LinkedIn profile - this is intended to be a disruptive prototype. ⚠️ WARNING: If you are in the recruiting-industry you are here playing with disruptive dynamite right now! 🧨
-
  Free to use and payment is strictly on the honor policy in the way the game is played.   The application itself uses the git protocol hash from the log of emoji feedback as a way to index & reward participation. This is common on sites like discord and in organizations. 
 
 I will now attempt to explain that which does not yet exist. 
 Please bear with me.  Why I am building this, the audience and how it will be used concurrently.  The types of people who may use this application are technical people who are keen to do tasks or are looking for work. 
 
-😍 Getting rejected while hiring sucks.  Investing the time is distracting.  Interviewing is a full time unpaid job, going through the application, then getting rejected or never hearing back, what is the status blabla, such and such couldn't make xyz meeting blabla. It's bullsh*t. So this coin-operated machine is a crypto-graphic "Staked" (🥩) system, which means it's pay at the end (after success), honor policy as a way to encourage participation in good-faith, explaining to HR/Recruiters is the primary audience who will read this email, getting referred here from my Job/Spam email filter / offering back with a crypto-api driven AI Auto-Responder &  screening service.   
-
-This is planned as an oregon trail CLI driven system, that can run on any computer or device for universal accessibility with each device having a different role for a many-factor authentication "Mfa" custodial crypto-currency wallets for beginners Gentle Introduction to build your own AI Autoresponder HOWTO. 
 
 Dear Recruiters, I will pay you in crypto-currency to answer these questions and screen these emails better, with a higher degree of word precision and with less repetition (the answers don't change, so this does a better job screening, asynchronously via chat)
 
@@ -389,55 +401,6 @@ interactive conver𝕥ional chat-bot for massive reduction in toil
 by matching & reviewing preferences and having a simplified install environment is my primary focus.  The intention is to provide a robot that will screen employment opportunities using crowd sourced information.  
 
 The system is free to sign up, you need a github.
-
-
-
-
-
-
-# TODO
-
-Communication mechanisms, coordination, this is roughly my plan.
-Please track and follow this repo for updates, use Github discussions
-
-
-Some type of DAO startup, probably based on Notion.
-Polkadot Polychain ERC-20 Wallet
-HR/Hiring Facilitation Experiment
-
-
-Technical Stack Proposed is POLYglot:
-* RUST:
-    * cargo package manager install/initialization 
-    * https://github.com/WasmEdge/WasmEdge
-        * Embed a Wasm function in your Node.js, Go, Rust, or C app
-    * 
-* TypeScript: serverless deno containers
-    * podman oci 
-* Python: data-processing & machine learning
-
-Slack: governance & intranet
-Matrix.Org:  technical/ops
-Discord:  watercooler & community
-Twitter:  ??
-Reddit:  r/candꭵ.ⅆa𝕥e
-
-My Background:  http://bit.ly/resume-brianhorakh
-
-## ---=[ vision board:  "The Login Screen" ]=---
-
-candꭵ.ⅆa𝕥e: 0.0.1
-
-Recruiters, HR People, & future employed apes.
-
-Welcome to candꭵ.ⅆa𝕥e!
-
-Login: 
-
-/* 
-^--- is the target "welcome screen"
-
-*/
 
 
 # ----
