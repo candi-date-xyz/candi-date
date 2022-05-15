@@ -79,6 +79,9 @@ gh repo clone elasticdotventures/candydated0txyz
 * 🤓 Detail
     * [tokenomics.md](tokenomics.md) crypto-currency
     * [cognitive.md](cognitive.md) AI/ML/NLP/LLM
+* 😁 In Progress
+    * [TODO.md]() my priorities
+
 
 ## Candy Date Operational Summary
 
@@ -233,24 +236,6 @@ Examples of commutes and make better decisions, questions and answers that are s
 
 
 
-## TODO: Setup Affiliate Referral Code
-fn roll_🥐.seekerrs(): {
-    Err("seek error:  sorry, this system either isn't online yet. or appears to be under construction at the moment & offline. perhaps it is still being built.")
-    // but yes, someday! 
-    }
-
-
-
-
-```
-
-```
-
-
-``` Task: Sign your Wallet
-
-Go to 
-```
 
 The purpose of this respository is to establish a foundational document and source of truth for the project in a version control system.  
 
@@ -297,28 +282,6 @@ sudo apt get cargo
 
 
 
-If the person arriving here is an engineering student, or have skill in WASM interoperability between { Python, TypeScript Vue/3, Rust } systems interfaces this repository is accepting [contribute.md] to participate.  This will consume & scan social profiles to see companies who are hiring and engage them for coins.  The entire system includes a personal bot-driven synaptic data-storage & key-recovery mechanism (personal information management, journal) that acts as an interactive intellectual match-maker for a wide variety of technical positions (candidate & company attribute based survey screening & social pairing, potentially a reality-tv show)
-
-If netflix, or amazon, or disney wanted to setup a candꭵ.ⅆa𝕥e they would fork this template and create a public version of this at their public github and add their company name to the root such as:
-```
-/disney
-
-```
-
-I am keen to know your thoughts on my experiment.  You do not need to read the entire thing in one attempt.  I am attempting to articulate the plan & goal for this repo in a laymens technical terms. #Testerrs are wanted! 
-
-My "conventional" resume is http://bit.ly/resume-brianhorakh
-
-This is my candꭵ.ⅆa𝕥e find-hire-work assistant concept in development (project of the week, sketch).   collaborative highly technical persons recruiting and find-hire-work app. 
-
-Hi, I think this whole hiring finding talent approach is broken. 
-At least here in Victoria, AU. I think it is broken the way Australian and global companies hire and I want to fix it. 
-
-This document will describe a system for introducing candidates on Candy Dates using the version control system known as git & github.
-
-Thing of this as a new form of mating ritual, reality survivor build a startup exercise.  The startup is designed to enroll people who are seeking to hire it. 
-
-The service is presented in this document for non-technical HR people & recruiters what a github README.  In the future more interactive videos and whatnot but the tutorial needs to be built first.  Big companies will probably need to ask your Corporate IT to setup SAML SSO integration with your Microsoft Azure AD domain or at least have access to setup email from an organization domain such as @google.com rather than @gmail.  But offering a plurality of ways to authenticate your agency seeking to hire people and simulatenously help the whole community avoid over-disclosure and fight the growing scourage of smishing, by providing a beacon for organizations to maintain friendly relationships with candidates a small stipend, based on their progression, for taking time to review.  For IT or generally 'engineering' people this is a substantial problem in specialized industries.
 
 How to apply & free initial screening for Candy Date, a HR/Recruiter crypto-currency Gameified Conversational AI bot-driven survey trained Language Model qualification pre-screening of job details.
 
