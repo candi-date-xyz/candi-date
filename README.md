@@ -240,30 +240,12 @@ fn roll_🥐.seekerrs(): {
     }
 
 
-## Conceptual
-High speed "pay for priority" the higher bounties offered the better ranked engineers, more questions per epoch, such that in the game mechanics each player, each epoch gets a biscuit.🍪 as a participation toys.🪀 (toys,or trophys are granted for participation). 
-
-to register to be an affiliate and receive coin for referring people, simply use the fork repo, add your organization, or your profile(s) resumes into the vault.  
-job the most appropriate resume will be selected.  keep the system up to date with how your job satisfaction is going by providing positive or negative sentiment.
 
 
 ```
 
 ```
 
-## Crypto: Tokenomics
-Both systems trade DOTS and LOLE's based on the acceptance or rejectance/outcome of matchings.  LOLE's limited or long term engagements LOLE's (🍭) measure a date from the time of the first auto-response, a public record of employment of a mutually agreed upon deadline, and subsequent re-negotiation tool that ensures pay equity within a group but also selects one or more winners and losers, with the losers.  DOTS refers to Polkadot a cross-chain 
-
- This is intended to be an AI Generative Language Model driven crypto-coin driven Word-Token find-hire-work application/technology stack - "interactive assistant & autoresponder" 
-
-Setup a free Github Account to sign up & engage/submit issues.
-The first epoch will be bringing structure and detail to this project.  I plan to use Rust/Cargo WASM run in Deno-containers so this setup needs to be opinionated.  Ultimately it's something that will be in the microsoft windows store as a WSL2 image/distribution.
-
-I'm presently working on a http://vscode.dev approach to deploy an individual vault-secured AI Large Language Module auto-responder for job solicitation & auto-responder matching interface. 
-
-It's an onboarding process that gets a person enrolled into a company (so for example on discord, or tweets them about a job, this is an engagement auto-responder)
-
-This is a novel Machine learning stack, inspired from my earlier attempt at _b00t_ this version is built principally on the RUST / WASM language using some Python and TypeScript, that estabishes a github security vault to store cryptographic coin ERC-20 wallet keys.  (ERC-20: is a standard type of crypto-currency wallet that is compatible with browsers via the metamask software.) 
 
 ``` Task: Sign your Wallet
 
