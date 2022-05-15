@@ -1,27 +1,49 @@
 
 # Introduction
 
-Subject LFG: Looking for Group 
-RE: Candꭵ.ⅆa𝕥e(®️) 
-http://Candydate.xyz
+## Subject LFG: Looking for Group 
+RE: Candꭵ.ⅆa𝕥e(®️®️) - project plan. 
+
+* http://Candydate.xyz : corporate website
+* http://Candydate.eth : onboarding
+    * erc-20 wallet
+    * discord
+
 
 ## Join the discussion:
 * https://matrix.to/#/!BPkctNZIOBJqnNnYCM:matrix.org?via=matrix.org
 
 or gitter is also easy:
-[![Gitter](https://badges.gitter.im/elasticdotventures/community.svg)](https://gitter.im/elasticdotventures/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
+
+This is based on my earlier work _b00t_ related to complex stack device-deployable packaging system.  I'm rewriting my ideas from _b00t_ into Candꭵ.ⅆa𝕥e(®️®️) v0.0.1 using cargo - second attempt. 
+
+🙏 Please be patient. Rome was not built in a day. 
+
+## example file & directory structure, for tasks & chores
+* [n00b.md](n00b.md)
+
+// TODO: auto generate PDF, etc. 
+# https://github.com/cetra3/mdcollate
+ mdcollate data/test.md | pulldown-cmark > test.html && wkhtmltopdf test.html test.pdf
+
+## Candy Operational Summary
+
+👋 I'm just starting to organize this for peer validation.  
+🙏 Thank you for your time.  
+
+To help visualize the game-format and operation of Candy Date it is helpful to envision a game of telephone with an AI Large Language model in the center relaying answers between two parties ( seekerrr  => $err & err$ => daterrr ) and speed-dating questions to rational-skill & location & attribute matching & job filtering. 
+
+```mermaid
+```
 
 
-This is based on my earlier work _b00t_ related to complex stack device-deployable packaging system. 
+The AI natural language processing ("NLP") module grants episodic seeker coins based on feedback from the daterr at each round the game both parties may decide to continue one or more paths to form a Long or Lean Engagement LOLE.🍭 (employment), or go on other dates.  While people can always create a new wallet, start over there is a factor of LUCK.🍀 which accures the longer an individual is playing and the more identity information they give over to the agent.   These coins roughly churn into different formats and while it isn't explicitly gambling there are concepts borrowed from a Freemium business model to keep the application & network sustainable.   
 
+# Aspirational goals
+Some of the aspirational goals of this repo is to produce artificats that appear in every app store.  The initial configuration(s) selected must be broad enough that they can begin & ultimately pass the certification processes for Google, Microsoft, Apple, etc. A software project like this is never complete.
 
-## Repo Summary
-
-👋 I'm just starting to organize this for peer validation.  Thank you for your time. 🙏
-
-To help visualize the system architecture of Candy Date it is helpful to envision a game of telephone with an AI Large Language model in the center relaying answers between two parties ( seekerrr  => $err & err$ => daterrr ) 
-
-The AI language module also assigns episodic seeker coins based on feedback from the daterr.  The AI is a facilitator, it is roughly following an idiomatic (natural language) instructional script. The Agent requires gratuities and customs be observed based on rituals. 
+# OpenAI
+ The AI is a facilitator, it is roughly following an idiomatic (natural language) instructional script. The Agent requires gratuities and customs be observed based on rituals. 
 
 This is an application for crypto-staked funding to an ERC-20 wallet address (to describe that at some point you create a wallet, sign with it, and funds are deposited to operate the find-hire-work game "Candy Date" targeting crypto-coins for liquidity & consensus stages across 3x different networks ({ETH2 MATIC DOTS}) - this most likely won't work with the coinbase wallet(s) - plan to use metamask.  (and initially my work here is on helping people get the environment auto-builds setup to run -- and making this available in the various microsoft, android, chrome, linux distribution and apple appstores)
 
@@ -34,6 +56,9 @@ This is an application for crypto-staked funding to an ERC-20 wallet address (to
 
 * install RUST using rustup
     * 🤓 reference 
+
+* i need to figure out how to install a lot of RUST packages in a workspace.
+* developing cargo skills. 
 
 ```wsl2
 
@@ -60,8 +85,11 @@ cd /mnt/c/0de/candy
 
 # minimal getting started, begin tutorial:
 cargo install 
+# 🤓: this should automatically do all the commands below.
+
 cargo test
 cargo run
+
 
 ```
 
