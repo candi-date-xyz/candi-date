@@ -1,5 +1,5 @@
 
-# Introduction to the Vegemight Stack & Candy Coin company
+# Introduction to the VegeMight Stack & Candy Date Crypto Coin company
 
 earn spendable crypto-coins for conversationally training an ai-bot to complete job applications. 
 
@@ -9,11 +9,11 @@ RE: Candꭵ.ⅆa𝕥e(®️®️) - project plan. v0.0.1
 
 Candy Date is a HR/Recruiter gamified crypto-currency AI chatbot learning & pre-trained Language Model pre-screening qualifier of job details using conversational natural language. 
 
-🧨WARNING🧨: If you work professional in the recruiting-industry you are playing with disruptive dynamite right now! 
+🧨WARNING🧨: If you work as professional in the recruiting-industry you have found disruptive dynamite for technical & engineer job placement! 
 
 
 ## Who will use Candꭵ.ⅆa𝕥e(®️®️)?
-This is written in a tool & idiomatic venacular built for 𝟚 audiences. 
+This is written in an idiomatic venacular built for 𝟚 distinct audiences. 
 
 ### 1. seekErrs
  
