@@ -21,6 +21,7 @@ This is based on my earlier work _b00t_ related to complex stack device-deployab
 
 ## example file & directory structure, for tasks & chores
 * [n00b.md](n00b.md)
+* [techstack.md](techstack.md)
 
 // TODO: auto generate PDF, etc. 
 # https://github.com/cetra3/mdcollate
