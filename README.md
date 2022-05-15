@@ -62,6 +62,8 @@ https://img.shields.io/twitter/follow/brianhorakh?style=social
 
 ![Twitter Follow](https://img.shields.io/twitter/follow/brianhorakh?style=social)
 
+[http://twitter.com/brianhorakh](http://twitter.com/brianhorakh)
+
 ![Twitter Follow](https://img.shields.io/twitter/follow/candydatexyz?style=social)
 
 [http://twitter.com/candydatexyz](http://twitter.com/candydatexyz)
@@ -80,7 +82,8 @@ https://img.shields.io/twitter/follow/brianhorakh?style=social
 # 🤓 Technical Detail & FAQ
 
 ## 👋 Dear Recruitsers
-Dear Recruiters, I will pay you in crypto-currency to answer these questions and screen these emails better.  The job descriptions I see are retarded with a higher degree of word precision and with less repetition (the answers don't change, so this does a better job screening, asynchronously via chat).  The follow up with the person offering the job is too cumbersome, the whole process is very poor. 
+Dear Recruiters, I will pay you in crypto-currency to answer these questions and screen these emails & process better.  The job descriptions are poor quality, they need a higher degree of word precision related to the environment existing vs proposed/nice.
+Less repetition (the answers don't change, so this does a better job screening, asynchronously via chat).  The follow up with the person offering the job is too cumbersome, the whole process is very poor. 
 
  Where companies and employees can upload their encrypted profiles, link their organizational accounts, and have bi-directional robots converstationally take turns in successive-rounds finding and eliminating candidates until a position is filled. 
 
