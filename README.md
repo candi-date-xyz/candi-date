@@ -25,16 +25,51 @@ The AI language module also assigns episodic seeker coins based on feedback from
 
 This is an application for crypto-staked funding to an ERC-20 wallet address (to describe that at some point you create a wallet, sign with it, and funds are deposited to operate the find-hire-work game "Candy Date" targeting crypto-coins for liquidity & consensus stages across 3x different networks ({ETH2 MATIC DOTS}) - this most likely won't work with the coinbase wallet(s) - plan to use metamask.  (and initially my work here is on helping people get the environment auto-builds setup to run -- and making this available in the various microsoft, android, chrome, linux distribution and apple appstores)
 
-### TLDR: Advanced Route
-# // VOTE: which style 
+### TLDR: Advanced Route (present)
 
-```bash
-git clone --template https://github.com/elasticdotventures/candydated0txyz ~/.candy
-cd ~/.candy
+* install WSL2 ubuntu 22.04 LTS
+    * 🤓 reference https://ubuntu.com/wsl
+    * 🤓👍 as of writing these documents describe older versions 20.04 (please modify)
+    * 🤓👍 this may work on older builds but I can't promise anything, please report success
+
+* install RUST using rustup
+    * 🤓 reference 
+
+```wsl2
+
+# setup a shared system version (store on c drive, between windows & linux)
+# the 0de location is used for OCI container mounts and WASM
+# the location is not presently a variable but the code is structured for backups
+    * /mnt/g/0de : Google Drive
+    * /mnt/m/1dr : Microsoft One Drive
+
+sudo mkdir -p /mnt/c/0de/candydated0txyz
+ln -s ~/.candy /mnt/c/0de/candydated0txyz
+
+# this is easy because it means there can be a local system template created by
+rm ~/.candy
+git clone --template /mnt/c/0de/candydated0txyz 
+
+# now grab the repo using git, or gh client
+git clone  /mnt/c/0de
+gh repo clone ...
+
+# 
+cd ~/.candy 
+cd /mnt/c/0de/candy
+
+# minimal getting started, begin tutorial:
 cargo install 
+cargo test
+cargo run
+
 ```
 
+### ... progress
 
+# Menu driving VOTE: 
+
+[]
 
 
 It is asynchronous social chat including organizational survivorship & good-will (how many people would be likely to work there again, or return to work under which conditions) hive mind survey of technical people.
