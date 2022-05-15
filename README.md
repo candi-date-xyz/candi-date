@@ -15,17 +15,31 @@ RE: Candꭵ.ⅆa𝕥e(®️®️) - project plan.
 
 or gitter is also easy:
 
-This is based on my earlier work _b00t_ related to complex stack device-deployable packaging system.  I'm rewriting my ideas from _b00t_ into Candꭵ.ⅆa𝕥e(®️®️) v0.0.1 using cargo - second attempt. 
+🙏 This is consuming my earlier work _b00t_ related to complex stack device-deployable multi-os build & packaging system.  I'm rewriting my ideas from _b00t_ into Candꭵ.ⅆa𝕥e(®️®️) v0.0.1 using cargo - second attempt. 
+
+
+## BLockers
+``` 
+# installing gh repo is bumpy. 
+gh repo clone elasticdotventures/candydated0txyz
+```
 
 🙏 Please be patient. Rome was not built in a day. 
+```
+wip=$(git add --all ; git commit -m "wip; checkpoint")
+```
 
 ## example file & directory structure, for tasks & chores
-* [n00b.md](n00b.md)
-* [techstack.md](techstack.md)
-
-// TODO: auto generate PDF, etc. 
-# https://github.com/cetra3/mdcollate
- mdcollate data/test.md | pulldown-cmark > test.html && wkhtmltopdf test.html test.pdf
+* [n00b.md](n00b.md) what is Candy Date for n00bs (beginners)
+    * how to sign up and get into queue
+* [contribute.md](contribute.md) How to contribute
+    * ways to reach me
+* [techstack.md](techstack.md) Technical stack specification
+    * explains directory structure
+    * overview of which tools will be used
+* Detail
+    * [tokenomics.md](tokenomics.md) crypto-currency
+    * [cognitive.md](cognitive.md) AI/ML/NLP/LLM
 
 ## Candy Operational Summary
 
@@ -37,14 +51,9 @@ To help visualize the game-format and operation of Candy Date it is helpful to e
 ```mermaid
 ```
 
-
-The AI natural language processing ("NLP") module grants episodic seeker coins based on feedback from the daterr at each round the game both parties may decide to continue one or more paths to form a Long or Lean Engagement LOLE.🍭 (employment), or go on other dates.  While people can always create a new wallet, start over there is a factor of LUCK.🍀 which accures the longer an individual is playing and the more identity information they give over to the agent.   These coins roughly churn into different formats and while it isn't explicitly gambling there are concepts borrowed from a Freemium business model to keep the application & network sustainable.   
-
 # Aspirational goals
 Some of the aspirational goals of this repo is to produce artificats that appear in every app store.  The initial configuration(s) selected must be broad enough that they can begin & ultimately pass the certification processes for Google, Microsoft, Apple, etc. A software project like this is never complete.
 
-# OpenAI
- The AI is a facilitator, it is roughly following an idiomatic (natural language) instructional script. The Agent requires gratuities and customs be observed based on rituals. 
 
 This is an application for crypto-staked funding to an ERC-20 wallet address (to describe that at some point you create a wallet, sign with it, and funds are deposited to operate the find-hire-work game "Candy Date" targeting crypto-coins for liquidity & consensus stages across 3x different networks ({ETH2 MATIC DOTS}) - this most likely won't work with the coinbase wallet(s) - plan to use metamask.  (and initially my work here is on helping people get the environment auto-builds setup to run -- and making this available in the various microsoft, android, chrome, linux distribution and apple appstores)
 
@@ -69,7 +78,7 @@ This is an application for crypto-staked funding to an ERC-20 wallet address (to
     * /mnt/g/0de : Google Drive
     * /mnt/m/1dr : Microsoft One Drive
 
-sudo mkdir -p /mnt/c/0de/candydated0txyz
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 ln -s ~/.candy /mnt/c/0de/candydated0txyz
 
 # this is easy because it means there can be a local system template created by

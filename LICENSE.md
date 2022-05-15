@@ -12,6 +12,8 @@ https://en.wikipedia.org/wiki/Server_Side_Public_License
 Please note that despite the similar name ElasticDotVentures is NOT 
 affiliated with Elastic or the creators of the ELv2 license. 
 
+This license is explictly chosen to prevent Amazon from offering this as service without licensing.
+
 ## Non-Authorative Copy of the Text:
 
 Elastic License 2.0 (ELv2)
