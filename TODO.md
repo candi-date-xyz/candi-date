@@ -13,4 +13,5 @@
 
 # C. Priority (hard)
 * create a pull request for _b00t_ repo to receive changes. 
+* train models to process the same neutral data format. 
 

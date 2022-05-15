@@ -10,40 +10,46 @@ RE: Candꭵ.ⅆa𝕥e(®️®️) - project plan.
 This is written in a tool & idiomatic venacular built for 𝟚 audiences. 
 
 ### 1. seekErrs
+ 
 * 2(A): young engineering or science students who are starting their careers
 * 2(B): older versions of the same
 * 2(C): self-taught non-credentialled technical people
 * 2(E): People who are already employed, but curious
+* 🤓 Learn More: [notes/seekErrs.md]()
 
-### 2.  valiDaterrs
+### 2.  valiDatErrs
 * 2(A): HR & Recruiting professionals
 * 2(B): those companies which seek IT expertise
 * 2(C): IT or Engineering departments looking for candidates
 * 2(E): Education or undergradate opportunities
+* 🤓 Learn More: [notes/valiDatErrs.md]()
 
-## how to enroll/play
-* limited number of HR hiring firms offering crypto
-* questions & answers will be classified by sensitivity, such that there are both public and vaulted.  access to vaulted information requires coin staking and both agents build detailed profiles of questions & answers between candidates using github issues.
-
-* can use different language models to process the same neutral data format. 
+## The how-why to enroll, play, & win
+* FOMO "Fear of Missing Out" when you're using humans versus robots to do initial screening the resource cost is too high.  When you are wasting your time interviewing your not doing something else productive. 
+* Enhanced Privacy: Questions & answers will be classified by sensitivity, such that there are both public and vaulted (a true encrypted key-vault).  Access to vaulted information requires coin staking and both agents build detailed profiles of questions & answers between candidates using github issues.
 
 * http://Candydate.xyz : corporate website
 * http://Candydate.eth : onboarding
     * erc-20 wallet
     * discord
 
-## Join the discussion:
+## Matrix Chat:
+![][image_ref_a32ff4ads]
+
+[https://matrix.to/#/#candydated0txyz:matrix.org]()
+
+
+## Twitter:
 <!--
 https://img.shields.io/twitter/follow/brianhorakh?style=social
 -->
 
 ![Twitter Follow](https://img.shields.io/twitter/follow/brianhorakh?style=social)
 
+![Twitter Follow](https://img.shields.io/twitter/follow/candydatexyz?style=social)
+
 [http://twitter.com/candydatexyz](http://twitter.com/candydatexyz)
 
-![][image_ref_a32ff4ads]
-
-[https://matrix.to/#/#candydated0txyz:matrix.org]()
 
 
 
