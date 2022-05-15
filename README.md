@@ -39,11 +39,13 @@ https://img.shields.io/twitter/follow/brianhorakh?style=social
 
 ![Twitter Follow](https://img.shields.io/twitter/follow/brianhorakh?style=social)
 
-[http://twitter.com/brianhorakh](http://twitter.com/brianhorakh)
+[http://twitter.com/candydatexyz](http://twitter.com/candydatexyz)
 
 ![][image_ref_a32ff4ads]
 
 [https://matrix.to/#/#candydated0txyz:matrix.org]()
+
+
 
 
 <!--
