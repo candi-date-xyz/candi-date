@@ -1,27 +1,62 @@
 ** WIP: Work in progress. 
 
-This is a sketch of my project.  Written for many audiences. 
+This is a sketch of my project.  Written for many audiences.  Everybody has their own process for launching a startup, this is mine. 
 
 # The VegeMight Stack (VMs) 
-This repo contains the foundations of the VegeMight Stack ("VMs") which will be used to build Candy Date.  A stack is a collection of tools which are pre-oriented/configured as a starting point.  By designing the system as a 'stack' it groups a lot of technologies together into a single package/container to start from. 
 
-VMs is a poly-platform dev kit - with emphasis placed on cognitive agency (machine learning) & popular blockchain crypto-library tooling.  VMs is highly opionated by giving deference to RUST/cargo as an orchestration environment for other languages.  TypeScript/Vue3 for interfaces & Python for machine learning, and Bash, C++, et al. as required. 
+👋🤓 - less technical people or those short on time can skip down to "What is Candy Date Crypto Coin-Op Co." 
 
-VMs embraces a neo-modern code-pattern of WASM - both for security & speed.  WASM is rendered pages in favor of serverless deno containers and single page Vue3 served within the VM/container or directly at the edge of a network. 
+```
+If you wish to make an apple pie from scratch, you must first invent the universe.
+-Carl Sagan
+```
 
-This application is designed as a git-template so it can be forked, copied, and will be copiously commented about decisions & configurations as a tutorial.  
+This repo contains the foundations of the VegeMight Stack ("VMs") for Errs "👽" the agent inside Candy Date (explained in a moment).  
 
-Fully tooled environments for RUST, TypeScript, Python interoperability & patterns (and libraries) VMs is a self contain (but very cloud ready) code & binary packaging system built mostly on Cargo.  
+A stack is a collection of tools which are pre-oriented/configured as a starting point.  By designing the software architecture as a 'stack' it fuses many layers of technologies together into a single package/container that becomes a shared starting point making it architecturally easier to discuss.  VMs is a nod to 'virtual machines'. 
 
-# Candy Date Crypto Coin company
+VMs is a poly-platform dev kit & operating environment - with a bias for SSO security, setup & admin of cloud services, operating cognitive agency (machine learning) +  data-engineering, and building/using blockchains for decentralized coordination.  VMs is highly opinionated requiring the use RUST/cargo crates as an orchestration environment for the other languages within.  TypeScript/Vue3+Vite for UI/UX interfaces & Python for machine learning, and Bash, Go, C++, et al. as required. Solang/Solidity for eBPF, WASM smart-contracts. VMs embraces a neo-modern code-pattern of WASM + deno. It uses podman instead of docker for it's OCI and will use minimal k8s if at all. 
 
-Candy Date is a game for lonely highly-technical people (engineers) that need something to do and the organizations that want to hire them.  People who may be unemployed and don't like being rejected or spending hours wading through poorly written & inaccurate job-descriptions & sharing ALL their personnel details with companies so early in the hiring process for a job they don't even know if they want.  
+WASM is a central tenant of VMs, which hopes to demonstrate interoperability and reusability between different languages, and providing a more detailed example of how to use tools than 'hello-world'.  This repo is designed as a git-template so it can be forked, copied, and will be copiously commented about decisions & configurations as an idiomatic tutorial of advanced technologies.  A Polyglot stack, many languages, many libraries, and in this example also polcy-cloud but scales down to be self-hosted using only open-source software and free services.  
+
+As far as I know there are no 'tools included' environments for RUST, TypeScript, Python WASM interoperability & patterns (and libraries) VMs is a self contain (but also very cloud-deploy ready) code & binary packaging system for "Candy Date" mostly on RUST/Cargo package manager for it's ubiqutious simplicity and ease of use. 
+
+
+
+# What is the Candy Date Crypto Coin-Op Co. ?
+
+Candy Date is a Coin-Operated Blockchain Web3 game to help engineers find employment.
+
+Candy Date's unique approach to asynchronous job-searching is for highly-technical people (engineers) that desire to contribute productivity to projects, and the organizations with paid tasks or job roles for them.   If you are un-employed or under-employed technical person (or seeking the latter) then Candy Date is for you. 
+
+Candy Date hopes to disrupt & obsolete the current hiring/job seeker paradigm, especially in the Web3 & work-for-home or work-anywhere organizations such as DAO's. 
+
+Suggesting a Candy Date prevents candidates from:
+
+    * being directly rejected, or getting a non-response/no-feedback/ghosted 
+    * wasting lost-hours wading through poorly written & inaccurate job-descriptions
+    * attending one or more poorly conducted "technical" interviews
+    * being forced to disclose ALL their personnel details to companies too early in the hiring process
+    * ... all to interview for a role with a person or dysfunctional team they might not even want to work for! 
+    
+The Candy Dates process makes interviewing & hiring humans far less painful than the existing 'traditional' job boards which are full of spam and unpaid internships require a graduate degree and 5 years of experience to apply.  Employers must answer questions from the agents and those agents then recycle the answers to screen future candidates for the same role.  Candy Dates does NOT hire people, it simply acts as a faster, parallelized, cognitive software operated match-maker. 
+
+The amount of duplicative-effort that goes into hiring & negotiation in employment is absurd, and feels untenable, a burden to humanity perpetuated by outdated HR practices.  Failing to match specialized engineering talent to roles is bad for  society because when/if companies are unable to hire talent, they can't operate.
+
+Candy Date was invented out of necessity.  Candy Date is envisioned as perhaps a more 'optimal system' to interview & discover & attract those people suited for more technical roles.   The ethos of Candy Date is to simplify the repetitive toil of finding roles especially those with highly specialized knowledge domains.  
+
+This is the "why", and the "how" is still being written - but this version will use NLP LLMs and GPT for performing synaptic joins instead of conventional SQL.  SQL is fine for antiquated job boards which are better suited for blue-collar & white-collar lower-technical mostly interchangable roles.  While our code has moved from imperative to functional our job search is still tedioiusly synchronous and imperative. 
+
+Anybody who is looking for or hiring for highly technical job roles is encouraged to join and contribute to Candy Date, let us know.  This feedback is appreciated and helps inform the final version be better.  Ultimately operating the system will require (at least initially) some modicum of supervision & training but the goal of the deliverable is to make something so idiot proof even an technophobic HR person could use it.  
+
+Candy Date is a not-for-profit (freemium for sustainability) operating model and so we hope prospective employers will embrace Candy Dates as a better way to find & hire especially web3 engineering talent. 
+
 
 ### For Engineers
 
-For Engineers Earn spendable crypto-coins for interviewing asynchronously, conversationally.   Training an ai-bot 'agent' about your work preferences is easy using freely available large language models.  The agent learns how to complete job applications & perform pre-interviews to eliminate this toil from your life.  You can run your agent in supervised or unsupervised modes of operation. 
+For Engineers Earn spendable crypto-coins for interviewing asynchronously, conversationally.  The interface is command line/menu driven inspired by "oregon trail".   Training an ai-bot 'agent' about your work preferences is easy using freely available large language models.  The agent learns how to complete job applications & perform pre-interviews to eliminate this toil from your life.  You can run your agent in supervised or unsupervised modes of operation.  Real-crypto coins are intended to be used (or gifted) as game-pieces for coordination by a decentralized blockchain.  Some aspects of 'how' the privacy is accomplished are agents' coordinating zero-knowledge proof exchanges. It is not necessary to know any of this to use the software, but rather to illustrate it's sufficiently different to whatever job-board or tool you've perhaps used in the past. 
 
-Candy Date is free to sign up, earn free coins daily! The tokenomics of the blockchain app are early-stage, but there will be a freemium 'pay for more' model principally to prevent job-spammers and give runner-ups who might spend hours doing exercises some consolidation, gratuity or appearance fee that I expect might buy a consolidation coffee.    I expect the application to either be inexpensive enough that I can afford to run it, or become big enough that it will pay for itself on the Freemium model.  VMs runs on your computer not mine. ;-)   
+Candy Date will be free to sign up, people can earn free coins daily, early adopters have more experience! The tokenomics of the blockchain app are early-stage, but there will be a freemium 'pay for more' model principally to prevent job-spammers and give runner-ups who might spend hours doing exercises some consolidation, gratuity or appearance fee that I expect *might* buy a consolidation coffee for taking the time to do a Candy Date.  I expect the application to either be inexpensive enough that I can afford to run it, or become big enough that it will pay for itself on the Freemium model.  VMs runs on your computer not mine, so hopefully you have a fast GPU. ;-)   
 
 ### For Employers
 For companies looking to hire, there is an honor policy where your coins are due at the end of the hiring round.  Always pay bills, it's a blockchain, it's public information, your account will still work, but you'll *hopefully* experience bad-luck getting qualified Candy Dates to agree to meet!  Outstanding liability to the blockchain/network, just like credit-scores it's better not to let accounts go or remain negative (Candy Dates themselves are social credit scores).  The fees are going to be very low, and they basically serve as a nominal in-game currency for Candy Date, and the game itself operates as a match-making service.  The coin itself may have no value, it's a coin-op smart-contract.  
@@ -35,46 +70,63 @@ Candy Date will record the status on a per domain/ERC-20 wallet, and expect comp
 The network itself has memory, so the longer you're registered on Candy Date, the more experience you have.  Many aspects probably haven't been fully thought out, so much of this text is aspirational. 
 
 
-## Subject [LFG] Looking for Guild?, LMK!
-RE: Candꭵ.ⅆa𝕥e(®️®️) - project plan. v0.0.1
+## Subject:  Candꭵ.ⅆa𝕥e(®️®️) Looking for Contributors, LMK!
 
-Candy Date is a HR/Recruiter gamified crypto-currency AI chatbot learning & pre-trained Language Model pre-screening qualifier of job details using conversational natural language. 
+The project plan. v0.0.2
 
-🧨WARNING🧨: If you work as professional in the recruiting-industry you have found disruptive dynamite for technical & engineer job placement! 
+Candy Date is a HR/Recruiter gamified crypto-currency AI chatbot equipped with Large Language Model for conversationally pre-screening "qualifying" job details.  
+The bot can speak async chat or email and hopes to setup/follow up on & arrange Candy Dates, which are a combination of virtual chat & in-person or virtual meetings. 
+
+I have sufficient capital resources, time & code-skill to build this.   Please consider the software itself as a coin-operated machine that just happens to run across decentralized blockchains and requires agents to negotiate the exchanging of small sums with zero-knowledge proofs.  
+I hope it will only take 6-10 weeks of solid effort to produce an MVP, so I'm allocating 12-week (3 month) spring to see how far I can get.  Working on projects without validation is extremely difficult so if this sounds like something you might try once it's finished I really encourage you to consider sharing & commenting early in the development process. 
+
+Expressions of interest, kind words, and polite criticism are welcome. 
+
+Nominal crypto-donations in ETH, MATIC, DOTS, or SOL are the 'in-game' currencies, DAO coins are welcome.   Financial contributors or those who help develop this should receive an expectation of large reciprocal airdrops & future invitations to join/vote in the #governance channel.  Candy Date may add other coins, especially DAO coins in the future and hope spending the extra time to setup PolkaDot as a way to span multiple chains means the application is properly destructured to take avantage of whatever innovations the blockchain can deliver in the future.   Again, the reason for supporting different currencies in the first version is to ensure the architecture is sufficiently decoupled. 
+
+The wallet I've listed in the [contribute.md] section is the one I will use for my soon-to-be-formed AU RDC (non-profit Research & Development Corporation) as a DAO.  I'm just trying to establish good automata custodial processes that can pass ISO 27001/SOC2, GDPR data retention without too much heartache & auditing expense (to keep this legal, i.e. if large companies are ever going to use this, these security & privacy controls).  
+ 
+ Because I'm building this in Australia (VegeMight stack) -- despite actual Australian Vegemite from being illegal in the US - VegeMight Stack & Candy Date will both adhere to 
+ AU & US employment, privacy & securities law (and probably EU too, but I'm not an expert here).   Candy Date will have wagering "staking" (except, we call it "steaking" as in 🥩) - this is an offer mechanism to encourage people to apply for & attend Candy Dates with an organization, for a small portion of the 'steak'.  Candy Date is about speed-searching - getting people into roles much faster using machine learning and natural language processing.  Everybody should be able to play the game and hopefully feel a bit less stinging rejection and also a good way/place for engineering students to coordinate on projects with others outside their school & social circle.  
+
+The work is licensed under the Elastic V2 License, specifically to prevent cloud-companies such as Amazon from taking this work and creating a profit-oriented dystopian community-harming fragmentation.  I'm surprised Amazon hasn't started charging people an application fee to apply to work there.  
 
 
 ## Who will use Candꭵ.ⅆa𝕥e(®️®️)?
-This is written in an idiomatic venacular built for 𝟚 distinct audiences. 
+This is written in an idiomatic venacular built for 𝟚 primary audiences &  𝟚 secondary audiences. 
 
-### 1. seekErrs
- 
+👽: The word "Errs" refers to Employee Recruiting & Retention System for Candy Date. 
+
+### (1.) seekErrs - 'seeks job, will date, want candy'
 * 2(A): young engineering or science students who are starting their careers
 * 2(B): older versions of the same
 * 2(C): self-taught non-credentialled technical people
 * 2(E): Person who are already employed, but curious & open to switch. 
 * 🤓 Learn More: [notes/seekErrs.md]()
 
-### 2.  valiDatErrs
-* 2(A): HR & Recruiting professionals
-* 2(B): those companies which seek IT expertise
+### 2.  hasErrs - 'has job, has candy, seeks date'
+* 2(A): HR & Talent Recruiting professionals
+* 2(B): Companies which seek IT expertise on full or part time or casual contracting
 * 2(C): IT or Engineering departments looking for candidates
-* 2(E): Education or undergradate opportunities
-* 🤓 Learn More: [notes/valiDatErrs.md]()
+* 2(E): Academic instutitions with Education or undergradate opportunities
+* 🤓 Learn More: [notes/hasErrs.md]()
 
-### 3. DAO's (additional)
+### 3. DAO's (seconday audience)
 * 3(A): DAOs decentralized autonomous organizations are crypto-native organizations. DAO's can also use Candy Date, keen to discuss your specific recruitment needs.  
 
 * 3(B): DAOs in particular are unique from a recruiting fit because they are 'volunteer to work' and allow a person to sign up for a job where they may be paid based on recognition for work/effort they contribution.
 
-### 4. Hackathons
+### 4. Hackathons (secondary audience)
 Candy Date, specifically VMs will provide a jump-box or staging area for teams/groups to form hackathons related to blockchain or artificial intelligence. 
 
 ## The how-why to enroll, play, & win
-You download the software and run it on your computer.
+You download the software and run it on your computer.  See [install.md]() for more. 
 
-Training a cognitive agent happens in conversation chat such as discord.  You provide positive or negative reinforcement based on how it might answer for you. 
+Training a cognitive agent happens in conversation chat such as discord, or via the command line.  It uses a ubiquitous 'card' design approach, so you can build whatever interface you'd want.  You provide positive or negative reinforcement based on how the agent might answer the card for you. 
 
-This agent is running in your device, and it remains in the VMs, it's a 'smart auto-responder'.  The agent builds a profile about a company & role -- requirements and attempts to find opportunities specifically companies who are or plan to use specific technologies, but this is not an SQL keyword join, it's a synaptic join by a large language model. The assumption is that it could daily scrape job boards or corporate websites. 
+The Errs agent ("👽") is running in your device, and as long as you don't accidentally make it G/AI it will remain in the VMs, it's a 'smart auto-responder', not a gimmick, a real agent with cognitive skills in your PC that can drive software.  That is the goal of Errs, and the 👽 to represents. 
+
+👽 builds a profile about a company & role -- requirements and attempts to find opportunities specifically companies who are or plan to use specific technologies, but this is not an SQL keyword join, it's a synaptic join by a large language model. The assumption is that it could daily scrape job boards or corporate websites. 
 
 Stop wasting your time reviewing roles each day - stop interviewing, do something else productive.  The number of garbage jobs clogging up the hiring sites is disturbing and the existing job sites lack the tools to properly categorize or filter these. 
 
