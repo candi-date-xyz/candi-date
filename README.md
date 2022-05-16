@@ -1,23 +1,38 @@
 ** WIP: Work in progress. 
 
+This is a sketch of my project.  Written for many audiences. 
+
 # The VegeMight Stack (VMs) 
-This repo contains the foundations of the VegeMight Stack ("VMs") which will be used to build Candy Date.  A stack is a collection of tools which are pre-oriented/configured as a starting point. 
+This repo contains the foundations of the VegeMight Stack ("VMs") which will be used to build Candy Date.  A stack is a collection of tools which are pre-oriented/configured as a starting point.  By designing the system as a 'stack' it groups a lot of technologies together into a single package/container to start from. 
 
-VM's is a poly-platform dev kit - with emphasis placed on machine learning & popular blockchain crypto-library tooling that is highly opionated but seeks to mostly prioritze RUST/cargo as an orchestration environment.  TypeScript/Vue3 for interfaces & Python for machine learning, C++ for as little as possible. 
+VMs is a poly-platform dev kit - with emphasis placed on cognitive agency (machine learning) & popular blockchain crypto-library tooling.  VMs is highly opionated by giving deference to RUST/cargo as an orchestration environment for other languages.  TypeScript/Vue3 for interfaces & Python for machine learning, and Bash, C++, et al. as required. 
 
-VMs seeks to embrace the neo-modern pattern of WASM, abandoning the web-server such as bash/nginx & server rendered pages in favor of serverless deno containers and single page Vue3/electron served within the container or directly at the edge of a network. 
+VMs embraces a neo-modern code-pattern of WASM - both for security & speed.  WASM is rendered pages in favor of serverless deno containers and single page Vue3 served within the VM/container or directly at the edge of a network. 
 
-Fully tooled environments for  RUST, TypeScript, Python interoperability & patterns (and libraries) VMs is a self contain (but very cloud ready) code & binary packaging system built mostly on Cargo.  
+This application is designed as a git-template so it can be forked, copied, and will be copiously commented about decisions & configurations as a tutorial.  
+
+Fully tooled environments for RUST, TypeScript, Python interoperability & patterns (and libraries) VMs is a self contain (but very cloud ready) code & binary packaging system built mostly on Cargo.  
 
 # Candy Date Crypto Coin company
 
+Candy Date is a game for lonely highly-technical people (engineers) that need something to do and the organizations that want to hire them.  People who may be unemployed and don't like being rejected or spending hours wading through poorly written & inaccurate job-descriptions & sharing ALL their personnel details with companies so early in the hiring process for a job they don't even know if they want.  
 
+### For Engineers
 
-For Engineers - earn spendable crypto-coins for interviewing conversationally while training an ai-bot 'agent' about your preferences while it learns how to complete job applications & perform pre-interviews.  Free to sign up, free to use, the blockchain itself has a freemium model principally to prevent job-spammers and give runner-ups who might spend hours doing exercises some consolidation, gratuity or appearance fee. But it's crypto-L2, so designed to be very robust & inexpensive and the data never leaves a VM on your computer, so it's significantly more privacy forward.  
+For Engineers Earn spendable crypto-coins for interviewing asynchronously, conversationally.   Training an ai-bot 'agent' about your work preferences is easy using freely available large language models.  The agent learns how to complete job applications & perform pre-interviews to eliminate this toil from your life.  You can run your agent in supervised or unsupervised modes of operation. 
 
-For Companies - interview more people faster, literally the agent can pre-interview and qualify thousands of engineers to start from a better (hopefully smarter) candidate pool.  
+Candy Date is free to sign up, earn free coins daily! The tokenomics of the blockchain app are early-stage, but there will be a freemium 'pay for more' model principally to prevent job-spammers and give runner-ups who might spend hours doing exercises some consolidation, gratuity or appearance fee that I expect might buy a consolidation coffee.    I expect the application to either be inexpensive enough that I can afford to run it, or become big enough that it will pay for itself on the Freemium model.  VMs runs on your computer not mine. ;-)   
 
+### For Employers
+For companies looking to hire, there is an honor policy where your coins are due at the end of the hiring round.  Always pay bills, it's a blockchain, it's public information, your account will still work, but you'll *hopefully* experience bad-luck getting qualified Candy Dates to agree to meet!  Outstanding liability to the blockchain/network, just like credit-scores it's better not to let accounts go or remain negative (Candy Dates themselves are social credit scores).  The fees are going to be very low, and they basically serve as a nominal in-game currency for Candy Date, and the game itself operates as a match-making service.  The coin itself may have no value, it's a coin-op smart-contract.  
 
+The application is targeting multi-chain multi-coin crypto-L2 which adds a lot of complexity, so the VMs is robust & inexpensive and the data never leaves a VM on your computer or network.  Candy Date is significantly more privacy minded despite coordinating actions on public blockchain(s). 
+
+For Companies - interview more people faster, in parallel, literally the agent could pre-interview and qualify thousands of engineers to start from a better (hopefully smarter, more qualified) candidate pool.   These are pre-interviews, a faster method to sift through the candidate pool, you still meet people face to face using Teams, etc.  that's a Candy Date!  The quicker pre-interview survey approach helps companies narrow in, or broaden their search parameters. 
+
+Candy Date will record the status on a per domain/ERC-20 wallet, and expect companies hiring to pay a nominal fee upon success or closure of a round.  I want to stress this should be in the hundreds of dollars, not thousands, so there is plenty of headroom for agencies.  You can even use Candy Date with VMs to process your own candidates.  Candy Date is intended to plugin to network architectures with AD, SSO, Crypo-wallet controls and breeze through ISO-27001 and SOC2 zero-trust security postures.  You can run Candy Date entirely locally with your own jobs@domain.com inbox, the Candy Date auto-responder works both ways and while it prefers matrix.org, discord, teams, slack, or telegram it will ALSO work with email and attachments.  
+
+The network itself has memory, so the longer you're registered on Candy Date, the more experience you have.  Many aspects probably haven't been fully thought out, so much of this text is aspirational. 
 
 
 ## Subject [LFG] Looking for Guild?, LMK!
@@ -51,10 +66,19 @@ This is written in an idiomatic venacular built for 𝟚 distinct audiences.
 
 * 3(B): DAOs in particular are unique from a recruiting fit because they are 'volunteer to work' and allow a person to sign up for a job where they may be paid based on recognition for work/effort they contribution.
 
+### 4. Hackathons
+Candy Date, specifically VMs will provide a jump-box or staging area for teams/groups to form hackathons related to blockchain or artificial intelligence. 
 
 ## The how-why to enroll, play, & win
-* FOMO "Fear of Missing Out" when you're using humans versus robots to do initial screening the resource cost is too high.  When you are wasting your time interviewing your not doing something else productive. 
-* Enhanced Privacy: Questions & answers will be classified by sensitivity, such that there are both public and vaulted (a true encrypted key-vault).  Access to vaulted information requires coin staking and both agents build detailed profiles of questions & answers between candidates using github issues.
+You download the software and run it on your computer.
+
+Training a cognitive agent happens in conversation chat such as discord.  You provide positive or negative reinforcement based on how it might answer for you. 
+
+This agent is running in your device, and it remains in the VMs, it's a 'smart auto-responder'.  The agent builds a profile about a company & role -- requirements and attempts to find opportunities specifically companies who are or plan to use specific technologies, but this is not an SQL keyword join, it's a synaptic join by a large language model. The assumption is that it could daily scrape job boards or corporate websites. 
+
+Stop wasting your time reviewing roles each day - stop interviewing, do something else productive.  The number of garbage jobs clogging up the hiring sites is disturbing and the existing job sites lack the tools to properly categorize or filter these. 
+
+Enhanced Privacy: Questions & answers will be classified by sensitivity, such that there are both public and vaulted (a true encrypted key-vault).  Access to vaulted information requires coin staking and both agents build detailed profiles of questions & answers between candidates using github issues.
 
 * http://Candydate.xyz : corporate website
 * http://Candydate.eth : onboarding
