@@ -1,7 +1,23 @@
+** WIP: Work in progress. 
 
-# Introduction to the VegeMight Stack & Candy Date Crypto Coin company
+# The VegeMight Stack (VMs) 
+This repo contains the foundations of the VegeMight Stack ("VMs") which will be used to build Candy Date.  A stack is a collection of tools which are pre-oriented/configured as a starting point. 
 
-earn spendable crypto-coins for conversationally training an ai-bot to complete job applications. 
+VM's is a poly-platform dev kit - with emphasis placed on machine learning & popular blockchain crypto-library tooling that is highly opionated but seeks to mostly prioritze RUST/cargo as an orchestration environment.  TypeScript/Vue3 for interfaces & Python for machine learning, C++ for as little as possible. 
+
+VMs seeks to embrace the neo-modern pattern of WASM, abandoning the web-server such as bash/nginx & server rendered pages in favor of serverless deno containers and single page Vue3/electron served within the container or directly at the edge of a network. 
+
+Fully tooled environments for  RUST, TypeScript, Python interoperability & patterns (and libraries) VMs is a self contain (but very cloud ready) code & binary packaging system built mostly on Cargo.  
+
+# Candy Date Crypto Coin company
+
+
+
+For Engineers - earn spendable crypto-coins for interviewing conversationally while training an ai-bot 'agent' about your preferences while it learns how to complete job applications & perform pre-interviews.  Free to sign up, free to use, the blockchain itself has a freemium model principally to prevent job-spammers and give runner-ups who might spend hours doing exercises some consolidation, gratuity or appearance fee. But it's crypto-L2, so designed to be very robust & inexpensive and the data never leaves a VM on your computer, so it's significantly more privacy forward.  
+
+For Companies - interview more people faster, literally the agent can pre-interview and qualify thousands of engineers to start from a better (hopefully smarter) candidate pool.  
+
+
 
 
 ## Subject [LFG] Looking for Guild?, LMK!
