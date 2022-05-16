@@ -7,9 +7,9 @@ For those curious HOW this will be done, please review/comment on [techstack.md]
 
 # What is the 𝓒and𝖎-𝔇⍺𝑡𝑒 Crypto-Mint Coin-Operated Co. ?
 
-𝒞and𝖎-𝔇⍺𝑡𝑒 is a Coin-Operated Blockchain Web3 "gamified experience" to assist engineers find permanent or casual employment.  
+𝒞andꭵ-𝔇⍺𝑡𝑒 is a Coin-Operated Blockchain Web3 "gamified experience" to assist engineers find permanent or casual employment.  
 
-𝓒and𝖎-𝔇⍺𝑡𝑒's approach to asynchronous job-search is built to be explicitly well suited toward high-tech persons & roles (usually engineers).  
+𝓒andꭵ-𝔇⍺𝑡𝑒's approach to asynchronous job-search is built to be explicitly well suited toward high-tech persons & roles (usually engineers).  
 
 If you are un-employed or under-employed technical person/engineer (or seeking the latter) then 𝓒and𝖎-𝔇⍺𝑡𝑒 is being built at a great personal expense explicitly for you. 
 
