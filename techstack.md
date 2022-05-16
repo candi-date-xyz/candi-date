@@ -1,9 +1,35 @@
+** wip, unfinished.
 
 ## 
 My Background:  http://bit.ly/resume-brianhorakh
 
-
 # The VegeMight Stack!
+
+```
+If you wish to make an apple pie from scratch, you must first invent the universe.
+-Carl Sagan
+```
+
+This repo contains the foundations of the VegeMight Stack ("VMs") for Errs "👽" the agent inside Candy Date (explained below).  
+
+A stack is a collection of tools which are pre-oriented/configured as a starting point.  By designing the software architecture as a 'stack' it fuses many layers of technologies together into a single pre-configured package/container that becomes a shared starting point making it architecturally easier to discuss.  VMs is a nod to 'virtual machines'. 
+
+VMs is a poly-platform dev kit & operating environment - with a bias for SSO security, setup & admin of cloud services, to operate cognitive agency (machine learning) &  data-engineering, along with dependencies for using blockchains for decentralized coordination/ERC-20 wallet integration.  
+
+VMs is highly opinionated about many things.  The use RUST/cargo crates orchestration and WASM to access other languages within.  TypeScript/Vue3+Vite for UI/UX interfaces & Python for machine learning, and Bash, Go, C++, et al. as required. Solang/Solidity for eBPF, WASM smart-contracts. VS-Code as a preferred editor / operating environment. 
+
+VMs embraces a neo-modern code-pattern of WASM + deno. It uses podman instead of docker for it's OCI and will use minimal k8s (if at all). 
+
+WASM is a structural pillar of VMs which hopes to promote interoperability and reusability of code between different languages.  VMs hopes to provide a more detailed example of how to build complex things than 'hello-world'.  However the people who may be using VMs are expected to be beginning to advanced engineers and Candy Date may help them after finishing school. 
+
+For that reason this repo is designed as a git-template so it can be forked, copied, and will be copiously commented about decisions & configurations as an idiomatic tutorial of advanced technologies.   A Polyglot stack, many languages, many libraries, and in this example also polcy-cloud but scales down to be self-hosted using only open-source software and free services.  
+
+VMs is a self contained (but also very cloud-deploy ready) code & binary packaging system for "Candy Date". 
+ 
+
+
+# Bullet List of Choices
+
 Technical Stack Proposed is POLYglot (many to many language binding):
 * WASM
     * Web Assembly allows libraries written in one language to be used in another
