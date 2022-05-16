@@ -5,21 +5,21 @@ This is a sketch of my project.  Written for many audiences.  Everybody has thei
 # The VegeMight Stack (VMs) 
 For those curious HOW this will be done, please review/comment on [techstack.md]() or [contribute.md]()
 
-# What is the 𝒞and𝔦-𝔇⍺𝑡𝑒 Crypto-Mint Coin-Operated Co. ?
+# What is the 𝒞andꭵ-𝔇⍺𝑡𝑒 Crypto-Mint Coin-Operated Co. ?
 
 𝒞andꭵ-𝔇⍺𝑡𝑒 is a Coin-Operated Blockchain Web3 "gamified experience" to assist engineers find permanent or casual employment.  
 
-𝓒andꭵ-𝔇⍺𝑡𝑒's approach to asynchronous job-search is built to be explicitly well suited toward high-tech persons & roles (usually engineers).  
+𝒞andꭵ-𝔇⍺𝑡𝑒's approach to asynchronous job-search is built to be explicitly well suited toward high-tech persons & roles (usually engineers).  
 
-If you are un-employed or under-employed technical person/engineer (or seeking the latter) then 𝓒and𝖎-𝔇⍺𝑡𝑒 is being built at a great personal expense explicitly for you. 
+If you are un-employed or under-employed technical person/engineer (or seeking the latter) then 𝒞andꭵ-𝔇⍺𝑡𝑒 is being built at a great personal expense explicitly for you. 
 
 
 
-𝓒and𝖎-𝔇⍺𝑡𝑒 hopes to disrupt the present-day hiring/job seeker paradigm that is wasteful, and especially unsuited for a hiring technical people amongst a global workforce.  The high level: Why this/why now - is that since the post-covid work-for-home or work-anywhere organizations such as DAO's & early adopters of Web3 the fundamental posture of work has changed, candidates can be anywhere yet our traditional means for hiring has not adapted (yet).  𝓒and𝖎-𝔇⍺𝑡𝑒 is a new way to speed-match peoples & roles. 
+𝓒and𝔇⍺𝑡𝑒 hopes to disrupt the present-day hiring/job seeker paradigm that is wasteful, and especially unsuited for a hiring technical people amongst a global workforce.  The high level: Why this/why now - is that since the post-covid work-for-home or work-anywhere organizations such as DAO's & early adopters of Web3 the fundamental posture of work has changed, candidates can be anywhere yet our traditional means for hiring has not adapted (yet).  𝒞andꭵ-𝔇⍺𝑡𝑒 is a new way to speed-match peoples & roles. 
 
 Since the advent of the Internet the whole became lot smaller but it took a centenary pandemic of Covid for the rules of work-from-home flipped.   We as a society haven't updated our HR practices yet, and it took a virus to remind us humans aren't isolated anymore, we all share the same planet-sized village.  This means there are more candidates and greater specialization.  HR departments are NOT equipped to keep up.
 
-Using 𝓒and𝖎-𝔇⍺𝑡𝑒 stops:
+Using 𝒞andꭵ-𝔇⍺𝑡𝑒 stops:
 
     * being directly rejected, or getting a non-response/no-feedback/ghosted 
     * wasting lost-hours wading through poorly written & inaccurate job-descriptions
@@ -30,33 +30,33 @@ Using 𝓒and𝖎-𝔇⍺𝑡𝑒 stops:
     * financially dis-incentivize the types of orgs that use 'traditional' job boards for smishing, spam and/or unpaid internships.
     * prevent anybody being insulted by offers such an unpaid internship that requires a PhD and 5 years of experience just to apply.  <-- these can stay on the old job boards.
     
-The 𝓒and𝖎-𝔇⍺𝑡𝑒s process will make sourcing humans easier & maybe even a bit fun for both parties by gamifying the engagement. 
+The 𝒞andꭵ-𝔇⍺𝑡𝑒s process will make sourcing humans easier & maybe even a bit fun for both parties by gamifying the engagement. 
 
-The approach requires Employers (or Recruiters) to have steak'd 🥩 in-game currency for the 𝓒and𝖎-𝔇⍺𝑡𝑒.  The steak must get bigger as more alignment is found and after each interview a portion of the stake is carried forward, returned to the company and/or paid to the individual(s) who are applying.  see [notes/tokenomics.md]() for a discussion of the game mechanics (seeking comments)
+The approach requires Employers (or Recruiters) to have steak'd 🥩 in-game currency for the 𝒞andꭵ-𝔇⍺𝑡𝑒.  The steak must get bigger as more alignment is found and after each interview a portion of the stake is carried forward, returned to the company and/or paid to the individual(s) who are applying.  see [notes/tokenomics.md]() for a discussion of the game mechanics (seeking comments)
 
-Asynchronous cohorts encourages fast & timely answers to questions (via supervised or unsupervised agents).  Agents can access the historical answers for training,  and use that information to best decide if the individual or company they represent is qualified/interested before submitting a 𝓒and𝖎-𝔇⍺𝑡𝑒 proffer to the other party.   
+Asynchronous cohorts encourages fast & timely answers to questions (via supervised or unsupervised agents).  Agents can access the historical answers for training,  and use that information to best decide if the individual or company they represent is qualified/interested before submitting a 𝒞andꭵ-𝔇⍺𝑡𝑒 proffer to the other party.   
 
-Think of 𝓒and𝖎-𝔇⍺𝑡𝑒 like an online decentralized blockchain job-fair in a free-market society. 
+Think of 𝒞andꭵ-𝔇⍺𝑡𝑒 like an online decentralized blockchain job-fair in a free-market society. 
 
 
 
 ## Fair Unbiased Skills based Robo-screening
 
-𝓒and𝖎-𝔇⍺𝑡𝑒s is NOT a recruiting service, and Recruiters can use 𝓒and𝖎-𝔇⍺𝑡𝑒 on behalf of employers they represent. 
+𝒞andꭵ-𝔇⍺𝑡𝑒s is NOT a recruiting service, and Recruiters can use 𝒞andꭵ-𝔇⍺𝑡𝑒 on behalf of employers they represent. 
 
-𝓒and𝖎-𝔇⍺𝑡𝑒s does NOT tell companies who to hire, it simply acts as a faster, parallelized, cognitive search & match-maker in the cloud.  𝓒and𝖎-𝔇⍺𝑡𝑒s informs both parties WHY they should talk, or why they aren't a good fit. 
+𝒞andꭵ-𝔇⍺𝑡𝑒s does NOT tell companies who to hire, it simply acts as a faster, parallelized, cognitive search & match-maker in the cloud.  𝒞andꭵ-𝔇⍺𝑡𝑒s informs both parties WHY they should talk, or why they aren't a good fit. 
 
 Building machine agents to do a lot of the small-talk aspects for both parties and provide transcripts .. have you ever heard the expression "I'll have my people talk to your people?" .. this is the same idea, except we're using cognitive agents instead of people. 
 
 The present-day search-interview-hire process has substantial systemic wasteful duplicative-effort, it's slow and HR people are really poor at qualifying technical candidates.   Too much energy goes into human level scanning, qualifying, hiring & reviewing employment offers.  The whole process is absurdly wasteful and full of human prone selection bias.  
 
-## Why use 𝓒and𝖎-𝔇⍺𝑡𝑒 to finding good roles & technical people?
+## Why use 𝒞andꭵ-𝔇⍺𝑡𝑒 to finding good roles & technical people?
 
 Searching for a role or person should not be a full-time job (certainly there are better things a person could be doing in that time such as painting, poetry, or programming).  The collective cost feels untenable, it is a burden to humanity perpetuated on us all by a pox of outdated inept antiquated HR practices.  
 
 Ultimately good people stay in bad jobs for a number of reasons including the pain of finding a better/different job -- this only masks a bigger problem in our society.  
 
-𝓒and𝖎-𝔇⍺𝑡𝑒 Crypto-Mint & Coin-Op Co. will both automate & asynchronously parallelize the processing.   The automation will reduce the costs for companies & unrecoverable time for candidates by eliminating the toil. 
+𝒞andꭵ-𝔇⍺𝑡𝑒 Crypto-Mint & Coin-Op Co. will both automate & asynchronously parallelize the processing.   The automation will reduce the costs for companies & unrecoverable time for candidates by eliminating the toil. 
 
 The practices are designed to reward good actors and nominally punish bad actors.
 
@@ -64,38 +64,38 @@ The practices are designed to reward good actors and nominally punish bad actors
 
 For Engineers Earn spendable crypto-coins for interviewing asynchronously, conversationally.  The interface is command line/menu driven inspired by "oregon trail".   Training an ai-bot 'agent' about your work preferences is easy using freely available large language models.  The agent learns how to complete job applications & perform pre-interviews to eliminate this toil from your life.  You can run your agent in supervised or unsupervised modes of operation.  Real-crypto coins are intended to be used (or gifted) as game-pieces for coordination by a decentralized blockchain.  Some aspects of 'how' the privacy is accomplished are agents' coordinating zero-knowledge proof exchanges. It is not necessary to know any of this to use the software, but rather to illustrate it's sufficiently different to whatever job-board or tool you've perhaps used in the past. 
 
-𝓒and𝖎-𝔇⍺𝑡𝑒 will be free to sign up, people can earn free coins daily, early adopters have more experience! The tokenomics of the blockchain app are early-stage, but there will be a freemium 'pay for more' model principally to prevent job-spammers and give runner-ups who might spend hours doing exercises some consolidation, gratuity or appearance fee that I expect *might* buy a consolidation coffee for taking the time to do a 𝓒and𝖎-𝔇⍺𝑡𝑒.  I expect the application to either be inexpensive enough that I can afford to run it, or become big enough that it will pay for itself on the Freemium model.  VMs runs on your computer not mine, so hopefully you have a fast GPU. ;-)   
+𝒞andꭵ-𝔇⍺𝑡𝑒 will be free to sign up, people can earn free coins daily, early adopters have more experience! The tokenomics of the blockchain app are early-stage, but there will be a freemium 'pay for more' model principally to prevent job-spammers and give runner-ups who might spend hours doing exercises some consolidation, gratuity or appearance fee that I expect *might* buy a consolidation coffee for taking the time to do a 𝒞andꭵ-𝔇⍺𝑡𝑒.  I expect the application to either be inexpensive enough that I can afford to run it, or become big enough that it will pay for itself on the Freemium model.  VMs runs on your computer not mine, so hopefully you have a fast GPU. ;-)   
 
 ### For Employers
-For companies looking to hire, there is an honor policy where your coins are due at the end of the hiring round.  Always pay bills, it's a blockchain, it's public information, your account will still work, but you'll *hopefully* experience bad-luck getting qualified 𝓒and𝖎-𝔇⍺𝑡𝑒s to agree to meet!  Outstanding liability to the blockchain/network, just like credit-scores it's better not to let accounts go or remain negative (𝓒and𝖎-𝔇⍺𝑡𝑒s themselves are social credit scores).  The fees are going to be very low, and they basically serve as a nominal in-game currency for 𝓒and𝖎-𝔇⍺𝑡𝑒, and the game itself operates as a match-making service.  The coin itself may have no value, it's a coin-op smart-contract.  
+For companies looking to hire, there is an honor policy where your coins are due at the end of the hiring round.  Always pay bills, it's a blockchain, it's public information, your account will still work, but you'll *hopefully* experience bad-luck getting qualified 𝒞andꭵ-𝔇⍺𝑡𝑒s to agree to meet!  Outstanding liability to the blockchain/network, just like credit-scores it's better not to let accounts go or remain negative (𝒞andꭵ-𝔇⍺𝑡𝑒s themselves are social credit scores).  The fees are going to be very low, and they basically serve as a nominal in-game currency for 𝒞andꭵ-𝔇⍺𝑡𝑒, and the game itself operates as a match-making service.  The coin itself may have no value, it's a coin-op smart-contract.  
 
-The application is targeting multi-chain multi-coin crypto-L2 which adds a lot of complexity, so the VMs is robust & inexpensive and the data never leaves a VM on your computer or network.  𝓒and𝖎-𝔇⍺𝑡𝑒 is significantly more privacy minded despite coordinating actions on public blockchain(s). 
+The application is targeting multi-chain multi-coin crypto-L2 which adds a lot of complexity, so the VMs is robust & inexpensive and the data never leaves a VM on your computer or network.  𝒞andꭵ-𝔇⍺𝑡𝑒 is significantly more privacy minded despite coordinating actions on public blockchain(s). 
 
-For Companies - interview more people faster, in parallel, literally the agent could pre-interview and qualify thousands of engineers to start from a better (hopefully smarter, more qualified) candidate pool.   These are pre-interviews, a faster method to sift through the candidate pool, you still meet people face to face using Teams, etc.  that's a 𝓒and𝖎-𝔇⍺𝑡𝑒!  The quicker pre-interview survey approach helps companies narrow in, or broaden their search parameters. 
+For Companies - interview more people faster, in parallel, literally the agent could pre-interview and qualify thousands of engineers to start from a better (hopefully smarter, more qualified) candidate pool.   These are pre-interviews, a faster method to sift through the candidate pool, you still meet people face to face using Teams, etc.  that's a 𝒞andꭵ-𝔇⍺𝑡𝑒!  The quicker pre-interview survey approach helps companies narrow in, or broaden their search parameters. 
 
-𝓒and𝖎-𝔇⍺𝑡𝑒 will record the status on a per domain/ERC-20 wallet, and expect companies hiring to pay a nominal fee upon success or closure of a round.  I want to stress this should be in the hundreds of dollars, not thousands, so there is plenty of headroom for agencies.  You can even use 𝓒and𝖎-𝔇⍺𝑡𝑒 with VMs to process your own candidates.  𝓒and𝖎-𝔇⍺𝑡𝑒 is intended to plugin to network architectures with AD, SSO, Crypo-wallet controls and breeze through ISO-27001 and SOC2 zero-trust security postures.  You can run 𝓒and𝖎-𝔇⍺𝑡𝑒 entirely locally with your own jobs@domain.com inbox, the 𝓒and𝖎-𝔇⍺𝑡𝑒 auto-responder works both ways and while it prefers matrix.org, discord, teams, slack, or telegram it will ALSO work with email and attachments.  
+𝒞andꭵ-𝔇⍺𝑡𝑒 will record the status on a per domain/ERC-20 wallet, and expect companies hiring to pay a nominal fee upon success or closure of a round.  I want to stress this should be in the hundreds of dollars, not thousands, so there is plenty of headroom for agencies.  You can even use 𝒞andꭵ-𝔇⍺𝑡𝑒 with VMs to process your own candidates.  𝒞andꭵ-𝔇⍺𝑡𝑒 is intended to plugin to network architectures with AD, SSO, Crypo-wallet controls and breeze through ISO-27001 and SOC2 zero-trust security postures.  You can run 𝒞andꭵ-𝔇⍺𝑡𝑒 entirely locally with your own jobs@domain.com inbox, the 𝒞andꭵ-𝔇⍺𝑡𝑒 auto-responder works both ways and while it prefers matrix.org, discord, teams, slack, or telegram it will ALSO work with email and attachments.  
 
-The network itself has memory, so the longer you're registered on 𝓒and𝖎-𝔇⍺𝑡𝑒, the more experience you have.  Many aspects probably haven't been fully thought out, so much of this text is aspirational.  The 𝓒and𝖎-𝔇⍺𝑡𝑒 wallet's are expected to be organizationally soul-bound to domains. 
+The network itself has memory, so the longer you're registered on 𝒞andꭵ-𝔇⍺𝑡𝑒, the more experience you have.  Many aspects probably haven't been fully thought out, so much of this text is aspirational.  The 𝒞andꭵ-𝔇⍺𝑡𝑒 wallet's are expected to be organizationally soul-bound to domains. 
 
 
 ## Subject:  Candꭵ𝕥e(®️) Looking for Contributors, LMK!
 
 The project plan. v0.0.2
 
-𝓒and𝖎-𝔇⍺𝑡𝑒 is a HR/Recruiter gamified crypto-currency AI chatbot equipped with Large Language Model for conversationally pre-screening "qualifying" job details.  
-The bot can speak async chat or email and hopes to setup/follow up on & arrange 𝓒and𝖎-𝔇⍺𝑡𝑒s, which are a combination of virtual chat & in-person or virtual meetings. 
+𝒞andꭵ-𝔇⍺𝑡𝑒 is a HR/Recruiter gamified crypto-currency AI chatbot equipped with Large Language Model for conversationally pre-screening "qualifying" job details.  
+The bot can speak async chat or email and hopes to setup/follow up on & arrange 𝒞andꭵ-𝔇⍺𝑡𝑒s, which are a combination of virtual chat & in-person or virtual meetings. 
 
 I have sufficient capital resources, time & code-skill to build this.   Please consider the software itself as a coin-operated machine that just happens to run across decentralized blockchains and requires agents to negotiate the exchanging of small sums with zero-knowledge proofs.  
 I hope it will only take 6-10 weeks of solid effort to produce an MVP, so I'm allocating 12-week (3 month) spring to see how far I can get.  Working on projects without validation is extremely difficult so if this sounds like something you might try once it's finished I really encourage you to consider sharing & commenting early in the development process. 
 
 Expressions of interest, kind words, and polite criticism are welcome. 
 
-Nominal crypto-donations in ETH, MATIC, DOTS, or SOL are the 'in-game' currencies, DAO coins are welcome.   Financial contributors or those who help develop this should receive an expectation of large reciprocal airdrops & future invitations to join/vote in the #governance channel.  𝓒and𝖎-𝔇⍺𝑡𝑒 may add other coins, especially DAO coins in the future and hope spending the extra time to setup PolkaDot as a way to span multiple chains means the application is properly destructured to take avantage of whatever innovations the blockchain can deliver in the future.   Again, the reason for supporting different currencies in the first version is to ensure the architecture is sufficiently decoupled. 
+Nominal crypto-donations in ETH, MATIC, DOTS, or SOL are the 'in-game' currencies, DAO coins are welcome.   Financial contributors or those who help develop this should receive an expectation of large reciprocal airdrops & future invitations to join/vote in the #governance channel.  𝒞andꭵ-𝔇⍺𝑡𝑒 may add other coins, especially DAO coins in the future and hope spending the extra time to setup PolkaDot as a way to span multiple chains means the application is properly destructured to take avantage of whatever innovations the blockchain can deliver in the future.   Again, the reason for supporting different currencies in the first version is to ensure the architecture is sufficiently decoupled. 
 
 The wallet I've listed in the [contribute.md] section is the one I will use for my soon-to-be-formed AU RDC (non-profit Research & Development Corporation) as a DAO.  I'm just trying to establish good automata custodial processes that can pass ISO 27001/SOC2, GDPR data retention without too much heartache & auditing expense (to keep this legal, i.e. if large companies are ever going to use this, these security & privacy controls).  
  
- Because I'm building this in Australia (VegeMight stack) -- despite actual Australian Vegemite from being illegal in the US - VegeMight Stack & 𝓒and𝖎-𝔇⍺𝑡𝑒 will both adhere to 
- AU & US employment, privacy & securities law (and probably EU too, but I'm not an expert here).   𝓒and𝖎-𝔇⍺𝑡𝑒 will have wagering "staking" (except, we call it "steaking" as in 🥩) - this is an offer mechanism to encourage people to apply for & attend 𝓒and𝖎-𝔇⍺𝑡𝑒s with an organization, for a small portion of the 'steak'.  𝓒and𝖎-𝔇⍺𝑡𝑒 is about speed-searching - getting people into roles much faster using machine learning and natural language processing.  Everybody should be able to play the game and hopefully feel a bit less stinging rejection and also a good way/place for engineering students to coordinate on projects with others outside their school & social circle.  
+ Because I'm building this in Australia (VegeMight stack) -- despite actual Australian Vegemite from being illegal in the US - VegeMight Stack & 𝒞andꭵ-𝔇⍺𝑡𝑒 will both adhere to 
+ AU & US employment, privacy & securities law (and probably EU too, but I'm not an expert here).   𝒞andꭵ-𝔇⍺𝑡𝑒 will have wagering "staking" (except, we call it "steaking" as in 🥩) - this is an offer mechanism to encourage people to apply for & attend 𝒞andꭵ-𝔇⍺𝑡𝑒s with an organization, for a small portion of the 'steak'.  𝒞andꭵ-𝔇⍺𝑡𝑒 is about speed-searching - getting people into roles much faster using machine learning and natural language processing.  Everybody should be able to play the game and hopefully feel a bit less stinging rejection and also a good way/place for engineering students to coordinate on projects with others outside their school & social circle.  
 
 The work is licensed under the Elastic V2 License, specifically to prevent cloud-companies such as Amazon from taking this work and creating a profit-oriented dystopian community-harming fragmentation.  I'm surprised Amazon hasn't started charging people an application fee to apply to work there.  
 
@@ -103,7 +103,7 @@ The work is licensed under the Elastic V2 License, specifically to prevent cloud
 ## Who will use Candꭵ.ⅆa𝕥e(®️®️)?
 This is written in an idiomatic venacular built for 𝟚 primary audiences &  𝟚 secondary audiences. 
 
-👽: The word "Errs" refers to Employee Recruiting & Retention System for 𝓒and𝖎-𝔇⍺𝑡𝑒. 
+👽: The word "Errs" refers to Employee Recruiting & Retention System for 𝒞andꭵ-𝔇⍺𝑡𝑒. 
 
 ### (1.) seekErrs - 'seeks job, will date, want candy'
 * 2(A): young engineering or science students who are starting their careers
@@ -120,12 +120,12 @@ This is written in an idiomatic venacular built for 𝟚 primary audiences &  �
 * 🤓 Learn More: [notes/hasErrs.md]()
 
 ### 3. DAO's (seconday audience)
-* 3(A): DAOs decentralized autonomous organizations are crypto-native organizations. DAO's can also use 𝓒and𝖎-𝔇⍺𝑡𝑒, keen to discuss your specific recruitment needs.  
+* 3(A): DAOs decentralized autonomous organizations are crypto-native organizations. DAO's can also use 𝒞andꭵ-𝔇⍺𝑡𝑒, keen to discuss your specific recruitment needs.  
 
 * 3(B): DAOs in particular are unique from a recruiting fit because they are 'volunteer to work' and allow a person to sign up for a job where they may be paid based on recognition for work/effort they contribution.
 
 ### 4. Hackathons (secondary audience)
-𝓒and𝖎-𝔇⍺𝑡𝑒, specifically VMs will provide a jump-box or staging area for teams/groups to form hackathons related to blockchain or artificial intelligence. 
+𝒞andꭵ-𝔇⍺𝑡𝑒, specifically VMs will provide a jump-box or staging area for teams/groups to form hackathons related to blockchain or artificial intelligence. 
 
 ## The how-why to enroll, play, & win
 You download the software and run it on your computer.  See [install.md]() for more. 
@@ -170,9 +170,9 @@ https://img.shields.io/twitter/follow/brianhorakh?style=social
 
 
 
-## What kind of org 𝓒and𝖎-𝔇⍺𝑡𝑒
+## What kind of org 𝒞andꭵ-𝔇⍺𝑡𝑒
 
-𝓒and𝖎-𝔇⍺𝑡𝑒 the organization will run similar to Wikipedia as a not-for-profit (freemium-paid for sustainability & spam-mitigation) operating model and so we hope prospective employers will embrace 𝓒and𝖎-𝔇⍺𝑡𝑒s as a better way to find & hire especially machine learning & web3 engineering talent.  
+𝒞andꭵ-𝔇⍺𝑡𝑒 the organization will run similar to Wikipedia as a not-for-profit (freemium-paid for sustainability & spam-mitigation) operating model and so we hope prospective employers will embrace 𝒞andꭵ-𝔇⍺𝑡𝑒s as a better way to find & hire especially machine learning & web3 engineering talent.  
 
 
 
@@ -193,7 +193,7 @@ Less repetition (the answers don't change, so this does a better job screening, 
 
  Where companies and employees can upload their encrypted profiles, link their organizational accounts, and have bi-directional robots converstationally take turns in successive-rounds finding and eliminating candidates until a position is filled. 
 
-Don't worry, it's easy to use because everybody starts with 1,000 free tokens sponsored by "𝓒and𝖎-𝔇⍺𝑡𝑒" Crypto Coin co. a command line driven "cli" / interactive menu driven/run on your own machine. 
+Don't worry, it's easy to use because everybody starts with 1,000 free tokens sponsored by "𝒞andꭵ-𝔇⍺𝑡𝑒" Crypto Coin co. a command line driven "cli" / interactive menu driven/run on your own machine. 
 
 You can power the system and generate coins by joining and it is mostly explained below. 
 
@@ -203,10 +203,10 @@ processing of both job advertisements and CVs.
 ### 👋 Hi from Melvin 
 🤓 "Melvin" (the nerd emoji) is for technical specification hints/background.  Melvins can be difficult to understand for some non-experts.   For experts in the AI & blockchain field these specifications are very important because they remove ambiguity.  If you see a Melvin and you don't understand what it's saying, thats fine - it's probably not important and you can skip it. 
 
-The 𝓒and𝖎-𝔇⍺𝑡𝑒 system is designed to introduce new skills to the user to play the game as part of an interactive find-hire-work humorously named Errs (produced like Errors)
+The 𝒞andꭵ-𝔇⍺𝑡𝑒 system is designed to introduce new skills to the user to play the game as part of an interactive find-hire-work humorously named Errs (produced like Errors)
 
-### 🤓 𝓒and𝖎-𝔇⍺𝑡𝑒 and the Vegemight Stack
-🙏 𝓒and𝖎-𝔇⍺𝑡𝑒 will recycle the good ideas from my earlier work \_b00t\_ but will incorporate RUST Cargo, WASM and deno (all were absent from \_b00t\_) called the Vegemight Stack (as opposed to the JAM stack, which also goes on toast).  Vegemite is a popular Australian breakfast spread, that is illegal to import to the US.  The Vegemight stack was designed in Australia.  The naming convention also removes the mandarin pinyin in favor of all shorthand emoji. 
+### 🤓 𝒞andꭵ-𝔇⍺𝑡𝑒 and the Vegemight Stack
+🙏 𝒞andꭵ-𝔇⍺𝑡𝑒 will recycle the good ideas from my earlier work \_b00t\_ but will incorporate RUST Cargo, WASM and deno (all were absent from \_b00t\_) called the Vegemight Stack (as opposed to the JAM stack, which also goes on toast).  Vegemite is a popular Australian breakfast spread, that is illegal to import to the US.  The Vegemight stack was designed in Australia.  The naming convention also removes the mandarin pinyin in favor of all shorthand emoji. 
 
 ### 🤓 What is the VegeMight Stack (VMS)?
 VegeMight Stack (VMS) is intended to provide simplification of complex 'highly-technical' machine-learning stacks device-deployable multi-os build & packaging system using WASM (web assembler) which allows polyglot coding between Rust, TypeScript, Python and C++ (at least these) and a full build of Linux & OCI containers running the deno serverless engine.  If any of the information I just said made sense to you then you *might* be qualified to read the [techstack.md]()
@@ -214,7 +214,7 @@ VegeMight Stack (VMS) is intended to provide simplification of complex 'highly-t
 ### 🤓 What is/was \_b00t\_
 Vegemight is a refactor of the good ideas from [http://github.com/elasticdotventures/\_b00t\_]() into Candꭵ.ⅆa𝕥e(®️®️) v0.0.1 using cargo - second attempt at a universal installer for less/least technical people.  But this is mostly intended for technical recruiting initially. 
 
-### 🤓 How much crypto-currency will a 𝓒and𝖎-𝔇⍺𝑡𝑒 cost? 
+### 🤓 How much crypto-currency will a 𝒞andꭵ-𝔇⍺𝑡𝑒 cost? 
 Neglible real dollar amounts, pennies or less.  It's Freemium business model with lots of coins getting dropped.  The system will be very efficient, especially ETH2 post merge, the fees will be very low, and the candidates are pre-screened.   While there is crypto-currency, the idea is to keep the fees very low and the crypto is a way to reward individuals for successfully completing steps.  Maybe the crypto will be working someday, but that isn't why people are playing the game.   It will take probably 6-10 weeks to build the prototype system, or something that resembles a prototype? It's unknown how long it will take to get connections to networks & exchanges setup. 
 
 ## Present obstacles
@@ -227,7 +227,7 @@ gh repo clone elasticdotventures/candydated0txyz
 🙏 Please be patient. Rome was not built in a day. 
 
 ## example file & directory structure, for tasks & chores
-* [n00b.md](n00b.md) what is 𝓒and𝖎-𝔇⍺𝑡𝑒 for n00bs (beginners)
+* [n00b.md](n00b.md) what is 𝒞andꭵ-𝔇⍺𝑡𝑒 for n00bs (beginners)
     * how to sign up and get into queue
 * [contribute.md](contribute.md) How to contribute
     * github issues on this repository. 
@@ -242,12 +242,12 @@ gh repo clone elasticdotventures/candydated0txyz
     * [TODO.md]() my priorities
 
 
-## 𝓒and𝖎-𝔇⍺𝑡𝑒 Operational Summary
+## 𝒞andꭵ-𝔇⍺𝑡𝑒 Operational Summary
 
 👋 I'm just starting to organize this for peer validation.  
 🙏 Thank you for your time.  Please checkout contribute or follow me on twitter, linkedin, whatever social media you happen to use. 
 
-To help visualize the game-format and operation of 𝓒and𝖎-𝔇⍺𝑡𝑒 it is helpful to envision a game of telephone with an AI Large Language model in the center relaying answers between two parties 
+To help visualize the game-format and operation of 𝒞andꭵ-𝔇⍺𝑡𝑒 it is helpful to envision a game of telephone with an AI Large Language model in the center relaying answers between two parties 
 
 ```mermaid
 sequenceDiagram
@@ -302,16 +302,16 @@ This is not an SQL join like traditional job sites, this is a join based on unsu
 * GPT Generative Predictive Text ...  "generate & autocomplete sentences"
 * LLM Large Language Models    ... "larger usually means 'more clever & intelligent'"
 
-𝓒and𝖎-𝔇⍺𝑡𝑒 will perform many pre-qualifying speed dating rounds, in parallel,
+𝒞andꭵ-𝔇⍺𝑡𝑒 will perform many pre-qualifying speed dating rounds, in parallel,
 and when necessary reaching out to either party to confirm answers to questions.
 
 The system is intended to be pragmatic pairing requirements such as skill & office-location or wfh schedule, many facet matching & role filtering.  
 
 Once Errs auto-pilot is primed with either a CV or Job description it analyize job history, hiring profile and other details which may demonstrate biases and help candidates not submit if they are likely to be rejected.  
 
-Each persons private information is put into one system and it is only provided to job roles which found agreement on suitable pre-requisite matches for both parties (or was disqualified, in which case the result fails, and waits for a different 𝓒and𝖎-𝔇⍺𝑡𝑒.)
+Each persons private information is put into one system and it is only provided to job roles which found agreement on suitable pre-requisite matches for both parties (or was disqualified, in which case the result fails, and waits for a different 𝒞andꭵ-𝔇⍺𝑡𝑒.)
 
-This also means qualified 𝓒and𝖎-𝔇⍺𝑡𝑒s (and their agents) can talk back at the job via chat.  Neither party actually exchanges information until long it is was matched by Errs.  Errs sits in the middle of all the conversations as a cognitive privacy screen. 
+This also means qualified 𝒞andꭵ-𝔇⍺𝑡𝑒s (and their agents) can talk back at the job via chat.  Neither party actually exchanges information until long it is was matched by Errs.  Errs sits in the middle of all the conversations as a cognitive privacy screen. 
 
 At this stage i'm still building the installer since this needs to run on peoples computers or business networks and connect to single service sign-on settings and whatnot it's fairly complex.   The installer will be the most complex aspect since it will require I setup a neural net directly on the users machine (in their browser) so that I don't need to store information.  
 
@@ -324,7 +324,7 @@ sequenceDiagram
     participant S as seekErr
     actor S
     participant A as Agent.🤖
-    S -->> A: 🙏 𝓒and𝖎-𝔇⍺𝑡𝑒 plz? 
+    S -->> A: 🙏 𝒞andꭵ-𝔇⍺𝑡𝑒 plz? 
     A ->> S: /say Install Software Stack okay?
     S -->> A: 👇😱 no. got error. something bad! 
     A -->> A: 👇👹 oh-no, software is required. contact. will fix.
@@ -428,7 +428,7 @@ The bot will camp a variety of online communities and monitor profiles, and cura
 
 
 
-## When should I register for 𝓒and𝖎-𝔇⍺𝑡𝑒?
+## When should I register for 𝒞andꭵ-𝔇⍺𝑡𝑒?
 
 The short answer is pre-register as early as you can, socialize and expect a future bot to scan your social media feeds and reward you.  
 
@@ -439,7 +439,7 @@ see [contribute.md]()
 
 If you are an HR person for a large company with more than 100 open technical roles please ping me directly if you would like to be included in our pilot & planning.  
 
-If you are DAO who is keen to use 𝓒and𝖎-𝔇⍺𝑡𝑒s as a bridge to traditional non-DAO candidates (necessary for growth & expansion outside the present-day highly insular Web3/Blockchain/Crypto-Currency communities) then I'd also love to hear from you. 
+If you are DAO who is keen to use 𝒞andꭵ-𝔇⍺𝑡𝑒s as a bridge to traditional non-DAO candidates (necessary for growth & expansion outside the present-day highly insular Web3/Blockchain/Crypto-Currency communities) then I'd also love to hear from you. 
 
 
 ## This sounds disruptive to traditional HR hiring - is it?
@@ -452,25 +452,25 @@ One goal of VMs is to highlight areas where & how blockchains & open-source mach
 
 ## Can my company use this?
 
-There is a reason I'm planning ISO27001 and AD SSO roles in v1.0 in the first versions - it's because VMs is a stack, and 𝓒and𝖎-𝔇⍺𝑡𝑒 is a tool.  It would be great to have big employers or DAO's ready to participate at the launch.   
+There is a reason I'm planning ISO27001 and AD SSO roles in v1.0 in the first versions - it's because VMs is a stack, and 𝒞andꭵ-𝔇⍺𝑡𝑒 is a tool.  It would be great to have big employers or DAO's ready to participate at the launch.   
 
 ## The old way works - so Why would my company use this? 
 
-𝓒and𝖎-𝔇⍺𝑡𝑒 was invented out of necessity to help humans stay competitive with the robots that will ultimately replace them in the workforce.  
+𝒞andꭵ-𝔇⍺𝑡𝑒 was invented out of necessity to help humans stay competitive with the robots that will ultimately replace them in the workforce.  
 
-In a scenario where 𝓒and𝖎-𝔇⍺𝑡𝑒 is wildely adopted it could only give humans in the workforce an extra decade - that is best case.  On the Internet nobody cares if you're a robot and now it's only a matter of time. 
+In a scenario where 𝒞andꭵ-𝔇⍺𝑡𝑒 is wildely adopted it could only give humans in the workforce an extra decade - that is best case.  On the Internet nobody cares if you're a robot and now it's only a matter of time. 
 
 Artificial intelligence is according to many informed opinions the most significant discovery humanity has made in the past 10,000 years (basically since 'fire, villages & the wheel'). 
 
 But AI is still so new and so specialized we don't really understand the long term impact.  Companies that aren't actively looking for places to put AI into the processes are not the concern, they can remain living in their wet dark cold cave and die there. 
 
-𝓒and𝖎-𝔇⍺𝑡𝑒 is described as a more 'optimal system' to discover & filter people for more technical roles.   The ethos of 𝓒and𝖎-𝔇⍺𝑡𝑒 is to simplify the repetitive toil of finding roles especially those with highly specialized knowledge domains.  With the hindsight of email & spam - 𝓒and𝖎-𝔇⍺𝑡𝑒 is designed to be an affordable, 'free to play' dynamics - where everybody is a bot and so only well behaved bots can actually afford to run.  
+𝒞andꭵ-𝔇⍺𝑡𝑒 is described as a more 'optimal system' to discover & filter people for more technical roles.   The ethos of 𝒞andꭵ-𝔇⍺𝑡𝑒 is to simplify the repetitive toil of finding roles especially those with highly specialized knowledge domains.  With the hindsight of email & spam - 𝒞andꭵ-𝔇⍺𝑡𝑒 is designed to be an affordable, 'free to play' dynamics - where everybody is a bot and so only well behaved bots can actually afford to run.  
 
 This is the "why", and the "how" is still being written - but v1.0 (whatever & whenever that is) will use NLP LLMs and GPT for performing synaptic joins instead of conventional SQL.  Conventional SQL is fine for antiquated job boards with limited attributes, they are better suited for blue-collar & white-collar lower-technical mostly interchangable roles but they lack the nuanced aspects of hiring for technical roles.  
 
-As engineers our programming conventions have moved from imperative to functional declarations but our job search is still tedioiusly synchronous and procedurally imperative.   𝓒and𝖎-𝔇⍺𝑡𝑒 will disrupt that by any means necessary, also big companies are probably already using some form of resume scanning software - so in a way 𝓒and𝖎-𝔇⍺𝑡𝑒 is just intended to make the playing field fair. 
+As engineers our programming conventions have moved from imperative to functional declarations but our job search is still tedioiusly synchronous and procedurally imperative.   𝒞andꭵ-𝔇⍺𝑡𝑒 will disrupt that by any means necessary, also big companies are probably already using some form of resume scanning software - so in a way 𝒞andꭵ-𝔇⍺𝑡𝑒 is just intended to make the playing field fair. 
 
-Anybody who is looking for or hiring for highly technical job roles is encouraged to join and contribute to 𝓒and𝖎-𝔇⍺𝑡𝑒, follow this on twitter, or reach out and let us know if/how you'd like this to work. (or how NOT to have it work)
+Anybody who is looking for or hiring for highly technical job roles is encouraged to join and contribute to 𝒞andꭵ-𝔇⍺𝑡𝑒, follow this on twitter, or reach out and let us know if/how you'd like this to work. (or how NOT to have it work)
 
 This feedback is appreciated and helps inform the final version be better.  Ultimately operating the system will require (at least initially) some modicum of supervision & training but the goal of the deliverable is to make something so idiot proof even an technophobic HR person could use it (even though that isn't the audience, ultimately they are the gate-keepers in big companies). 
 
@@ -485,7 +485,7 @@ There may be a SAAS hosted version.   Several people have told me that I should 
 This uses a block-chain for coordination but not sensitive information is published there.  The block-chain requires a wallet. 
 
 ### What is Github.com and why do I need an account? 
-𝓒and𝖎-𝔇⍺𝑡𝑒 will create a github password vault of your cryptographic wallet.
+𝒞andꭵ-𝔇⍺𝑡𝑒 will create a github password vault of your cryptographic wallet.
 
 ### github also provides public hosting & version control of text files
  This github, is where you can submit your digital requirements.
