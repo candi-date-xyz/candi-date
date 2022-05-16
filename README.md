@@ -11,7 +11,9 @@ Candi-Date is a Coin-Operated Blockchain Web3 "gamified experience" to assist en
 
 Candi-Date's approach to asynchronous job-search is built to be explicitly well suited toward high-tech persons & roles (usually engineers).  
 
-If you are un-employed or under-employed technical person (or seeking the latter) then Candi-Date is being built at a great personal expense explicitly for you. 
+If you are un-employed or under-employed technical person/engineer (or seeking the latter) then Candi-Date is being built at a great personal expense explicitly for you. 
+
+
 
 Candi-Date hopes to disrupt the present-day hiring/job seeker paradigm that is wasteful, and especially unsuited for a hiring technical people amongst a global workforce.  The high level: Why this/why now - is that since the post-covid work-for-home or work-anywhere organizations such as DAO's & early adopters of Web3 the fundamental posture of work has changed, candidates can be anywhere yet our traditional means for hiring has not adapted (yet).  Candi-Date is a new way to speed-match peoples & roles. 
 
