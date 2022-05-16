@@ -5,7 +5,7 @@ This is a sketch of my project.  Written for many audiences.  Everybody has thei
 # The VegeMight Stack (VMs) 
 For those curious HOW this will be done, please review/comment on [techstack.md]() or [contribute.md]()
 
-# What is the 𝓒and𝖎-𝔇⍺𝑡𝑒 Crypto-Mint Coin-Operated Co. ?
+# What is the 𝒞and𝔦-𝔇⍺𝑡𝑒 Crypto-Mint Coin-Operated Co. ?
 
 𝒞andꭵ-𝔇⍺𝑡𝑒 is a Coin-Operated Blockchain Web3 "gamified experience" to assist engineers find permanent or casual employment.  
 
