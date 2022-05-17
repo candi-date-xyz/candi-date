@@ -5,6 +5,9 @@ My Background:  http://bit.ly/resume-brianhorakh
 
 # The VegeMight Stack!
 
+https://eips.ethereum.org/EIPS/eip-1155
+
+
 ```
 If you wish to make an apple pie from scratch, you must first invent the universe.
 -Carl Sagan

@@ -4,6 +4,13 @@
 # A. Priority (top)
 * register domain name candydate.xyz
     * newsletter signup. ?
+
+    * Candi-Date.xyz
+    * Candi-Date.me 
+    * Candi-Date.com
+    * Candi-Date.
+    
+
 * register candydate.eth
     * accept wallet
 * cleanup build actions

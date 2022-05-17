@@ -7,17 +7,123 @@ For those curious HOW this will be done, please review/comment on [techstack.md]
 
 # What is the 𝒞andꭵ-𝔇⍺𝑡𝑒 Crypto-Mint Coin-Operated Co. ?
 
-𝒞andꭵ-𝔇⍺𝑡𝑒 is a Coin-Operated Blockchain Web3 "gamified experience" to assist engineers find permanent or casual employment.  
+𝒞andꭵ-𝔇⍺𝑡𝑒 "🍬" is a Coin-Operated Blockchain Web3 "gamified experience" to assist engineers find permanent or casual employment.  
 
-𝒞andꭵ-𝔇⍺𝑡𝑒's approach to asynchronous job-search is built to be explicitly well suited toward high-tech persons & roles (usually engineers).  
+𝒞andꭵ-𝔇⍺𝑡𝑒's approach to agent assisted - asynchronous job-search is well suited toward highly specialized technical job roles such as engineers and scientists.
 
-If you are un-employed or under-employed technical person/engineer (or seeking the latter) then 𝒞andꭵ-𝔇⍺𝑡𝑒 is being built at a great personal expense explicitly for you. 
+If you are un-employed or under-employed technical Engineer or Scientst (*OR* seeking the latter) then 𝒞andꭵ-𝔇⍺𝑡𝑒 is being built for you.  By now you realize the system is broken, we must adapt to the new world. 
+
+𝒞andꭵ-𝔇⍺𝑡𝑒 is a unique way new way to speed-match peoples & roles in gamified rounds called "Candy Dates" based on natural language conversational processing in chat with contextually aware cognitive agents.  The tedium of looking for work is best suited to a personalized algorithm. 
+
+𝒞andꭵ-𝔇⍺𝑡𝑒 hopes to disrupt the present-day hiring/job seeker paradigm that is wasteful and unsuited toward hiring technical person.  🍬 accesses a global workforce using blockchains & Proof of Stake ("🥩") as a means to build trust and demonstrate a companies commitment.  The nominally paid interview is gamified to incentivize the candidate to answer and to provide both parties with a more transparent approach to the entire process. 
+
+```mermaid
+sequenceDiagram
+    participant B as wants Job
+    participant AgB as Agent 🤖
+    participant E as Errs Blockchain 👽
+    participant AgC as Agent 🤖
+    participant C as has Role
+
+    Note over B,E: human WANTS JOB 🧻
+    B ->> AgB: here is my CV
+    AgB -->> B: ask questions
+    B -->> AgB: 👍 answers
+    AgB->>AgB: Formatting
+    AgB->>AgB: calculate HyperParameters, ZK proof
+    AgB ->> E: register, wait ...
+    E ->> AgB: welcome, enjoy 🍷 while you wait.
+
+    Note over E,C: org HAS JOB 🧻
+    C ->> AgC: enroll company in Errs 👽
+    AgC ->>E: register wallet
+    E ->> AgC: welcome, promotion: FREE 🥩 for 🧻 offer
+    C --> AgC: CREATE role(s) 🧻
+    C ->> AgC: UPLOAD role 🧻
+    AgC->>AgC: Formatting Q&A
+    AgC->>AgC: calculate HyperParameters, ZK proofs
+    AgC ->> E: transmit VALID role 🧻 
+    E --> AgC: 🧻 role ACCEPTED
+
+    E ->> AgB: role 🥐 WAITING
+    AgB->>AgB: SCAN SUMMARY
+
+    Note over AgC,AgB: 🧠🤖🍷💌🥩🧻🤖🧠 agents negotiate 
+
+    AgB ->> AgC: REQUEST PUBLIC 🧻, proffer 1🍷 & identity
+    AgC ->> AgB: transmit PUBLIC 🧻
+    AgB -->> AgC: send 1🍷 expect 1🥩, SKILLS: partial (incomplete), IS sufficient?
+
+    AgC ->> AgB: Vaccination Status
+    AgB ->> AgC: Yes 👍 
+    AgC ->> AgB: ATTACH FILE request
+    AgB ->> AgC: DONE
+        
+    
+    Note over AgC,AgB: TODO: 🤮 UNACCEPTABLE
+    Note over AgC,AgB: TODO: 🥸 DISCLOSE MORE
+    Note over AgC,AgB: TODO: 😁 HAPPY
+
+    AgC ->> AgB: transmit REQUEST 💌 + 1🍬 "Candy Date" OFFER 0.50🥩 EXPECT 0🍷
+    AgB->>AgB: SCAN SUMMARY
+
+
+```
+
+Ultimately there are too many micro-reasons a job might or might not be a good fit.
+
+    Location
+        Nearby
+            Can Walk
+            Must Drive
+        Far Away
+            Will Relocate
+
+    Health Insurance
+
+    Hours & Days for Work
+    Hours per Week
+    Childcare
+    Gym On Site
+    Sushi Lunches
+
+    what is your age range
+    what is your ethnicity
+    which gender do you identify with
+        Female
+        Male
+        Non-binary
+        Transgender
+        Gender neutral
+        My gender identify is not listed
+        Prefer not to say
+    Disability
+        Prove you are human
+
+    have you served in the Ethopian Armed Forces
+        Yes
+        No
+        Prefer not to say
+
+https://www.useweb3.xyz/engineering-jobs?page=2
 
 
 
-𝓒and𝔇⍺𝑡𝑒 hopes to disrupt the present-day hiring/job seeker paradigm that is wasteful, and especially unsuited for a hiring technical people amongst a global workforce.  The high level: Why this/why now - is that since the post-covid work-for-home or work-anywhere organizations such as DAO's & early adopters of Web3 the fundamental posture of work has changed, candidates can be anywhere yet our traditional means for hiring has not adapted (yet).  𝒞andꭵ-𝔇⍺𝑡𝑒 is a new way to speed-match peoples & roles. 
+* PROFFER
 
-Since the advent of the Internet the whole became lot smaller but it took a centenary pandemic of Covid for the rules of work-from-home flipped.   We as a society haven't updated our HR practices yet, and it took a virus to remind us humans aren't isolated anymore, we all share the same planet-sized village.  This means there are more candidates and greater specialization.  HR departments are NOT equipped to keep up.
+    B->>AgB: ?
+    loop Healthcheck
+        B->>B: Fight against hypochondria
+    end
+    Note right of A: Rational thoughts <br/>prevail!
+
+
+### Why this/why now - 
+
+After covid employment, negotation of in office, work-for-home or work-anywhere organizations such as DAO's & early adopters of Web3 the fundamental posture of work has changed, candidates can be anywhere yet our traditional means for hiring has not adapted (yet).  
+
+
+The Internet made the planet smaller and Covid changed the work-from-home rules.   We as a society haven't updated our HR practices (yet) to reflect this new global village we all inhabit.  There are more candidates and increasingly greater specialization.  HR departments are NOT equipped to keep up.
 
 Using 𝒞andꭵ-𝔇⍺𝑡𝑒 stops:
 
@@ -32,7 +138,7 @@ Using 𝒞andꭵ-𝔇⍺𝑡𝑒 stops:
     
 The 𝒞andꭵ-𝔇⍺𝑡𝑒s process will make sourcing humans easier & maybe even a bit fun for both parties by gamifying the engagement. 
 
-The approach requires Employers (or Recruiters) to have steak'd 🥩 in-game currency for the 𝒞andꭵ-𝔇⍺𝑡𝑒.  The steak must get bigger as more alignment is found and after each interview a portion of the stake is carried forward, returned to the company and/or paid to the individual(s) who are applying.  see [notes/tokenomics.md]() for a discussion of the game mechanics (seeking comments)
+The approach requires Employers (or Recruiters) to have steak'd 🥩 in-game currency for to arrange a 𝒞andꭵ-𝔇⍺𝑡𝑒.  The steak must get bigger as more alignment is found and after each interview a portion of the stake is carried forward, returned to the company and/or paid to the individual(s) who are applying.  see [notes/tokenomics.md]() for a discussion of the game mechanics (seeking comments)
 
 Asynchronous cohorts encourages fast & timely answers to questions (via supervised or unsupervised agents).  Agents can access the historical answers for training,  and use that information to best decide if the individual or company they represent is qualified/interested before submitting a 𝒞andꭵ-𝔇⍺𝑡𝑒 proffer to the other party.   
 
