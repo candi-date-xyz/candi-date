@@ -66,6 +66,14 @@ then
   cargo install bat
 fi
 
+# 🐙 github 'gh' client
+if ! command -v gh &> /dev/null
+then
+  log_📢_记录 "🥾🐙 installing github 'gh' command"
+  wget https://github.com/cli/cli/releases/download/v2.10.1/gh_2.10.1_linux_amd64.deb
+  sudo dpkg -i gh_2.10.1_linux_amd64.deb
+fi
+
 #if [ "/usr/bin/docker" ] ; then 
 #    echo "🐳 has d0cker! loading docker extensions"
 #    source "$_B00T_C0DE_Path/docker.🐳/_bashrc.sh"
