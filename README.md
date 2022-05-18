@@ -3,7 +3,7 @@
 This is a sketch of my project.  Written for many audiences.  Everybody has their own process for launching a startup. 
 
 # TECH: VegeMight Stack (VMs) 
-For those curious HOW this will be done, please review/comment on [techstack.md] or [contribute.md]
+For those curious HOW this will be done, please review/comment on [techstack.md](./techstack.md) or [./contribute.md]()
 
 # Welcome to 𝒞andꭵ-𝔇⍺𝑡𝑒 Crypto-Mint-Contract & Coin-Op Game Co.
 
