@@ -3,27 +3,27 @@
 This is a sketch of my project.  Written for many audiences.  Everybody has their own process for launching a startup. 
 
 # TECH: VegeMight Stack (VMs) 
-For those curious HOW this will be done, please review/comment on [techstack.md](./techstack.md) or [./contribute.md]()
+For those curious HOW this will be done, please review/comment on [techstack.md](./techstack.md) or [./contribute.md](./contribute.md)
 
 # Welcome to 𝒞andꭵ-𝔇⍺𝑡𝑒 Crypto-Mint-Contract & Coin-Op Game Co.
 
-𝒞andꭵ-𝔇⍺𝑡𝑒 "🍭" is a Coin-Operated Blockchain Web3 "gamified experience" to assist engineers find permanent or casual employment.   Candi-Date will hopefully make the sting of rejection feel a bit sweeter. 
+Candi-Date (𝒞andy-𝔇⍺𝑡𝑒) "🍭" is a Coin-Operated Blockchain Web3 "gamified experience" to assist engineers find permanent or casual employment.   The project hopes to make the process of becoming employed a bit sweeter and certainly less sour.
 
-𝒞andꭵ-𝔇⍺𝑡𝑒's approach to cognitive-software agent assisted - asynchronous global job-search is well suited toward highly specialized technical job roles such as engineers and scientists.  These often have diverse specialized skill requirements and people with complex evaluation criteria (skills/stack, job location, language, hours, commute, perks, etc.)
+𝒞andꭵ-𝔇⍺𝑡𝑒's approach to cognitive-software agent assisted - asynchronous global job-search is well suited toward technically advanced (STEM) job roles such as engineers and scientists.  These neuro-diverse persons often have diverse specialized  requirements and complex evaluation criteria (skills/tech-stack, job location, language, hours, commute, perks, etc.)
 
-If you are un-employed or under-employed technical Engineer, Programmer or Scientst (*OR* seeking the latter) then 𝒞andꭵ-𝔇⍺𝑡𝑒 is being built for you.  By now you realize covid broke the job-search by creating thousands of different Work-from-your-arse scenarios, searching is tedium, we must adapt to the new world. 
+If you are un-employed or under-employed technical Engineer, Programmer or Scientst (*OR* seeking the latter) then 𝒞andꭵ-𝔇⍺𝑡𝑒 is being built for you.  Covid broke the job-search by creating thousands of different global Work-from-your-arse scenarios, searching (which was regionally constrained) is now unconstrained tedium, we must build systems which can better adapt us to our new reality.  Welcome to Candi-Date. 
 
 𝒞andꭵ-𝔇⍺𝑡𝑒 is a unique way new way to speed-match peoples & roles in agent-assisted gamified rounds called "Candy Dates" based on natural language conversational processing.  The chat is done with contextually aware cognitive agents representing both sides.  The tedium of looking for work is best suited to a personalized algorithm which is individually curated using a process known as "supervision", but ultimately candy-dates are like sending your robot mate to find a date.   The interaction between the two agents is moderated by Errs "👽" the Electronic Records Retention system. 
 
 𝒞andꭵ-𝔇⍺𝑡𝑒 hopes to disrupt the present-day assymetric hiring/job seeker paradigm that is time wasteful and where job descriptions are often 'aspirational' and written in ways that they do not properly capture the factors which are the basis of evalulation criteria.  Especially since many companies that have embraced WFH are able to hire from a global candidate pool - the historical hiring methods are absolutely inadequate. 
 
-The "🍭" Candi-Date expects accesses a global workforce using blockchains & Proof of Stake "🥩" ("steak"), with the employees/contractors offering 🍷 ("wine") as a means to build trust and demonstrate mutual commitment to meeting on a Candy-Date.  The Candy Date offers both parties nominal compensation for attending the interview, and is gamified to incentivize the candidate to answer once using a block-chain and for provide both parties with a more transparent approach to the entire process.  Companies which like the old (broken) way of hiring, this is not for you. 
+The "🍭" Candi-Date expects accesses a global workforce using blockchains & Proof of Stake "🥩" ("steak") exchanged for 🍷 ("wine") as a rewards mechanism for agents to build trust to discussing a Role "🧻".   The nominal rewards demonstrate mutual commitment to meeting & possibly 'hooking up' on a Candy-Date and is mostly intended to stop spam & ensure high-quality offers.  The Candy Date offers both parties nominal compensation for attending the interview, and is gamified to incentivize the candidate to answer once using a block-chain and for provide both parties with a more transparent approach to the entire process.  Companies which like the old (broken) assymmetric way of hiring, Candi-dates aren't for you. 👌
 
-Finally, for large companies which already have agents screening their incoming resumes, this system is envisioned as an API driven feed for whatever you've already got. 
+Finally, for those large companies which already have agents & filters screening their incoming resumes, this system is envisioned as an API driven feed for whatever you've already got.  
 
 # Work in Progress
 
-Building a company is lonely.  I'm hoping for one or more co-founders, technical-recruiters or other interested parties to flesh out these ideas. 
+Building a company is lonely.  I'm searching for one or more co-founders, ideally outside my immediate friends circle, technical-recruiters or other interested parties to flesh out these ideas.  This is me (http://bit.ly/resume-brianhorakh)[http://bit.ly/resume-brianhorakh]
 
 
 ```mermaid
