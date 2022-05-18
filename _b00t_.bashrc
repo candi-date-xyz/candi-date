@@ -27,14 +27,23 @@ set -a
 ## 小路 \\
 ## Xiǎolù :: Path or Directory
 # THINGS YOU CAN EDIT: 
-_B00T_C0DE_Path="/c0de/_b00t_"
-if [ -d "$HOME/_b00t_" ] ; then 
-    _B00T_C0DE_Path="$HOME/_b00t_"
+_B00T_C0DE_Path="./_b00t_"
+if [ -d "$_B00T_C0DE_Path" ] ; then
+    echo "😁 found $_B00T_C0DE_Path"
+else 
+    echo "😖 missed $_B00T_C0DE_Path"
+fi
+
+if [ -d "$HOME/._b00t_" ] ; then 
+    _B00T_C0DE_Path="$HOME/._b00t_"
 fi 
+# maybe setup a ~/._b00t_ to ./_b00t_
+
 export _B00T_C0DE_Path
-export _B00T_C0NFIG_Path="$HOME/.b00t"
-_b00t_INSPIRATION_FILE="$_B00T_C0DE_Path/./r3src_资源/inspiration.json"
+export _B00T_C0NFIG_Path="$HOME/._b00t_"
 ## 小路 //
+
+
 
 
 
@@ -60,10 +69,9 @@ function reb00t() {
 
 
 
-
 ## * * * * * \\
 ## pathAdd 
-unset pathAdd
+unset pathAdd: adds a string to the path
 function pathAdd() {
     if [ -d "$1" ] && [[ ":$PATH:" != *":$1:"* ]]; then
         PATH="${PATH:+"$PATH:"}$1"
@@ -74,17 +82,6 @@ pathAdd "$HOME/.local/bin"
 pathAdd "$HOME/.yarn/bin"
 ## * * * * * //
 
-if [ "/usr/bin/docker" ] ; then 
-    echo "🐳 has d0cker! loading docker extensions"
-    source "$_B00T_C0DE_Path/docker.🐳/_bashrc.sh"
-
-    ## 😔 docker context? 
-    ## https://docs.docker.com/engine/context/working-with-contexts/
-    # export DOCKER_CONTEXT=default
-    # log_📢_记录 "🐳 CONTEXT: $DOCKER_CONTEXT"  
-    # docker context ls
-
-fi
 
 ## * * * * * \\
 ## is_version_大于
@@ -175,14 +172,6 @@ export FD_OPTIONS="--follow -exlude .git --exclude node_modules"
 
 ## OPINIONATED ALIASES
 
-# ☁️ cloud -cli's
-function az_cli () {
-    # local args=("$@")
-    docker run --rm -it -v $HOME/.azure:/root/.azure -v $(pwd):/root mcr.microsoft.com/azure-cli:latest az $@
-}
-alias az="az_cli"
-alias aws='docker run --rm -it -v ~/.aws:/root/.aws -v $(pwd):/aws amazon/aws-cli'
-alias gcp="docker run --rm -ti --name gcloud-config google/cloud-sdk gcloud "
 
 
 alias ls='ls -F  --color=auto'
@@ -208,22 +197,15 @@ alias myp='ps -fjH -u $USER'
 #cdl() { cd $1; ls}
 #export -f cdl
 
-# FUTURE: 
-# https://github.com/GochoMugo/msu
 
-# TODO: test for pipx
-# 
-if [ -n "$(whereis register-python-argcomplete3)" ] ; then 
-    echo "🦨++ installing python3-argcomplete + pipx"
-    sudo apt install python3-argcomplete pipx -y
-fi 
-if [ -n "$(whereis register-python-argcomplete3)" ] ; then 
-    eval "$(register-python-argcomplete3 pipx)"
-    # pipx run
-fi 
 
 # bat - a pretty replacement for cat.
-alias bat="batcat"
+alias batOrCat="/bin/cat"
+if ! command -v bat &> /dev/null 
+then
+    alias batOrCat=$(command -v bat)
+fi
+
 
 # bats - bash testing system (in a docker container)
 # 🦨 need consent before running docker
@@ -270,14 +252,6 @@ alias ymd="date +'%Y%m%d'"
 alias ymd_hm="date +'%Y%m%d.%H%M'"
 alias ymd_hms="date +'%Y%m%d.%H%M%S'"
 ##################
-
-
-
-
-# order of magnitude
-#function oom () {
-#    # todo: detect an order of magnitude transition. 
-#}
 
 
 
@@ -530,45 +504,6 @@ function expandPath() {
 }
 
 
-##* * * * * *\\
-## 📽️ Pr0J3ct1D
-## uses inspiration
-##* * * * * *//
-function Pr0J3ct1D {
-    local wordCount=$( cat $_b00t_INSPIRATION_FILE | jq '. | length' )
-    # echo "wordCount: $wordCount"
-
-    local word1=$( rand0 $wordCount )
-    # echo "word1: $word1"
-    local wordOne=$( cat $_b00t_INSPIRATION_FILE | jq ".[$word1].word" -r )
-    local word2=$( rand0 $wordCount )
-    # echo "word2: $word2"
-    local wordTwo=$( cat $_b00t_INSPIRATION_FILE | jq ".[$word2].word" -r )
-    local result="${wordOne}_${wordTwo}"
-
-    ## todo: substitute 
-    if [ $( rand0 10 ) -lt 5 ] ; then 
-        result=$( echo $result | sed 's/l/1/g' )
-    fi
-
-    if [ $( rand0 10 ) -lt 2 ] ; then 
-        result=$( echo $result | sed 's/o/0/g' )
-    elif [ $( rand0 10 ) -lt 2 ] ; then 
-        result=$( echo $result | sed 's/oo/00/g' )
-    fi
-
-    if [ $( rand0 10 ) -lt 2 ] ; then 
-        result=$( echo $result | sed 's/e/3/g' )
-    elif [ $( rand0 10 ) -lt 8 ] ; then 
-        result=$( echo $result | sed 's/ee/33/g' )
-    fi
-
-    # Todo: fix first letter is a number. naming issue.
-
-    echo $result
-    return 0
-}
-
 
 
 ##* * * * * *\\
@@ -623,7 +558,7 @@ function motd() {
     local motdzQ=$( rand0 ${#motdz[@]} )
     # declare -p motdz
 
-    local showWithCMD="/usr/bin/batcat"
+    local showWithCMD=$(echo batOrCat)
     
     f=${motdz[motdzQ]}
     local motdWidth=$(awk 'length > max_length { max_length = length; longest_line = $0 } END { print max_length }' $f)
@@ -642,9 +577,12 @@ function motd() {
     elif [ $motdWidth -gt $(echo $myWidth - 13 | bc) ] ; then
         # bat needs +13 columns
         showWithCMD="cat"
+    elif ! command -v bat &> /dev/null then
+        # bat needs +13 columns
+        showWithCMD="cat"
     else
         # *auto*, full, plain, changes, header, grid, numbers, snip.
-        showWithCMD="batcat --pager=never --style=plain --wrap character"
+        showWithCMD="batOrcat --pager=never --style=plain --wrap character"
         if [ $(rand0 100) -gt 69 ] ; then 
             showWithCMD="batcat --pager=never --wrap character"
         fi
@@ -738,92 +676,6 @@ if ! n0ta_xfile_📁_好不好 "/usr/bin/fdfind"  ; then
     export FZF_DEFAULT_COMMAND="/usr/bin/fdfind --type f"
 fi
 
-####
-# CRUDINI examples
-# 🤓 https://github.com/pixelb/crudini/blob/master/EXAMPLES
-# CRUDINI is used to store b00t config:
-
-if n0ta_xfile_📁_好不好 "/usr/bin/crudini" ; then 
-    log_📢_记录 "🥳 need crudini to save data, installing now"  
-    $SUDO_CMD apt-get install -y crudini bc
-fi
-
-## CRUDINI helper functions:
-function crudini_set() {
-    local args=("$@")
-    local topic=${args[0]}
-    local key=${args[1]}
-    local value=${args[2]}
-    crudini --set $CRUDINI_CFGFILE "${topic}" "${key}" "${value}"
-    return $?
-}
-
-
-
-function crudini_get() {
-    local args=("$@")
-
-    #if [[ "$#" -ne "2" ]] ; then 
-    #    log_📢_记录 "crudini_get topic key"
-    #    exit 0 
-    # fi 
-
-    local topic=${args[0]}
-    local key=${args[1]}
-    echo $( crudini --get "$CRUDINI_CFGFILE" "${topic}" "${key}" )
-    return $?
-}
-
-# _seq: get a number from a sequence in b00t
-function crudini_seq() {
-    local args=("$@")
-    local seqlabel=${args[0]}
-    
-    local x=$( crudini_get "b00t" "$seqlabel" )
-    if [ -z "$x" ] ; then x="0"; fi 
-    x=$(echo "$x" + 1 | bc)
-    crudini_set "b00t" "$seqlabel" "$x"
-    echo $x
-    return 0
-}
-
-# verify integrity of crudini system
-function crudini_init() {
-    export CRUDINI_CFGFILE=$(expandPath "~/.b00t/config.ini")
-    local CRUDINI_DIR=`dirname $CRUDINI_CFGFILE`
-    if [ ! -d "$CRUDINI_DIR" ] ; then
-        log_📢_记录 "🐭 no local $CRUDINI_CFGFILE"  
-        log_📢_记录 "🐭🥳 local dir $CRUDINI_DIR"  
-        if [ ! -d "$CRUDINI_DIR" ] ; then
-            log_📢_记录 "🐭 creating CRUDINI dir $CRUDINI_DIR"  
-            /bin/mkdir -p $CRUDINI_DIR
-            /bin/chmod 750 $CRUDINI_DIR
-            log_📢_记录 "🐭 init CRUDINI file $CRUDINI_CFGFILE"  
-            crudini --set $CRUDINI_CFGFILE '_seq' "1"
-        else        
-            #local x=$( crudini_get "b00t" "crudini_check" )
-            # x=$( [ -z "$x" ] && echo "0" )
-            local x=$( crudini_seq "crudini_check" )
-            log_📢_记录 "🐭😃CRUDINI _seq: #$x dir: $CRUDINI_DIR existed."
-        fi
-    fi
-    return 0
-}
-#  creates an export for $CRUDINI_CFGFILE
-crudini_init
-
-function crudini_ok () {
-if [ -f $CRUDINI_CFGFILE ] ; then 
-    x=$( crudini_seq "crudini_check" )
-    log_📢_记录 "🐭🥾 CRUDINI _seq: #$x $CRUDINI_CFGFILE"
-    return 0
-else 
-    log_📢_记录 "🐭🍒 CRUDINI br0ked. file: $CRUDINI_CFGFILE"
-    # todo: maybe some failsafe, i.e. redis or something. 
-    return 1
-fi
-}
-crudini_ok
 
 
 ##
@@ -843,42 +695,20 @@ function has_sudo() {
         # https://stackoverflow.com/questions/23513045/how-to-check-if-a-process-is-running-inside-docker-container#:~:text=To%20check%20inside%20a%20Docker,%2Fproc%2F1%2Fcgroup%20.
         log_📢_记录 "🐳😁 found DOCKER"  
     elif [ -f "$SUDO_CMD" ] ; then 
-        if [[ -z $( crudini_get "b00t" "has.sudo" )  ]] ; then 
+        #if [[ -z $( crudini_get "b00t" "has.sudo" )  ]] ; then 
             log_📢_记录 "🥳 found sudo"  
-            crudini_set "b00t" "has.sudo" `ymd_hms`
-        fi 
+        #     crudini_set "b00t" "has.sudo" `ymd_hms`
+        #fi 
     else 
         log_📢_记录 "🐭 missed SUDO, try running _b00t_ inside docker."
         SUDO_CMD=""
     fi
     export SUDO_CMD
 }
-has_sudo 
+# note: trying to remove sudo from requirements.
+#has_sudo 
 
 
-
-#############################
-###
-# 🍰 https://superuser.com/questions/427318/test-if-a-package-is-installed-in-apt
-#if debInst "$1"; then
-#    printf 'Why yes, the package %s _is_ installed!\n' "$1"
-#else
-#    printf 'I regret to inform you that the package %s is not currently installed.\n' "$1"
-#fi
-function debInst() {
-    dpkg-query -Wf'${db:Status-abbrev}' "$1" 2>/dev/null | grep -q '^i'
-}
-
-if debInst "moreutils" ; then
-    # only show moreutils once. 
-    if [ $( crudini_get "b00t" "has.moreutils" ) -eq "0" ] ; then 
-        log_📢_记录 "👍 debian moreutils is installed!"
-        crudini_set "b00t" "has.moreutils" $(yyyymmdd)
-    fi 
-else
-    log_📢_记录  "😲 install moreutils (required)"
-    $SUDO_CMD apt-get install -y moreutils
-fi
 
 
 
@@ -894,7 +724,7 @@ fi
 
 
 
-export _b00t_JS0N_filepath=$(expandPath "~/.b00t/config.json")
+# export _b00t_JS0N_filepath=$(expandPath "~/.b00t/config.json")
 #function jqAddConfigValue () {
 #    echo '{ "names": ["Marie", "Sophie"] }' |\
 #    jq '.names |= .+ [

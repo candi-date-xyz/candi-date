@@ -1,5 +1,17 @@
 #!/bin/bash
 
+# set -o errexit    # Used to exit upon error, avoiding cascading errors
+set -o nounset    # Exposes unset variables, strict mode. 
+trap "set +o nounset" EXIT  # restore nounset at exit, even in crash!
+
+# 🤔 trial: 
+umask 000
+
+
+# mark variables which are modified or created for export
+set -a 
+
+
 # docker run -d -it --name azcli --mount type=bind,source="/c0de",target=/c0de 
 
 # 🍰 https://stackoverflow.com/questions/192319/how-do-i-know-the-script-file-name-in-a-bash-script
@@ -16,7 +28,118 @@
 # ------------- CALLED ------------- #
 
 #* 进口v2 🥾 ALWAYS load c0re Libraries!
+
+
+#  _b00t_ is *mostly* a bunch of shell aliases
 source "./_b00t_.bashrc"
+
+# we begin with rust. 
+
+if ! command -v rustup &> /dev/null
+then
+  log_📢_记录 "🥾🦀 installing rust"
+  curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y
+  source $HOME/.cargo/env
+fi
+
+# TODO: test for cargo
+if ! command -v gcc &> /dev/null
+then
+  log_📢_记录 "🥾🦀 installing build-essentials"
+  sudo apt -y install build-essential
+  sudo apt -y install software-properties-common
+fi
+
+
+# SANITY: at this point rustup should be installed!
+if ! command -v argc &> /dev/null
+then 
+  log_📢_记录 "🥾🦀🪂 installing argc with rust:cargo"
+  cargo install argc
+fi
+
+# Command 'batcat' not found, but can be installed with:
+if ! command -v bat &> /dev/null
+then
+  # 🤓 https://github.com/sharkdp/bat
+  log_📢_记录 "🥾🦀🪂 installing argc with rust:cargo"
+  cargo install bat
+fi
+
+#if [ "/usr/bin/docker" ] ; then 
+#    echo "🐳 has d0cker! loading docker extensions"
+#    source "$_B00T_C0DE_Path/docker.🐳/_bashrc.sh"
+#
+#    ## 😔 docker context? 
+#    ## https://docs.docker.com/engine/context/working-with-contexts/
+#    # export DOCKER_CONTEXT=default
+#    # log_📢_记录 "🐳 CONTEXT: $DOCKER_CONTEXT"  
+#    # docker context ls
+#fi
+
+# ☁️ cloud -cli's
+function az_cli () {
+    # local args=("$@")
+    docker run --rm -it -v $HOME/.azure:/root/.azure -v $(pwd):/root mcr.microsoft.com/azure-cli:latest az $@
+}
+alias az="az_cli"
+alias aws='docker run --rm -it -v ~/.aws:/root/.aws -v $(pwd):/aws amazon/aws-cli'
+alias gcp="docker run --rm -ti --name gcloud-config google/cloud-sdk gcloud "
+
+
+
+# TODO: test for pipx
+# 
+if [ -n "$(whereis register-python-argcomplete3)" ] ; then 
+    echo "🦨++ installing python3-argcomplete + pipx"
+    sudo apt install python3-argcomplete pipx -y
+fi 
+if [ -n "$(whereis register-python-argcomplete3)" ] ; then 
+    eval "$(register-python-argcomplete3 pipx)"
+    # pipx run
+fi 
+#sudo add-apt-repository ppa:deadsnakes/ppa
+#sudo apt-get install python3.10
+
+# pipx install python
+
+exit;
+
+#############################
+###
+# 🍰 https://superuser.com/questions/427318/test-if-a-package-is-installed-in-apt
+#if debInst "$1"; then
+#    printf 'Why yes, the package %s _is_ installed!\n' "$1"
+#else
+#    printf 'I regret to inform you that the package %s is not currently installed.\n' "$1"
+#fi
+function debInst() {
+    dpkg-query -Wf'${db:Status-abbrev}' "$1" 2>/dev/null | grep -q '^i'
+}
+
+if debInst "moreutils" ; then
+    # only show moreutils once. 
+    #if [ $( crudini_get "b00t" "has.moreutils" ) -eq "0" ] ; then 
+        log_📢_记录 "👍 debian moreutils is installed!"
+        # crudini_set "b00t" "has.moreutils" $(yyyymmdd)
+    #fi 
+else
+    log_📢_记录  "😲 install moreutils (required)"
+    $SUDO_CMD apt-get install -y moreutils
+fi
+
+
+
+
+
+
+
+# TODO
+#https://github.com/AntJanus/programmers-proverbs
+
+
+
+
 
 # verify docker has buildx
 # docker buildx version
@@ -87,8 +210,8 @@ done
 ## 进口 (Jìnkǒu :: Import/Load) PHASE 3 * * * \\ 
 ## minimal c0re Python 🐍
 # + establish .venv
-#bash_source_加载 "$_B00T_C0DE_Path/./bash.🔨/init.*.🐍.*sh"
-#source .venv/bin/activate
+bash_source_加载 "$_B00T_C0DE_Path/./bash.🔨/init.*.🐍.*sh"
+source .venv/bin/activate
 
 ## Typescript & Node
 # bash_source_加载 "$_B00T_C0DE_Path/./bash.🔨/init.*.🚀.*.sh"
