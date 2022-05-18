@@ -2,20 +2,29 @@
 
 This is a sketch of my project.  Written for many audiences.  Everybody has their own process for launching a startup. 
 
-# The VegeMight Stack (VMs) 
-For those curious HOW this will be done, please review/comment on [techstack.md]() or [contribute.md]()
+# TECH: VegeMight Stack (VMs) 
+For those curious HOW this will be done, please review/comment on [notes/techstack.md]() or [contribute.md]()
 
-# What is the 𝒞andꭵ-𝔇⍺𝑡𝑒 Crypto-Mint Coin-Operated Co. ?
+# Welcome to 𝒞andꭵ-𝔇⍺𝑡𝑒 Crypto-Mint-Contract & Coin-Op Game Co.
 
-𝒞andꭵ-𝔇⍺𝑡𝑒 "🍬" is a Coin-Operated Blockchain Web3 "gamified experience" to assist engineers find permanent or casual employment.  
+𝒞andꭵ-𝔇⍺𝑡𝑒 "🍭" is a Coin-Operated Blockchain Web3 "gamified experience" to assist engineers find permanent or casual employment.   Candi-Date will hopefully make the sting of rejection feel a bit sweeter. 
 
-𝒞andꭵ-𝔇⍺𝑡𝑒's approach to agent assisted - asynchronous job-search is well suited toward highly specialized technical job roles such as engineers and scientists.
+𝒞andꭵ-𝔇⍺𝑡𝑒's approach to cognitive-software agent assisted - asynchronous global job-search is well suited toward highly specialized technical job roles such as engineers and scientists.  These often have diverse specialized skill requirements and people with complex evaluation criteria (skills/stack, job location, language, hours, commute, perks, etc.)
 
-If you are un-employed or under-employed technical Engineer or Scientst (*OR* seeking the latter) then 𝒞andꭵ-𝔇⍺𝑡𝑒 is being built for you.  By now you realize the system is broken, we must adapt to the new world. 
+If you are un-employed or under-employed technical Engineer, Programmer or Scientst (*OR* seeking the latter) then 𝒞andꭵ-𝔇⍺𝑡𝑒 is being built for you.  By now you realize covid broke the job-search by creating thousands of different Work-from-your-arse scenarios, searching is tedium, we must adapt to the new world. 
 
-𝒞andꭵ-𝔇⍺𝑡𝑒 is a unique way new way to speed-match peoples & roles in gamified rounds called "Candy Dates" based on natural language conversational processing in chat with contextually aware cognitive agents.  The tedium of looking for work is best suited to a personalized algorithm. 
+𝒞andꭵ-𝔇⍺𝑡𝑒 is a unique way new way to speed-match peoples & roles in agent-assisted gamified rounds called "Candy Dates" based on natural language conversational processing.  The chat is done with contextually aware cognitive agents representing both sides.  The tedium of looking for work is best suited to a personalized algorithm which is individually curated using a process known as "supervision", but ultimately candy-dates are like sending your robot mate to find a date.   The interaction between the two agents is moderated by Errs "👽" the Electronic Records Retention system. 
 
-𝒞andꭵ-𝔇⍺𝑡𝑒 hopes to disrupt the present-day hiring/job seeker paradigm that is wasteful and unsuited toward hiring technical person.  🍬 accesses a global workforce using blockchains & Proof of Stake ("🥩") as a means to build trust and demonstrate a companies commitment.  The nominally paid interview is gamified to incentivize the candidate to answer and to provide both parties with a more transparent approach to the entire process. 
+𝒞andꭵ-𝔇⍺𝑡𝑒 hopes to disrupt the present-day assymetric hiring/job seeker paradigm that is time wasteful and where job descriptions are often 'aspirational' and written in ways that they do not properly capture the factors which are the basis of evalulation criteria.  Especially since many companies that have embraced WFH are able to hire from a global candidate pool - the historical hiring methods are absolutely inadequate. 
+
+The "🍭" Candi-Date expects accesses a global workforce using blockchains & Proof of Stake "🥩" ("steak"), with the employees/contractors offering 🍷 ("wine") as a means to build trust and demonstrate mutual commitment to meeting on a Candy-Date.  The Candy Date offers both parties nominal compensation for attending the interview, and is gamified to incentivize the candidate to answer once using a block-chain and for provide both parties with a more transparent approach to the entire process.  Companies which like the old (broken) way of hiring, this is not for you. 
+
+Finally, for large companies which already have agents screening their incoming resumes, this system is envisioned as an API driven feed for whatever you've already got. 
+
+# Work in Progress
+
+Building a company is lonely.  I'm hoping for one or more co-founders, technical-recruiters or other interested parties to flesh out these ideas. 
+
 
 ```mermaid
 sequenceDiagram
@@ -70,8 +79,10 @@ sequenceDiagram
 
 ```
 
-Ultimately there are too many micro-reasons a job might or might not be a good fit.
+# What types of criteria?
+Ultimately there are too many micro-reasons a job may or may not be a good fit. 
 
+```
     Location
         Nearby
             Can Walk
@@ -98,15 +109,15 @@ Ultimately there are too many micro-reasons a job might or might not be a good f
         My gender identify is not listed
         Prefer not to say
     Disability
-        Prove you are human
+    Captchas - Prove you are human
 
-    have you served in the Ethopian Armed Forces
+    have you served in the Some-Country Armed Forces
         Yes
         No
         Prefer not to say
 
 https://www.useweb3.xyz/engineering-jobs?page=2
-
+```
 
 
 * PROFFER
