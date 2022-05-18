@@ -7,7 +7,7 @@ For those curious HOW this will be done, please review/comment on [techstack.md]
 
 # Welcome to 𝒞andꭵ-𝔇⍺𝑡𝑒 Crypto-Mint-Contract & Coin-Op Game Co.
 
-Candi-Date (𝒞andy-𝔇⍺𝑡𝑒) "🍭" is a Coin-Operated Blockchain Web3 "gamified experience" to assist engineers find permanent or casual employment.   The project hopes to make the process of becoming employed a bit sweeter and certainly less sour.
+Candi-Date (𝒞andy-𝔇⍺𝑡𝑒) "🍭" is a Coin-Operated Blockchain Web3 "gamified experience" to assist engineers find permanent or casual employment.   The project hopes to make the process of becoming employed a bit sweeter or at least less sour.
 
 𝒞andꭵ-𝔇⍺𝑡𝑒's approach to cognitive-software agent assisted - asynchronous global job-search is well suited toward technically advanced (STEM) job roles such as engineers and scientists.  These neuro-diverse persons often have diverse specialized  requirements and complex evaluation criteria (skills/tech-stack, job location, language, hours, commute, perks, etc.)
 
@@ -23,7 +23,7 @@ Finally, for those large companies which already have agents & filters screening
 
 # Work in Progress
 
-Building a company is lonely.  I'm searching for one or more co-founders, ideally outside my immediate friends circle, technical-recruiters or other interested parties to flesh out these ideas.  This is me (http://bit.ly/resume-brianhorakh)[http://bit.ly/resume-brianhorakh]
+Building a company is lonely.  I'm searching for one or more co-founders, ideally outside my immediate friends circle, technical-recruiters or other interested parties to flesh out these ideas.  This is me [](http://bit.ly/resume-brianhorakh)
 
 
 ```mermaid
@@ -57,24 +57,27 @@ sequenceDiagram
     E ->> AgB: role 🥐 WAITING
     AgB->>AgB: SCAN SUMMARY
 
-    Note over AgC,AgB: 🧠🤖🍷💌🥩🧻🤖🧠 agents negotiate 
+    Note over AgC,AgB: 🍭 = 🧠+(🤖🍷) (💌🧻) (🥩🤖)+🧠 agents negotiation example:
 
     AgB ->> AgC: REQUEST PUBLIC 🧻, proffer 1🍷 & identity
     AgC ->> AgB: transmit PUBLIC 🧻
     AgB -->> AgC: send 1🍷 expect 1🥩, SKILLS: partial (incomplete), IS sufficient?
 
-    AgC ->> AgB: Vaccination Status
+    Note over AgC,AgB: Non-negotiables
+    AgC ->> AgB: 🦠 Vaccination Status? 
     AgB ->> AgC: Yes 👍 
-    AgC ->> AgB: ATTACH FILE request
-    AgB ->> AgC: DONE
-        
+    AgC ->> AgB: send VAX CERTIFICATE request, OFFER 1🥩
+    AgB -->> AgC: OKAY 😁👍
     
-    Note over AgC,AgB: TODO: 🤮 UNACCEPTABLE
-    Note over AgC,AgB: TODO: 🥸 DISCLOSE MORE
-    Note over AgC,AgB: TODO: 😁 HAPPY
+    AgB ->> AgC: 👪 Must Leave office by 3pm (childcare)
+    AgC ->> AgB: No 👎, hours 9am - 5pm
+    AgB ->> AgC: Work from Home OKAY?
+    AgC -->> AgB: OKAY 😁👍
 
-    AgC ->> AgB: transmit REQUEST 💌 + 1🍬 "Candy Date" OFFER 0.50🥩 EXPECT 0🍷
-    AgB->>AgB: SCAN SUMMARY
+
+    Note over AgC,AgB: TODO: 🤮 UNACCEPTABLE
+    Note over AgC,AgB: TODO: 🥸 REQUIRE DISCLOSE MORE
+    Note over AgC,AgB: TODO: 😁 🍭 create CANDY DATE for 🧻
 
 
 ```
@@ -115,6 +118,9 @@ Ultimately there are too many micro-reasons a job may or may not be a good fit.
         Yes
         No
         Prefer not to say
+
+    scheduling meeting, rescheduling.
+
 
 https://www.useweb3.xyz/engineering-jobs?page=2
 ```
