@@ -5,6 +5,15 @@
 #
 
 
+if ! command -v argc &> /dev/null
+then
+    # argc is a rust alternative to bash getopt
+    # it is auto-installed later
+    # 🤓 https://github.com/sigoden/argc/blob/main/examples/demo.sh
+    eval "$(argc $0 "$@")"
+fi
+
+
 # usage:
 #   source "./_b00t_.bashrc"
 #   may also *eventually* run via commandline. 
@@ -754,6 +763,23 @@ function has_sudo() {
 #  "c": 3
 #}'
 #}
+
+
+
+# RUST
+source $HOME/.cargo/env
+
+
+# nvm (node version manager)
+if ! command -v nvm &> /dev/null
+then 
+    export NVM_DIR="$HOME/.nvm"
+    [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+    [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  #
+fi
+
+
+
 
 
 ##
