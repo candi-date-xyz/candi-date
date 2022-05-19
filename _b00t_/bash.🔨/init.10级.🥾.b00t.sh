@@ -1,17 +1,30 @@
 
+set -o xtrace
+
+if [ -z "$_B00T_C0DE_Path" ] ; then 
+    _B00T_C0DE_Path="./."
+fi
+source "$_B00T_C0DE_Path/_b00t_.bashrc"
+
+
 ## * * * *// 
 #* Purpose: imports standard bash behaviors
 #*          for consistent handling of parameters
 #*
 ## * * * *//
+if [ -v $SUDO_CMD ] ; then
+    SUDO_CMD="sudo"
+fi
 
-$SUDO_CMD apt-get -y upgrade && $SUDO_CMD apt-get -y update
+set -euxo pipefail
+
+
+$SUDO_CMD apt-get upgrade -y && $SUDO_CMD apt-get -y update
 
 # apt-transport-https is for google/k8, others. 
-$SUDO_CMD sudo apt-get install build-essential procps curl file git apt-transport-https ca-certificates 
+$SUDO_CMD apt-get -y install build-essential procps curl file git apt-transport-https ca-certificates 
 
 # Boot functions
-source "$_B00T_C0DE_Path/_b00t_.bashrc"
 ARCH="$(uname -m | cut -b 1-6)"
 
 # moved to _b00t_.bashrc
@@ -78,17 +91,18 @@ function mkdir_命令() {
 ## 命令 // 
 
 
-if n0ta_xfile_📁_好不好 "~/.local/bin/webi"  ; then
+if n0ta_xfile_📁_好不好 webi ; then
+    # webi is a super easy package installer
     log_📢_记录 "🥾🕸️ install webi the web installer - (http://webinstall.dev)"
     curl -sS https://webinstall.dev/webi | bash
-    export PATH="/home/w1ndy/.local/bin:$PATH"
 fi
+
 
 # webi offers an alternative (but not cross platform i think)
 if n0ta_xfile_📁_好不好 "~/.local/bin/dotenv" ; then
     # TODO: wtf - not https://github.com/bashup/dotenv? 
     # TODO: chezmoi - https://github.com/twpayne/chezmoi
-    log_📢_记录 "🕸️.webi dotenv $cmd"
+    log_📢_记录 "🕸️.webi dotenv"
     webi dotenv@stable
 fi
 
@@ -100,53 +114,17 @@ fi
 # 🍰 wget- HTTP i/o 
 # 🍰 curl- HTTP i/o 
 
-if  [ ! -x "/bin/sed" ] || \
-     [ ! -x "/usr/bin/fzf" ] || \
-     [ ! -x "/usr/bin/jq" ] || \
-     [ ! -x "/usr/bin/wget" ]  ; then
+if  [ ! command -v "/bin/sed" &> /dev/null ] || \
+     [ ! command -v "/usr/bin/fzf" &> /dev/null ] || \
+     [ ! command -v "/usr/bin/jq" &> /dev/null ] || \
+     [ ! command -v "/usr/bin/wget" &> /dev/null ]  ; then
     $SUDO_CMD apt-get install -y sed fzf jq wget curl
     # curl -sS https://webinstall.dev/jq | bash
     # 
 fi
 
 
-if n0ta_xfile_📁_好不好 "~/.local/bin/fd"  ; then
-    ## some other applications we'll need
-    # 🤓 https://github.com/sharkdp/fd#installation
-    #$SUDO_CMD apt-get install -y fd-find
-    log_📢_记录 "😇.install fd-find helper (fd)"
-    webi fd@stable
-
-    #$SUDO_CMD mkdir -p ~/.local/bin
-    #$SUDO_CMD ln -s $(which -b fdfind) ~/.local/bin/fd
-    #alias fd="/usr/bin/fdfind"
-fi
-
-if n0ta_xfile_📁_好不好 "/usr/bin/rg" ; then
-    # RipGrep, needs something higher than v10 included with ubuntu
-    # 🤓 https://github.com/BurntSushi/ripgrep#installation
-    pwdwas=`pwd`
-    tmpdir=$(mktemp -d)
-    cd $tmpdir
-    log_📢_记录 "😇.install ripgrep (rg) $ARCH"
-    case "$ARCH" in
-        "x86_64")
-            curl -LO https://github.com/BurntSushi/ripgrep/releases/download/12.1.1/ripgrep_12.1.1_amd64.deb
-            $SUDO_CMD dpkg -i "$tmpdir/ripgrep_12.1.1_amd64.deb"
-            ;;
-        "armv7l")
-            curl -LO https://github.com/BurntSushi/ripgrep/releases/download/12.1.1/ripgrep-12.1.1-arm-unknown-linux-gnueabihf.tar.gz
-            tar -xvzf ripgrep-12.1.1-arm-unknown-linux-gnueabihf.tar.gz
-            $SUDO_CMD cp -v ripgrep-12.1.1-arm-unknown-linux-gnueabihf/rg /usr/local/bin/rg
-            ;;
-        *)
-            log_📢_记录 "😇👽.ripgrep $ARCH is unsupported!"
-            ;;
-    esac
-    cd $pwdwas
-    #OR .. sudo apt-get install ripgrep
-fi
-
+# https://en.wikibooks.org/wiki/Bash_Shell_Scripting/Whiptail
 ## not presently using whiptail. 
 #if n0ta_xfile_📁_好不好 "/usr/bin/whiptail" ; then 
 #    # whiptail makes interactive menus
@@ -155,39 +133,6 @@ fi
 #    $SUDO_CMD apt-get install -y whiptail
 #fi
 
-if n0ta_xfile_📁_好不好 "/usr/bin/batcat" ; then 
-    log_📢_记录 "😇.install batcat (bat), replaces cat"
-    URL=""
-    case $ARCH in
-        armv7l)
-            URL="https://github.com/sharkdp/bat/releases/download/v0.18.0/bat_0.18.0_armhf.deb" 
-            ;;
-        arm64) 
-            URL="https://github.com/sharkdp/bat/releases/download/v0.18.0/bat_0.18.0_arm64.deb"
-            ;;
-        x86_64)
-            URL="https://github.com/sharkdp/bat/releases/download/v0.18.0/bat_0.18.0_amd64.deb"
-            ;;
-        *) 
-            log_📢_记录 "😇🐛 unsupported platform $ARCH"
-            ;;
-    esac
-    if [ -n "$URL" ] ; then 
-        log_📢_记录 "😇batcat URL: $URL "
-        pwdwas=`pwd`
-        tmpdir=$(mktemp -d)
-        cd $tmpdir && curl -LO $URL
-        FILENAME=$(basename $URL)
-        dpkg -i "$tmpdir/$FILENAME"
-        cd $pwdwas
-        #$SUDO_CMD apt install -y ./$FILENAME
-        # $SUDO_CMD apt-get install -y bat
-        #$SUDO_CMD mkdir -p ~/.local/bin
-        #ln -s /usr/bin/batcat ~/.local/bin/bat
-        # example how to use batcat with fzf:
-        # fzf --preview 'batcat --style numbers,changes --color=always {} | head -50'
-    fi
-fi
 
 ##### 
 ## after a lot of moving around, it's clear 
@@ -210,13 +155,13 @@ else
     isYQokay=$(is_v3rs10n_大于 "$YQ4_MIN_VERSION" $currentYQver)
     if [ ! "$isYQokay" = false ] ; then
         # TODO: consent
-        log_📢_记录 "👻👼 insufficient yq --version $1, f1x1ng."
+        log_📢_记录 "👻👼 insufficient yq --version, f1x1ng."
         installYQ=true
         # $SUDO_CMD snap remove yq
         # $SUDO_CMD apt-get remove yq
-        $SUDO_CMD rm /usr/bin/yq4 
-        $SUDO_CMD rm /usr/local/bin/yq4
-        $SUDO_CMD rm ~/.local/bin/yq4
+        $SUDO_CMD rm -f /usr/bin/yq4 
+        $SUDO_CMD rm -f /usr/local/bin/yq4
+        $SUDO_CMD rm -f ~/.local/bin/yq4
     fi
 fi
 
@@ -275,4 +220,4 @@ if [ -z "$PATHMAN_EXISTS " ] ; then
 fi
 pathman add ~/.local/bin
 
-$SUDO_CMD apt install uni2ascii  ascii2uni
+$SUDO_CMD apt install uni2ascii 
