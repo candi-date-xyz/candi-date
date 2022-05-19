@@ -8,7 +8,6 @@ bierner.markdown-mermaid
 bierner.markdown-preview-github-styles
 bierner.markdown-yaml-preamble
 bungcip.better-toml
-CoenraadS.bracket-pair-colorizer-2
 dustypomerleau.rust-syntax
 eamodio.gitlens
 evgeniypeshkov.syntax-highlighter
@@ -49,7 +48,7 @@ PolyMeilex.rust-targets
 serayuzgur.crates
 shd101wyy.markdown-preview-enhanced
 Swellaby.vscode-rust-test-adapter
-Testy.vscode-testyts-test-adapter
+#Testy.vscode-testyts-test-adapter
 tht13.python
 vadimcn.vscode-lldb
 ZhangYue.rust-mod-generator

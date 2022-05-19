@@ -1,9 +1,26 @@
 #!/bin/bash
 
 
+
+# TODO: test for pipx
+# 
+if [ -n "$(whereis register-python-argcomplete3)" ] ; then 
+    echo "🦨++ installing python3-argcomplete + pipx"
+    sudo apt install python3-argcomplete pipx -y
+fi 
+if [ -n "$(whereis register-python-argcomplete3)" ] ; then 
+    eval "$(register-python-argcomplete3 pipx)"
+    # pipx run
+fi 
+#sudo add-apt-repository ppa:deadsnakes/ppa
+#sudo apt-get install python3.10
+
+# pipx install python
+
+
 # FUTURE: almost ready to start install requirements, for python
 
-source "/c0de/_b00t_/_b00t_.bashrc"
+source "./_b00t_.bashrc"
 
 txtFiles=( `/usr/bin/fdfind --color=always -t f '\.txt$'` )
 for file in ${txtFiles[@]}; do

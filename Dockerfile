@@ -54,20 +54,23 @@ RUN echo "🥾🐳 1n1t" && echo "STAGE: ${STAGE} arrgh: ${arrgh}"
 ## make logs persistent 
 VOLUME ["/var/log" ]
 
+## the git repo's will be mounted here. 
+VOLUME ["/c0de" ]
+
 ## 
 # Howto setup squid proxy as a sidecar container and have APT use it.
 ## https://www.serverlab.ca/tutorials/linux/administration-linux/how-to-set-the-proxy-for-apt-for-ubuntu-18-04/
-ENV http_proxy="${http_proxy}" https_proxy="${https_proxy}"
-RUN \
-if [ -n "$http_proxy" ]; then \
-    echo "🥾🦑😀 squ1d"; \
-    echo "Acquire { \
-  HTTP::proxy \"$http_proxy\"; \
-  HTTPS::proxy \"$https_proxy\"; \
-}" > /etc/apt/apt.conf.d/http_proxy_b00t_squid;  \
-else \
-    echo "🥾🦑🌵 squ1d"; \
-fi 
+#ENV http_proxy="${http_proxy}" https_proxy="${https_proxy}"
+#RUN \
+#if [ -n "$http_proxy" ]; then \
+#    echo "🥾🦑😀 squ1d"; \
+#    echo "Acquire { \
+#  HTTP::proxy \"$http_proxy\"; \
+#  HTTPS::proxy \"$https_proxy\"; \
+#}" > /etc/apt/apt.conf.d/http_proxy_b00t_squid;  \
+#else \
+#    echo "🥾🦑🌵 squ1d"; \
+#fi 
 
 RUN echo "apt update -y && apt upgrade -y && apt-get install -y apt-utils"
 

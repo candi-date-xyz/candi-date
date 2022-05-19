@@ -577,7 +577,8 @@ function motd() {
     elif [ $motdWidth -gt $(echo $myWidth - 13 | bc) ] ; then
         # bat needs +13 columns
         showWithCMD="cat"
-    elif ! command -v bat &> /dev/null then
+    elif ! command -v bat &> /dev/null 
+    then
         # bat needs +13 columns
         showWithCMD="cat"
     else

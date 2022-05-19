@@ -1,5 +1,6 @@
+
 #* 进口v2 🥾 ALWAYS load c0re Libraries!
-source "$_B00T_C0DE_Path/_b00t_.bashrc"
+#source "./_b00t_.bashrc"
 
 
 ## * * * *// 

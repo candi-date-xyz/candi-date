@@ -40,6 +40,7 @@ FUTURE:
 * purchasing, order reconciliation & accounting, customer service, HR (using zero code i.e. node-red, appsmith or Az durable functions)
 
 These capabilities are rolled up into interactive macros called 'tasks', which when grouped together are called a 'toil'.
+
 The skills are build in an 'oregon trail' where the operator must decide which tasks are 'worthy' of receiving operating cycles, and what (if any) resources must be used for discovery & digestion of new skills.  In some cases the operator may (such as using a mouse, joystick, voice, etc.) "fit" the AI by helping it assemble, compile, etc.  to teach skills, explain materials, objects, etc.  
 
 The main cost with a system like this is the operational cost might doesn't work the same as an employee.

@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# setup the dev/test/prod environment.
+
+
 # set -o errexit    # Used to exit upon error, avoiding cascading errors
 set -o nounset    # Exposes unset variables, strict mode. 
 trap "set +o nounset" EXIT  # restore nounset at exit, even in crash!
@@ -27,8 +30,7 @@ set -a
 #echo
 # ------------- CALLED ------------- #
 
-#* 进口v2 🥾 ALWAYS load c0re Libraries!
-
+#* 进口v2 🥾 ALWAYS load _b00t_ 
 
 #  _b00t_ is *mostly* a bunch of shell aliases
 source "./_b00t_.bashrc"
@@ -62,9 +64,23 @@ fi
 if ! command -v bat &> /dev/null
 then
   # 🤓 https://github.com/sharkdp/bat
-  log_📢_记录 "🥾🦀🪂 installing argc with rust:cargo"
+  log_📢_记录 "🥾🦀🪂 installing sharkdp/bat with rust:cargo"
   cargo install bat
 fi
+
+# Command 'fdfind' not found, but can be installed with:
+if ! command -v fdfind &> /dev/null
+then
+  # 🤓 https://github.com/sharkdp/bat
+  log_📢_记录 "🥾🐧🍏 installing sharkdp/fd with apt"
+  sudo apt -y install fd-find
+fi
+
+if ! command -v entr &> /dev/null 
+  log_📢_记录 "🥾🐧🍏 install entr  (run command on change)"
+  sudo apt install entr
+fi
+
 
 # 🐙 github 'gh' client
 if ! command -v gh &> /dev/null
@@ -85,6 +101,8 @@ fi
 #    # docker context ls
 #fi
 
+
+
 # ☁️ cloud -cli's
 function az_cli () {
     # local args=("$@")
@@ -93,6 +111,7 @@ function az_cli () {
 alias az="az_cli"
 alias aws='docker run --rm -it -v ~/.aws:/root/.aws -v $(pwd):/aws amazon/aws-cli'
 alias gcp="docker run --rm -ti --name gcloud-config google/cloud-sdk gcloud "
+
 
 
 
@@ -108,10 +127,8 @@ if [ -n "$(whereis register-python-argcomplete3)" ] ; then
 fi 
 #sudo add-apt-repository ppa:deadsnakes/ppa
 #sudo apt-get install python3.10
-
 # pipx install python
 
-exit;
 
 #############################
 ###
