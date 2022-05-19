@@ -22,6 +22,9 @@
 # 🤓 Buildkit syntax 
 # https://github.com/moby/buildkit/blob/master/frontend/dockerfile/docs/syntax.md
 
+# PODMAN on WSL2
+# https://dev.to/thangchung/start-podman-on-wsl2-in-4-steps-3jn9
+
 # docker CLI syntax
 # -f   ::  changes context
 
@@ -40,6 +43,7 @@
 # ${variable:+word} ndicates that if variable is set then word will be the result, otherwise the result is the empty string.
 
 
+
 #### 
 # Step1: init
 # https://hub.docker.com/_/ubuntu
@@ -56,21 +60,6 @@ VOLUME ["/var/log" ]
 
 ## the git repo's will be mounted here. 
 VOLUME ["/c0de" ]
-
-## 
-# Howto setup squid proxy as a sidecar container and have APT use it.
-## https://www.serverlab.ca/tutorials/linux/administration-linux/how-to-set-the-proxy-for-apt-for-ubuntu-18-04/
-#ENV http_proxy="${http_proxy}" https_proxy="${https_proxy}"
-#RUN \
-#if [ -n "$http_proxy" ]; then \
-#    echo "🥾🦑😀 squ1d"; \
-#    echo "Acquire { \
-#  HTTP::proxy \"$http_proxy\"; \
-#  HTTPS::proxy \"$https_proxy\"; \
-#}" > /etc/apt/apt.conf.d/http_proxy_b00t_squid;  \
-#else \
-#    echo "🥾🦑🌵 squ1d"; \
-#fi 
 
 RUN echo "apt update -y && apt upgrade -y && apt-get install -y apt-utils"
 
@@ -198,4 +187,21 @@ WORKDIR /c0de/_b00t_/
   
 CMD [ "/bin/bash", "-c", "/c0de/_b00t_/_b00t_.bashrc"]
 
+sudo service dbus start
+sudo dbus-daemon --system
 
+ systemctl status --system
+ systemctl status --user
+
+systemctl --user daemon-reload
+systemctl restart dbus
+
+
+# Failed to connect to bus: $DBUS_SESSION_BUS_ADDRESS and $XDG_RUNTIME_DIR not defined (consider using --machine=<user>@.host --user to connect to bus of other user)
+
+
+# FUTURE RESEARCH
+# https://y0n1.medium.com/using-podman-with-the-docker-extension-for-visual-studio-code-a828be26d285
+
+# https://hub.docker.com/r/grycap/scar/
+# https://github.com/cockpit-project/cockpit-podman
