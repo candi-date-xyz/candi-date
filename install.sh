@@ -106,18 +106,38 @@ fi
 source ./_b00t_/bash.🔨/init.10级.🥾.b00t.sh  
 source ./_b00t_/bash.🔨/init.20级.🐧.linux.sh
 
+# moreutils
+# chronic: runs a command quietly unless it fails
+# combine: combine the lines in two files using boolean operations
+# errno: look up errno names and descriptions
+# ifdata: get network interface info without parsing ifconfig output
+# ifne: run a program if the standard input is not empty
+# isutf8: check if a file or standard input is utf-8
+# lckdo: execute a program with a lock held
+# mispipe: pipe two commands, returning the exit status of the first
+# parallel: run multiple jobs at once
+# pee: tee standard input to pipes
+# sponge: soak up standard input and write to a file
+# ts: timestamp standard input
+# vidir: edit a directory in your text editor
+# vipe: insert a text editor into a pipe
+# zrun: automatically uncompress arguments to command
+
+
 # https://git-scm.com/book/en/v2/Git-Basics-Git-Aliases
 source ./_b00t_/bash.🔨/init.22级.🐙.git.sh
 source ./_b00t_/bash.🔨/init.30级.🐳.层.docker.sh
 
+# probably not necessary (yet)
+# source ./_b00t_/bash.🔨/init.40级.🦬.语.c++.sh
 #init.32级.💠.层.hashicorp.sh
 #init.34级.⚙️.层.k8.sh
 
-# source ./_b00t_/bash.🔨/init.40级.🦬.语.c++.sh
 source ./_b00t_/bash.🔨/init.41级.🐍.语.python.sh
-#init.41级.🚀.语.node.sh
-#init.42级.🦄.语.typescript.sh
-#init.43级.🥷.语.vue.sh
+
+source ./_b00t_/bash.🔨/init.41级.🚀.语.node.sh
+#source ./_b00t_/bash.🔨/init.42级.🦄.语.typescript.sh
+#source ./_b00t_/bash.🔨/init.43级.🥷.语.vue.sh
 #init.44级.☕.语.java.sh
 #init.44级.🏇.语.go.sh
 #init.44级.🪆.语.rust.sh
@@ -202,7 +222,7 @@ if debInst "moreutils" ; then
     #fi 
 else
     log_📢_记录  "😲 install moreutils (required)"
-    $SUDO_CMD apt-get install -y moreutils
+    $SUDO_CMD apt-get install -y moreutils fzf
 fi
 
 

@@ -12,6 +12,7 @@ source "$_B00T_C0DE_Path/_b00t_.bashrc"
 #*          for consistent handling of parameters
 #*
 ## * * * *//
+set +euxo pipefail
 if [ -v $SUDO_CMD ] ; then
     SUDO_CMD="sudo"
 fi
@@ -221,3 +222,5 @@ fi
 pathman add ~/.local/bin
 
 $SUDO_CMD apt install uni2ascii 
+
+set +euxo pipefail

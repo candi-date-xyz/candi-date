@@ -70,3 +70,4 @@ $SUDO_CMD apt-get install -y software-properties-common
 # FUTURE: 
 # https://nixos.org/
 
+set +euxo pipefail
