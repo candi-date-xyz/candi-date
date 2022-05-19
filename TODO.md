@@ -1,26 +1,25 @@
 
 ![GitHub Workflow Status](https://img.shields.io/github/workflow/status/elasticdotventures/candydated0txyz/build)
 
+
+- [x] #739
+- [ ] https://github.com/octo-org/octo-repo/issues/740
+- [ ] Add delight to the experience when all tasks are complete :tada:
+
+
 # A. Priority (top)
-* register domain name candydate.xyz
-    * newsletter signup. ?
-
-    * Candi-Date.xyz
-    * Candi-Date.me 
-    * Candi-Date.com
-    * Candi-Date.
-    
-
-* register candydate.eth
-    * accept wallet
-* cleanup build actions
+- [ ] register domain name candi-date.me
+- [ ] newsletter signup. ?
+- [ ] register candi-date.eth
+- [ ] accept wallet
+- [x] cleanup build actions
 
 # B. Priority (middle)
-* finish removing _b00t_
+- [ ] finish removing _b00t_
 
 # C. Priority (hard)
-* create a pull request for _b00t_ repo to receive changes. 
-* train models to process the same neutral data format. 
+- [x]  create a pull request for _b00t_ repo to receive changes (not possible! wtf. )
+- [ ] train models to process the same neutral data format. 
 
  .  At some point when this is finished, this is a cargo and ios.🍎/windows/android.-linux/mac package install
 
