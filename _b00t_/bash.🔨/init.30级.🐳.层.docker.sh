@@ -1,12 +1,13 @@
 # should be run by _b00t_
-source "$_B00T_C0DE_Path/_b00t_.bashrc"
 
 ## THIS COMMAND SEEMS TO WORK FOR DOCKER IN DOCKER. 
 # docker run -d --name systemd-ubuntu --tmpfs /tmp --tmpfs /run --tmpfs /run/lock  --mount type=bind,source="/c0de",target="/c0de"  --privileged -v /var/run/docker.sock:/var/run/docker.sock -v /sys/fs/cgroup:/sys/fs/cgroup:ro jrei/systemd-ubuntu
 # requires systemd-ubuntu base image. 
 
+# this was switched to podman. still called docker, needs love.
+
 ## * * * *// 
-#* 🐳Docker!
+#* 🐳 Podman!
 ## * * * *\\
 
 # Arm32v7 docker hub (for rpi🥧)
@@ -15,50 +16,67 @@ source "$_B00T_C0DE_Path/_b00t_.bashrc"
 # REMEMBER:
 #  * Obsolete: Swarm => K8, C-Groups => Systemd
 
-## 鲸 \\
-# Jīng :: Whale
-
-log_📢_记录 "🤓 normal for docker Not Be Found:"
-WHATIS_DOCKER_VERSION=`docker -v`
-if [ $? -ne 0 ]; then
-    log_📢_记录 "💙 installing Docker"
-    ##* * * * \\
-    #* 🤓 Before you install Docker Engine for the first time on a new host machine, 
-    #* you need to set up the Docker repository. Afterward, you can install and update 
-    #* Docker from the repository.
-
-    # docker not installed
-    # https://docs.docker.com/engine/install/ubuntu/
-    # 🐳 Remove Old Versions
-    $SUDO_CMD apt-get remove -y docker docker-engine docker.io containerd runc
-    # 🐳🧹
-    $SUDO_CMD apt-get -y update
-    # 🐳 Install required modules 
-    $SUDO_CMD apt-get -y install \
-        apt-transport-https \
-        ca-certificates \
-        curl \
-        gnupg \
-        lsb-release
-    # 🐳 Add Dockers official GPG Key
-    DOCKER_GPG_KEYRING="/usr/share/keyrings/docker-archive-keyring.gpg"
-    if [ ! -f $DOCKER_GPG_KEYRING ] ; then
-        curl -fsSL https://download.docker.com/linux/ubuntu/gpg | $SUDO_CMD gpg --dearmor -o $DOCKER_GPG_KEYRING  
-    fi 
-    # 🐳 Use the following command to set up the stable repository
-    echo \
-        "deb [arch=amd64 signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/ubuntu \
-        $(lsb_release -cs) stable" | $SUDO_CMD tee /etc/apt/sources.list.d/docker.list > /dev/null
-    # 🐳🧹
-    $SUDO_CMD apt-get update -y
-    # 🐳
-    $SUDO_CMD apt-get install -y docker-ce docker-ce-cli containerd.io
-    ##* * * * // 
+if [ -z "$_B00T_C0DE_Path" ] ; then 
+    _B00T_C0DE_Path="./."
 fi
+
+if [ -v $SUDO_CMD ] ; then
+    SUDO_CMD="sudo"
+fi
+
+source "$_B00T_C0DE_Path/_b00t_.bashrc"
+set -euxo pipefail
+
+$SUDO_CMD apt install -y docker-registry
+
+# log_📢_记录 "🤓 normal for docker Not Be Found:"
+# WHATIS_DOCKER_VERSION=`docker -v`
+# if [ $? -ne 0 ]; then
+#     log_📢_记录 "💙 installing Docker"
+#     ##* * * * \\
+#     #* 🤓 Before you install Docker Engine for the first time on a new host machine, 
+#     #* you need to set up the Docker repository. Afterward, you can install and update 
+#     #* Docker from the repository.
+
+#     # docker not installed
+#     # https://docs.docker.com/engine/install/ubuntu/
+#     # 🐳 Remove Old Versions
+#     $SUDO_CMD apt-get remove -y docker docker-engine docker.io containerd runc
+#     # 🐳🧹
+#     $SUDO_CMD apt-get -y update
+#     # 🐳 Install required modules 
+#     $SUDO_CMD apt-get -y install \
+#         apt-transport-https \
+#         ca-certificates \
+#         curl \
+#         gnupg \
+#         lsb-release
+#     # 🐳 Add Dockers official GPG Key
+#     DOCKER_GPG_KEYRING="/usr/share/keyrings/docker-archive-keyring.gpg"
+#     if [ ! -f $DOCKER_GPG_KEYRING ] ; then
+#         curl -fsSL https://download.docker.com/linux/ubuntu/gpg | $SUDO_CMD gpg --dearmor -o $DOCKER_GPG_KEYRING  
+#     fi 
+#     # 🐳 Use the following command to set up the stable repository
+#     echo \
+#         "deb [arch=amd64 signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/ubuntu \
+#         $(lsb_release -cs) stable" | $SUDO_CMD tee /etc/apt/sources.list.d/docker.list > /dev/null
+#     # 🐳🧹
+#     $SUDO_CMD apt-get update -y
+#     # 🐳
+#     $SUDO_CMD apt-get install -y docker-ce docker-ce-cli containerd.io
+#     ##* * * * // 
+# fi
 # 🐳💥
-DOCKER_isHappy=`$SUDO_CMD docker run hello-world`
-if [ -n "$DOCKER_isHappy" ] ; then
+
+
+
+DOCKER_isHappy=`podman info | sponge | grep -c "crun"`
+if [ "$DOCKER_isHappy" -lt 0 ] ; then
     echo "🐳💥 docker is br0ked. plz fix."
+else
+    echo "🐳😉 docker is podman."
+    alias docker="podman"
+    export docker
 fi
 
 
@@ -84,8 +102,8 @@ fi
 ## 鲸 //
 
 # enable on startup: 
-$SUDO_CMD systemctl enable docker.service
-$SUDO_CMD systemctl enable containerd.service
+#$SUDO_CMD systemctl enable docker.service
+#$SUDO_CMD systemctl enable containerd.service
 
 # TO DISABLE:
 # sudo systemctl disable docker.service
@@ -115,4 +133,4 @@ $SUDO_CMD systemctl enable containerd.service
 
 ## this should have been done back in _b00t_
 
-docker run -it bats/bats:latest --version
+podman run -it docker.io/bats/bats:latest --version

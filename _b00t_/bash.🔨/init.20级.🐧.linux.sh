@@ -4,20 +4,32 @@
 # SEARCH FOR A PACKAGE: 
 # apt-cache search libpackage
 
+if [ -z "$_B00T_C0DE_Path" ] ; then 
+    _B00T_C0DE_Path="./."
+fi
+
 source "$_B00T_C0DE_Path/_b00t_.bashrc"
 
 
 ## * * * *// 
 #* 🐧 Purpose: b00tstraps t0rvalds t00ls. ;-) 
-#* should be called directly from ./01-start.sh 
 ## * * * *\\
 
-if n0ta_xfile_📁_好不好 "/bin/sudo" "/usr/bin/sudo" ; then 
-    # this is correct (leaving for future linting)
-    log_📢_记录 "🐧😇 sudo"
-    $SUDO_CMD apt-get install -y sudo
+
+# Sudo should already be
+#if n0ta_xfile_📁_好不好 "/bin/sudo" "/usr/bin/sudo" ; then 
+#    # this is correct (leaving for future linting)
+#    log_📢_记录 "🐧😇 sudo"
+#    $SUDO_CMD apt-get install -y sudo
+#fi
+#apt-get install -y sudo
+
+if [ -v $SUDO_CMD ] ; then
+    SUDO_CMD="sudo"
 fi
-apt-get install -y sudo
+set -euxo pipefail
+
+
 
 # todo: setup io_streams, ebpf intercepts. 
 
@@ -25,7 +37,7 @@ apt-get install -y sudo
 ## For WSL - snapd won't work properly unless we also: 
 if [ -z "$(is_WSLv2_🐧💙🪟v2)" ] ; then
     log_📢_记录 "🐧😇 wsl2 setup"
-    $SUDO_CMD apt-get update && $SUDO_CMD apt-get install -y qq daemonize dbus-user-session fontconfig
+    $SUDO_CMD apt-get update && $SUDO_CMD apt-get install -y daemonize dbus-user-session fontconfig
 fi
 
 

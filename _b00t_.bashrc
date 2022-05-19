@@ -241,7 +241,7 @@ alias c='code $(fzf --height 40% --reverse)'
 
 # fd is same-same like unix find, but alt-featureset
 # for example - fd respects .gitignore (but output like find)
-if [ -f "/usr/bin/fdfind" ] ; then
+if ! command -v fdfind &> /dev/null ; then
     alias fd="/usr/bin/fdfind"
 fi
 
@@ -252,6 +252,18 @@ alias ymd="date +'%Y%m%d'"
 alias ymd_hm="date +'%Y%m%d.%H%M'"
 alias ymd_hms="date +'%Y%m%d.%H%M%S'"
 ##################
+
+## 鲸 \\
+# Jīng :: Whale
+if ! command -v docker &> /dev/null 
+then
+    log_📢_记录 "🥾🐳 whoa, real docker, not tested/supported"
+    exit 1
+else if [ command -v docker &> /dev/null ] ; 
+then
+    log_📢_记录 "🥾🐳 aliased docker to podman"
+    alias docker="podman"
+fi 
 
 
 
@@ -748,5 +760,5 @@ function has_sudo() {
 export _user="$(id -u -n)" 
 export _uid="$(id -u)" 
 echo "🙇‍♂️ \$_user: $_user  \$_uid : $_uid"
-set +o nounset 
+set +euxo nounset 
 

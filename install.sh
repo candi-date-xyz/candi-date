@@ -11,6 +11,10 @@ trap "set +o nounset" EXIT  # restore nounset at exit, even in crash!
 umask 000
 
 
+
+set -o xtrace
+
+
 # mark variables which are modified or created for export
 set -a 
 
@@ -48,8 +52,7 @@ fi
 if ! command -v gcc &> /dev/null
 then
   log_📢_记录 "🥾🦀 installing build-essentials"
-  sudo apt -y install build-essential
-  sudo apt -y install software-properties-common
+  sudo apt -y install build-essential software-properties-common
 fi
 
 
@@ -68,19 +71,28 @@ then
   cargo install bat
 fi
 
+# Command 'ripgrep' not found, but can be installed with:
+if ! command -v ripgrep &> /dev/null
+then
+  # 🤓 https://github.com/sharkdp/bat
+  log_📢_记录 "🥾🦀🥗 installing ripgrep with rust:cargo"
+  cargo install ripgrep
+fi
+
 # Command 'fdfind' not found, but can be installed with:
 if ! command -v fdfind &> /dev/null
 then
-  # 🤓 https://github.com/sharkdp/bat
-  log_📢_记录 "🥾🐧🍏 installing sharkdp/fd with apt"
-  sudo apt -y install fd-find
+  # 🤓 https://github.com/sharkdp/fd#installation
+  log_📢_记录 "🥾🦀🍏 installing sharkdp/fd with cargo"
+  cargo install fd-find
 fi
 
 if ! command -v entr &> /dev/null 
-  log_📢_记录 "🥾🐧🍏 install entr  (run command on change)"
-  sudo apt install entr
+then
+  # 🤓 http://eradman.com/entrproject/
+  log_📢_记录 "🥾🐧🍏 install entr (watch file for changes)"
+  sudo apt -y install entr
 fi
-
 
 # 🐙 github 'gh' client
 if ! command -v gh &> /dev/null
@@ -89,6 +101,42 @@ then
   wget https://github.com/cli/cli/releases/download/v2.10.1/gh_2.10.1_linux_amd64.deb
   sudo dpkg -i gh_2.10.1_linux_amd64.deb
 fi
+
+# 🥾 commands
+source ./_b00t_/bash.🔨/init.10级.🥾.b00t.sh  
+source ./_b00t_/bash.🔨/init.20级.🐧.linux.sh
+
+# https://git-scm.com/book/en/v2/Git-Basics-Git-Aliases
+source ./_b00t_/bash.🔨/init.22级.🐙.git.sh
+source ./_b00t_/bash.🔨/init.30级.🐳.层.docker.sh
+
+#init.32级.💠.层.hashicorp.sh
+#init.34级.⚙️.层.k8.sh
+
+# source ./_b00t_/bash.🔨/init.40级.🦬.语.c++.sh
+source ./_b00t_/bash.🔨/init.41级.🐍.语.python.sh
+#init.41级.🚀.语.node.sh
+#init.42级.🦄.语.typescript.sh
+#init.43级.🥷.语.vue.sh
+#init.44级.☕.语.java.sh
+#init.44级.🏇.语.go.sh
+#init.44级.🪆.语.rust.sh
+#init.50级.👾.云☁️.gcp.sh
+#init.50级.🤖.云☁️.azure.sh
+#init.50级.🥾.云☁️.local.sh
+#init.50级.🦉.云☁️.aws.sh
+#init.60级.🎙️💙.应用.vscode.sh
+#init.65级.🎙️🦚.应用.x11.sh
+#init.70级.☎️.msg.sh
+#init.70级.🎬.video.sh
+#init.70级.📱.mobile.sh
+#init.70级.🕹️.gamesim.sh
+#init.70级.🤑.ecommerce.sh
+#init.70级.🥯.crypto.sh
+#init.70级.🧄.vpn.sh
+#init.70级.🧠.ai.sh
+#init.80级.🐱‍💻.esp32.sh
+
 
 #if [ "/usr/bin/docker" ] ; then 
 #    echo "🐳 has d0cker! loading docker extensions"
@@ -100,6 +148,10 @@ fi
 #    # log_📢_记录 "🐳 CONTEXT: $DOCKER_CONTEXT"  
 #    # docker context ls
 #fi
+
+
+exit;
+
 
 
 

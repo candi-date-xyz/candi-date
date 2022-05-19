@@ -1,15 +1,19 @@
+
+
+if [ -z "$_B00T_C0DE_Path" ] ; then 
+    _B00T_C0DE_Path="./."
+fi
+
 # install Git & Utilities
 source "$_B00T_C0DE_Path/_b00t_.bashrc"
 
 # _b00t_ plans to make extensive use of:
 # https://github.com/actions/toolkit/
 # for deploying: 
-#   * azure static webpages
 
-
-log_📢_记录 "🐙😇 installing git"
+# log_📢_记录 "🐙😇 installing git"
 # $SUDO_CMD apt install -y git-all
-$SUDO_CMD apt-get install -y git
+# $SUDO_CMD apt-get install -y git
 
 # Set git to use the credential memory cache
 log_📢_记录 "🐙😇 setting up credential helper cache"
@@ -26,12 +30,13 @@ git config --global credential.helper 'cache --timeout=3600'
 # 🍰 https://www.techiediaries.com/install-github-cli-ubuntu-20/
 
 ## Github CLI
-log_📢_记录 "🐙🔐 adding keyserver.ubuntu.com to apt-key"
-$SUDO_CMD apt-key adv --keyserver keyserver.ubuntu.com --recv-key C99B11DEB97541F0
-log_📢_记录 "🐙😇 adding github cli as trusted repository for gh cli tool"
-$SUDO_CMD apt-add-repository https://cli.github.com/packages
-$SUDO_CMD apt update -y  # TODO: make -y optional
-$SUDO_CMD apt install -y gh
+#log_📢_记录 "🐙🔐 adding keyserver.ubuntu.com to apt-key"
+#$SUDO_CMD apt-key adv --keyserver keyserver.ubuntu.com --recv-key C99B11DEB97541F0
+
+#log_📢_记录 "🐙😇 adding github cli as trusted repository for gh cli tool"
+#$SUDO_CMD apt-add-repository https://cli.github.com/packages
+#$SUDO_CMD apt update -y  # TODO: make -y optional
+#$SUDO_CMD apt install -y gh
 
 
 # Install GH on rasperrypi
