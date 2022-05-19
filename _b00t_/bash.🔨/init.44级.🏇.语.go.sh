@@ -8,9 +8,13 @@ source "./_b00t_.bashrc"
 
 # future, go support. podman needed go.
 
+# go is required to build runc
+sudo apt install -y golang-go
+
 ## step2B: install/upgrade go
 # https://www.vultr.com/docs/install-the-latest-version-of-golang-on-ubuntu
 #WORKDIR /tmp
+# https://go.dev/dl/go1.18.2.linux-amd64.tar.gz
 #RUN wget https://golang.org/dl/go1.16.3.linux-amd64.tar.gz
 #RUN tar -C /usr/local -xzf go1.16.3.linux-amd64.tar.gz
 #RUN echo "export PATH=$PATH:/usr/local/go/bin" >> ~/.profile

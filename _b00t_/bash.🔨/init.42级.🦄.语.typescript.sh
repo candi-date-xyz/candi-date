@@ -1,7 +1,14 @@
 ## * * * *// 
 #* Purpose: 🦄 b00tstraps node & typescript
-#* should be called directly from ./01-start.sh 
+#* mostly placeholder
 ## * * * *\\
+
+set -o xtrace
+
+if [ -z "$_B00T_C0DE_Path" ] ; then 
+    _B00T_C0DE_Path="./."
+fi
+
 
 #* 进口v2 🥾 ALWAYS load c0re Libraries!
 source "$_B00T_C0DE_Path/_b00t_.bashrc"
@@ -23,40 +30,42 @@ source "$_B00T_C0DE_Path/_b00t_.bashrc"
 #   ])
 #
 
-curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -
+# curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -
 
 ## Run `sudo apt-get install -y nodejs` to install Node.js 14.x and npm
 
-## To install the Yarn package manager, run:
-     curl -sL https://dl.yarnpkg.com/debian/pubkey.gpg | gpg --dearmor | sudo tee /usr/share/keyrings/yarnkey.gpg >/dev/null
-     echo "deb [signed-by=/usr/share/keyrings/yarnkey.gpg] https://dl.yarnpkg.com/debian stable main" | sudo tee /etc/apt/sources.list.d/yarn.list     sudo apt-get update && sudo apt-get install yarn
+## 🧶 To install the Yarn package manager, run:
+curl -sL https://dl.yarnpkg.com/debian/pubkey.gpg | gpg --dearmor | sudo tee /usr/share/keyrings/yarnkey.gpg >/dev/null
+echo "deb [signed-by=/usr/share/keyrings/yarnkey.gpg] https://dl.yarnpkg.com/debian stable main" | sudo tee /etc/apt/sources.list.d/yarn.list     
+sudo apt-get update -y && sudo apt-get -y install yarn
 pathAdd "$HOME/.yarn/bin"
 
 # not even sure we need NPM. 
 # npm install -g npm@latest
 
 
-let name = 'foo bar'
-await $`mkdir /tmp/${name}`
-npm i -g zx
+# let name = 'foo bar'
+# await $`mkdir /tmp/${name}`
+# npm i -g zx
 # curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -
 # https://linuxize.com/post/how-to-install-node-js-on-ubuntu-20-04/#installing-nodejs-and-npm-from-nodesource
 
 
-# YARN Node package manager
+# YARN Node package manager (use method above)
 # 🤓 https://engineering.fb.com/2016/10/11/web/yarn-a-new-package-manager-for-javascript/
 # yarn add create
-if [ ! -x "/usr/local/bin/yarn" ]; then 
-    $SUDO_CMD npm install -g yarn
-    # yarn add $project
-    # npm init @vitejs/app <project-name>
-    # yarn create @vitejs/app <project-name>
-fi 
+#if [ ! -x "/usr/local/bin/yarn" ]; then 
+#    $SUDO_CMD npm install -g yarn
+#    # yarn add $project
+#    # npm init @vitejs/app <project-name>
+#    # yarn create @vitejs/app <project-name>
+#fi 
 
-
-yarn add nvm 
+#yarn add nvm 
 yarn add vue
-yarn create @vitejs/app
+
+# yarn create @vitejs/app <-- deprecated
+## yarn create vite
 
 # Docker SDK
 yarn add @docker/sdk
@@ -93,3 +102,4 @@ yarn add @docker/sdk
 # https://github.com/actions/setup-node         
 # https://github.com/marketplace/actions/github-action-for-yarn
 
+# https://github.com/Testy/TestyTs

@@ -25,6 +25,9 @@
 # PODMAN on WSL2
 # https://dev.to/thangchung/start-podman-on-wsl2-in-4-steps-3jn9
 
+# https://code.visualstudio.com/docs/remote/containers-tutorial
+
+
 # docker CLI syntax
 # -f   ::  changes context
 
@@ -103,11 +106,15 @@ LABEL 🥾🐳 init
 # docker --compress
 
 ## Dev/test git, gcc, g++
+## podman/buildah doesn't work with cache?
+#RUN --mount=type=cache,target=/var/cache/apt \
+#    --mount=type=cache,target=/var/lib/apt \
+#    apt update && apt-get --no-install-recommends install -y apt-utils git gcc g++
+#RUN --mount=type=cache,target=/var/cache/apt --mount=type=cache,target=/var/lib/apt \
+#  apt update && apt-get --no-install-recommends install -y gcc
 RUN --mount=type=cache,target=/var/cache/apt \
     --mount=type=cache,target=/var/lib/apt \
     apt update && apt-get --no-install-recommends install -y apt-utils git gcc g++
-#RUN --mount=type=cache,target=/var/cache/apt --mount=type=cache,target=/var/lib/apt \
-#  apt update && apt-get --no-install-recommends install -y gcc
 
 # RUN apt-get update && apt-get install -y git gcc g++
 RUN git --version
@@ -138,9 +145,9 @@ FROM b00t_base as b00t_make
 # docker --compress
 
 ## Dev/test git, gcc, g++
-RUN --mount=type=cache,target=/var/cache/apt \
-    --mount=type=cache,target=/var/lib/apt \
-    apt update && apt-get --no-install-recommends install -y apt-utils git gcc g++
+#RUN --mount=type=cache,target=/var/cache/apt \
+#    --mount=type=cache,target=/var/lib/apt \
+#    apt update && apt-get --no-install-recommends install -y apt-utils git gcc g++
 
 # RUN apt-get update && apt-get install -y git gcc g++
 RUN git --version

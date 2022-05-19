@@ -59,6 +59,7 @@ fi
 # SANITY: at this point rustup should be installed!
 if ! command -v argc &> /dev/null
 then 
+  # 🤓 https://github.com/sigoden/argc
   log_📢_记录 "🥾🦀🪂 installing argc with rust:cargo"
   cargo install argc
 fi
@@ -97,6 +98,7 @@ fi
 # 🐙 github 'gh' client
 if ! command -v gh &> /dev/null
 then
+  # 🤓 https://cli.github.com/
   log_📢_记录 "🥾🐙 installing github 'gh' command"
   wget https://github.com/cli/cli/releases/download/v2.10.1/gh_2.10.1_linux_amd64.deb
   sudo dpkg -i gh_2.10.1_linux_amd64.deb
@@ -133,13 +135,20 @@ source ./_b00t_/bash.🔨/init.30级.🐳.层.docker.sh
 #init.32级.💠.层.hashicorp.sh
 #init.34级.⚙️.层.k8.sh
 
+source ./_b00t_/bash.🔨/init.40级.🦀语.rust.sh
 source ./_b00t_/bash.🔨/init.41级.🐍.语.python.sh
 
-source ./_b00t_/bash.🔨/init.41级.🚀.语.node.sh
-#source ./_b00t_/bash.🔨/init.42级.🦄.语.typescript.sh
+source ./_b00t_/bash.🔨/init.42级.🚀.语.node.sh
+source ./_b00t_/bash.🔨/init.42级.🦄.语.typescript.sh
+
+# go is required for podman, runc to compile buildah
+source ./_b00t_/bash.🔨/init.44级.🏇.语.go.sh
+sudo apt install runc
+# buildah
+
+
 #source ./_b00t_/bash.🔨/init.43级.🥷.语.vue.sh
 #init.44级.☕.语.java.sh
-#init.44级.🏇.语.go.sh
 #init.44级.🪆.语.rust.sh
 #init.50级.👾.云☁️.gcp.sh
 #init.50级.🤖.云☁️.azure.sh

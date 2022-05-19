@@ -6,6 +6,8 @@
 - [ ] https://github.com/octo-org/octo-repo/issues/740
 - [ ] Add delight to the experience when all tasks are complete :tada:
 
+https://beta.openai.com/docs/api-reference/introduction
+
 
 # A. Priority (top)
 - [ ] register domain name candi-date.me
@@ -16,14 +18,19 @@
 
 # B. Priority (middle)
 - [ ] finish removing _b00t_
+- [ ] badges // https://shields.io/category/build
+- [ ] https://contrib.rocks/preview
 
-# C. Priority (hard)
+
+# C. Priority (high complexity)
 - [x]  create a pull request for _b00t_ repo to receive changes (not possible! wtf. )
 - [ ] train models to process the same neutral data format. 
 
  .  At some point when this is finished, this is a cargo and ios.🍎/windows/android.-linux/mac package install
 
-# D. ...
+# D. Priority (very low)
+* https://bestpractices.coreinfrastructure.org/en/projects/new
+
 
 ----- LINE OF OBSOLECENCE ------
 

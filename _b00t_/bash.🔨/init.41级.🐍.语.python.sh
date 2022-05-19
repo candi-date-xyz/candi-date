@@ -40,7 +40,14 @@ source .venv/bin/activate
 python3 -m pipx ensurepath
 pipx completions
 ## we will install/uninstall _b00t_ packages via pipx
-pipx install 
+
+# doit can be uses as a simple Task Runner allowing you to easily define ad hoc tasks, helping you to organize all your project related tasks in an unified easy-to-use & discoverable way.
+# https://github.com/pydoit/doit
+# https://pydoit.org/tutorial-1.html
+# pip install doit
+pipx install doit
+
+# TODO: miniconda https://linuxhandbook.com/dockerize-python-apps/
 
 # Package Management
 ## Poetry

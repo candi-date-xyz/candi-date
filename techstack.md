@@ -5,7 +5,9 @@ My Background:  http://bit.ly/resume-brianhorakh
 
 # The VegeMight Stack!
 
-https://eips.ethereum.org/EIPS/eip-1155
+## technologies in consideration
+* https://eips.ethereum.org/EIPS/eip-1155
+* https://ssbc.github.io/scuttlebutt-protocol-guide/
 
 
 ```
