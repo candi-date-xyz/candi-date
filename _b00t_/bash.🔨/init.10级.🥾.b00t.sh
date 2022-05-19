@@ -13,9 +13,7 @@ source "$_B00T_C0DE_Path/_b00t_.bashrc"
 #*
 ## * * * *//
 set +euxo pipefail
-if [ -v $SUDO_CMD ] ; then
-    SUDO_CMD="sudo"
-fi
+
 
 set -euxo pipefail
 
@@ -23,14 +21,13 @@ set -euxo pipefail
 $SUDO_CMD apt-get upgrade -y && $SUDO_CMD apt-get -y update
 
 # apt-transport-https is for google/k8, others. 
-$SUDO_CMD apt-get -y install build-essential procps curl file git apt-transport-https ca-certificates 
+$SUDO_CMD apt-get -y install build-essential procps curl file git apt-transport-https ca-certificates
 
 # Boot functions
 ARCH="$(uname -m | cut -b 1-6)"
 
 # moved to _b00t_.bashrc
 # source "$_B00T_C0DE_Path/./bash.🔨/.bash_aliases"
-
 
 function checkOS() {
     IS_supported=`cat /etc/os-release | grep "Ubuntu 20.04.2 LTS"`

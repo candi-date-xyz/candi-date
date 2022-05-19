@@ -39,6 +39,19 @@ set -a
 #  _b00t_ is *mostly* a bunch of shell aliases
 source "./_b00t_.bashrc"
 
+
+
+./_b00t_/bash.🔨/is_docker.sh &> /dev/null
+export IS_DOCKER=$( echo $? )
+log_📢_记录 "🐋 IS_DOCKER: $IS_DOCKER"
+SUDO_CMD=""
+if [ ! "$IS_DOCKER" ] ; then
+  log_📢_记录 "🐋🚫, require sudo"
+  SUDO_CMD="sudo"
+fi
+export SUDO_CMD
+
+
 # we begin with rust. 
 
 if ! command -v rustup &> /dev/null
@@ -141,9 +154,18 @@ source ./_b00t_/bash.🔨/init.41级.🐍.语.python.sh
 source ./_b00t_/bash.🔨/init.42级.🚀.语.node.sh
 source ./_b00t_/bash.🔨/init.42级.🦄.语.typescript.sh
 
+## all sorts of fubar: 
 # go is required for podman, runc to compile buildah
-source ./_b00t_/bash.🔨/init.44级.🏇.语.go.sh
-sudo apt install runc
+# source ./_b00t_/bash.🔨/init.44级.🏇.语.go.sh
+# sudo apt install runc
+# steps to compile buildah
+#sudo apt-get -y install software-properties-common
+#sudo add-apt-repository -y ppa:alexlarsson/flatpak
+#sudo add-apt-repository -y ppa:gophers/archive
+#sudo apt-add-repository -y ppa:projectatomic/ppa
+#sudo apt-get -y -qq update
+#sudo apt-get -y install bats btrfs-tools git libapparmor-dev libdevmapper-dev libglib2.0-dev libgpgme11-dev libseccomp-dev libselinux1-dev skopeo-containers go-md2man
+
 # buildah
 
 

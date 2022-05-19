@@ -112,14 +112,15 @@ LABEL 🥾🐳 init
 #    apt update && apt-get --no-install-recommends install -y apt-utils git gcc g++
 #RUN --mount=type=cache,target=/var/cache/apt --mount=type=cache,target=/var/lib/apt \
 #  apt update && apt-get --no-install-recommends install -y gcc
-RUN --mount=type=cache,target=/var/cache/apt \
-    --mount=type=cache,target=/var/lib/apt \
-    apt update && apt-get --no-install-recommends install -y apt-utils git gcc g++
+#RUN --mount=type=cache,target=/var/cache/apt \
+#    --mount=type=cache,target=/var/lib/apt \
+RUN  apt update && apt-get --no-install-recommends install -y apt-utils git gcc g++
 
-# RUN apt-get update && apt-get install -y git gcc g++
+RUN apt-get update && apt-get install -y git gcc g++
 RUN git --version
 # RUN apt-get install -y apt-utils curl wget 
-# ca-certificates gnupg 
+# # ca-certificates gnupg 
+
 
 #############################################################
 
@@ -168,14 +169,15 @@ RUN set -eux; \
 
 # TODO: setup ps1, etc.
 
-#VOLUME "/c0de/_b00t_"
+VOLUME "/c0de/candi-date/"
 #COPY ./docker.🐳 /c0de/_b00t_/docker.🐳/
-WORKDIR /c0de/_b00t_/
+WORKDIR /c0de/candi-date/
 
-# COPY ./*  "./"
+COPY .  "/c0de/candi-date"
 # ADD ./*.bashrc "./"
 # ADD /c0de/
-# RUN chmod +x ./source.sh
+RUN chmod +x ./install.sh
+RUN ./install.sh
 
 ## this was screwing up permissions:
 #RUN useradd -ms /bin/bash brianh
@@ -193,15 +195,18 @@ WORKDIR /c0de/_b00t_/
 # RUN chmod +x "_b00t_.bashrc"
   
 CMD [ "/bin/bash", "-c", "/c0de/_b00t_/_b00t_.bashrc"]
+#CMD [ "/bin/bash", "-c", "/c0de/install.sh"]
 
-sudo service dbus start
-sudo dbus-daemon --system
+# works:
+#sudo service dbus start
 
- systemctl status --system
- systemctl status --user
+# doesn't work, no systemd on WSL2
+#sudo dbus-daemon --system
+ #systemctl status --system
+ #systemctl status --user
 
-systemctl --user daemon-reload
-systemctl restart dbus
+#systemctl --user daemon-reload
+#systemctl restart dbus
 
 
 # Failed to connect to bus: $DBUS_SESSION_BUS_ADDRESS and $XDG_RUNTIME_DIR not defined (consider using --machine=<user>@.host --user to connect to bus of other user)
