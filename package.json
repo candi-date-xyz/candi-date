@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "vue": "^3.2.33"
+  },
+  "packageManager": "yarn@3.2.1",
+  "devDependencies": {
+    "testyts": "^1.5.0"
+  }
+}
