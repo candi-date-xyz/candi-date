@@ -41,11 +41,11 @@ source "./_b00t_.bashrc"
 
 
 
-./_b00t_/bash.🔨/is_docker.sh &> /dev/null
-export IS_DOCKER=$( echo $? )
-log_📢_记录 "🐋 IS_DOCKER: $IS_DOCKER"
+./_b00t_/bash.🔨/is_inside_docker.sh &> /dev/null
+export PROBABLY_NOT_DOCKER=$( echo $? )  # 0 = success
+log_📢_记录 "🐋 PROBABLY_NOT_DOCKER: $PROBABLY_NOT_DOCKER"
 SUDO_CMD=""
-if [ ! "$IS_DOCKER" ] ; then
+if [ ! "$PROBABLY_NOT_DOCKER" ] ; then
   log_📢_记录 "🐋🚫, require sudo"
   SUDO_CMD="sudo"
 fi
@@ -66,6 +66,7 @@ if ! command -v gcc &> /dev/null
 then
   log_📢_记录 "🥾🦀 installing build-essentials"
   sudo apt -y install build-essential software-properties-common
+  # aptitude
 fi
 
 

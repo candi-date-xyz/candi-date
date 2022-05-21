@@ -3,6 +3,9 @@
 #* mostly placeholder
 ## * * * *\\
 
+
+
+
 set -o xtrace
 
 if [ -z "$_B00T_C0DE_Path" ] ; then 
@@ -34,11 +37,18 @@ source "$_B00T_C0DE_Path/_b00t_.bashrc"
 
 ## Run `sudo apt-get install -y nodejs` to install Node.js 14.x and npm
 
+# 
+# https://nodejs.org/dist/latest/docs/api/corepack.html
+
 ## 🧶 To install the Yarn package manager, run:
 curl -sL https://dl.yarnpkg.com/debian/pubkey.gpg | gpg --dearmor | sudo tee /usr/share/keyrings/yarnkey.gpg >/dev/null
 echo "deb [signed-by=/usr/share/keyrings/yarnkey.gpg] https://dl.yarnpkg.com/debian stable main" | sudo tee /etc/apt/sources.list.d/yarn.list     
 sudo apt-get update -y && sudo apt-get -y install yarn
 pathAdd "$HOME/.yarn/bin"
+
+# Yarn v2 https://yarnpkg.com/getting-started/migration
+yarn set version berry
+
 
 # not even sure we need NPM. 
 # npm install -g npm@latest
@@ -103,3 +113,11 @@ yarn add @docker/sdk
 # https://github.com/marketplace/actions/github-action-for-yarn
 
 # https://github.com/Testy/TestyTs
+
+yarn add --dev testyts
+npm install --save-dev testyts
+npm install -g testyts
+testyts init
+
+yarn @tsconfig/deno
+
