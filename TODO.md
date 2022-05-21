@@ -2,21 +2,26 @@
 ![GitHub Workflow Status](https://img.shields.io/github/workflow/status/elasticdotventures/candydated0txyz/build)
 
 
-- [x] #739
-- [ ] https://github.com/octo-org/octo-repo/issues/740
 - [ ] Add delight to the experience when all tasks are complete :tada:
 
 https://beta.openai.com/docs/api-reference/introduction
 
+
+# 0. Today
+- [ ] create docker image build environment
+- [ ] plan inbox scanner/resume downloader
+- [ ] choose 
+- [ ] create database table for resumes
 
 # A. Priority (top)
 - [ ] register domain name candi-date.me
 - [ ] newsletter signup. ?
 - [ ] register candi-date.eth
 - [ ] accept wallet
-- [x] cleanup build actions
+- [x] remove build actions
 
 # B. Priority (middle)
+- [x] change twitter handle
 - [ ] finish removing _b00t_
 - [ ] badges // https://shields.io/category/build
 - [ ] https://contrib.rocks/preview
@@ -26,7 +31,7 @@ https://beta.openai.com/docs/api-reference/introduction
 - [x]  create a pull request for _b00t_ repo to receive changes (not possible! wtf. )
 - [ ] train models to process the same neutral data format. 
 
- .  At some point when this is finished, this is a cargo and ios.🍎/windows/android.-linux/mac package install
+GOAL:  At some point when this is finished, this planned architecture will be able to build a windows, ios.🍎/windows/android.-linux/mac package installer
 
 # D. Priority (very low)
 * https://bestpractices.coreinfrastructure.org/en/projects/new
