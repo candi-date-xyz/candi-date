@@ -174,10 +174,17 @@ VOLUME "/c0de/candi-date/"
 WORKDIR /c0de/candi-date/
 
 COPY .  "/c0de/candi-date"
+
+# minimal RUST 🦀 (*for argc)
+RUN curl https://sh.rustup.rs -sSf | bash -s -- -y
+RUN echo 'source $HOME/.cargo/env' >> $HOME/.bashrc
+ENV PATH="/root/.cargo/bin:${PATH}"
+RUN ./_b00t_/install-_b00t_-rust.🦀.sh
+
 # ADD ./*.bashrc "./"
 # ADD /c0de/
-RUN chmod +x ./install.sh
-RUN ./install.sh
+#RUN chmod +x ./install.sh
+#RUN ./install.sh
 
 ## this was screwing up permissions:
 #RUN useradd -ms /bin/bash brianh
