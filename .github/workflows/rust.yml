@@ -1,6 +1,8 @@
 name: RUST-CI
 
 # This workflow run tests and build for each push
+# https://docs.github.com/en/actions/using-github-hosted-runners/about-github-hosted-runners
+
 
 on:
   push:
@@ -12,7 +14,7 @@ jobs:
 
   backend:
     # tools/act/bin/act -P rust=ghcr.io/rust-lang/rust:nightly-buster-slim
-    runs-on: rust
+    runs-on: rust=ghcr.io/rust-lang/rust:nightly-buster-slim
     
   
 
