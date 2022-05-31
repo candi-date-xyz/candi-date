@@ -621,4 +621,6 @@ data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQAAAAEACAYAAABccqhmAAAAAXNSR0IArs
 
 
 
-
+## More resources
+    * Bullshit fake interviews
+    https://news.yahoo.com/wells-fargo-quest-increase-diversity-184111525.html

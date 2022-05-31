@@ -12,7 +12,8 @@ on:
 
 jobs:
 
-  backend:
+  build:
+    # podman system service -t 0 &
     # tools/act/bin/act -P rust=ghcr.io/rust-lang/rust:nightly-buster-slim
     runs-on: ubuntu-latest
     
@@ -22,10 +23,19 @@ jobs:
       - name: Check out repository code
         uses: actions/checkout@v3
 
-      - name: Install jq tool
-        run: |
-          sudo apt-get update
-          sudo apt-get install jq
+      - uses: actions-rs/toolchain@v1
+        with:
+          toolchain: stable
+          
+      - uses: actions-rs/cargo@v1
+        with:
+          command: build
+          args: --release --all-features
+
+      # - name: Install jq tool
+      #   run: |
+      #     sudo apt-get update
+      #     sudo apt-get install jq
 
       # - name: Update local toolchain
       #   run: |

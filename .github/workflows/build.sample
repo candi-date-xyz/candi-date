@@ -6,7 +6,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: zimbatm/action-cli@v0.3.0
-      - run: | \
+      - run: | 
         action-cli warning this a warning 
         action-cli get-input HOME
         action-cli 

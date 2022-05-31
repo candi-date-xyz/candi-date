@@ -5,6 +5,11 @@
 #
 
 
+if ! command -v cargo &> /dev/null
+then
+    # missing cargo!
+fi
+
 if ! command -v argc &> /dev/null
 then
     # argc is a rust alternative to bash getopt

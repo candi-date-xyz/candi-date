@@ -12,3 +12,5 @@ log_📢_记录 "🚀 install rust"
 #source $HOME/.cargo/env
 # curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 
+# https://rust-analyzer.github.io/manual.html#installation
+# rustup component add rust-src

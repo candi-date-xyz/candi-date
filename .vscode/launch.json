@@ -1,0 +1,37 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            // https://github.com/vadimcn/vscode-lldb/discussions?utm_source=vsmp&utm_medium=ms%20web&utm_campaign=mpdetails
+            // https://stackoverflow.com/questions/56518902/why-do-i-get-identifier-is-undefined-or-not-available-when-inspecting-a-rust
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug",
+
+            // 🤓 use this to debug RUST binaries:
+            "program": "${workspaceRoot}/target/debug/${workspaceRootFolderName}",
+
+            // 🤓 use cargo for libraries
+            /* 
+            "cargo": {
+                "args": ["test", "--no-run", "--lib"], // Cargo command line to build the debug target
+                // "args": ["build", "--bin=foo"] is another possibility
+                "filter": { // Filter applied to compilation artifacts (optional)
+                    "name": "mylib",
+                    "kind": "lib"
+                }            
+            */
+            "args": [],
+            "cwd": "${workspaceFolder}",
+            "sourceLanguages": ["rust"], // required to add support for Vec, String, enum .. 
+            "terminal":"integrated",        // can also be 'console', 'external'
+
+            // 🤓 https://github.com/vadimcn/vscode-lldb/blob/master/MANUAL.md#stdio
+            "stdio": null                // connect all streams to default terminal, can also use file(s)
+
+            // "stopOnEntry":true,          // should open an lldb hex/asm dump on start
+        ]
+}

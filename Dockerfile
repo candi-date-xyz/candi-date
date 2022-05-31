@@ -127,7 +127,6 @@ RUN git --version
 # BASE (an interim step)
 FROM b00t_init as b00t_base
 RUN echo "🥾🐳 B4S3 (base)"
-MAINTAINER ops@elastic.ventures
 
 #############################################################
 
@@ -179,6 +178,9 @@ COPY .  "/c0de/candi-date"
 RUN curl https://sh.rustup.rs -sSf | bash -s -- -y
 RUN echo 'source $HOME/.cargo/env' >> $HOME/.bashrc
 ENV PATH="/root/.cargo/bin:${PATH}"
+
+# minimall install boot
+RUN chmod +x ./_b00t_/install-_b00t_-rust.🦀.sh
 RUN ./_b00t_/install-_b00t_-rust.🦀.sh
 
 # ADD ./*.bashrc "./"

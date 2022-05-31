@@ -12,6 +12,7 @@ Requiring companies to disclose the types of tools, and maybe having a smarter-m
 
 ## What type of wallet
 Polychain ERC-20 Wallet
+https://ethereum.org/en/developers/docs/standards/tokens/erc-1155/
 
 
  

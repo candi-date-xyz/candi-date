@@ -54,12 +54,6 @@ export SUDO_CMD
 
 # we begin with rust. 
 
-if ! command -v rustup &> /dev/null
-then
-  log_📢_记录 "🥾🦀 installing rust"
-  curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y
-  source $HOME/.cargo/env
-fi
 
 # TODO: test for cargo
 if ! command -v gcc &> /dev/null
@@ -138,6 +132,9 @@ source ./_b00t_/bash.🔨/init.20级.🐧.linux.sh
 # vidir: edit a directory in your text editor
 # vipe: insert a text editor into a pipe
 # zrun: automatically uncompress arguments to command
+
+# starship
+# cargo install starship --locked
 
 
 # https://git-scm.com/book/en/v2/Git-Basics-Git-Aliases
