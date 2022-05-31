@@ -11,7 +11,11 @@ on:
 jobs:
 
   backend:
-    runs-on: ghcr.io/rust-lang/rust:nightly-buster-slim
+    # tools/act/bin/act -P rust=ghcr.io/rust-lang/rust:nightly-buster-slim
+    runs-on: rust
+    
+  
+
     steps:
       - uses: actions/checkout@v2
 
@@ -29,11 +33,11 @@ jobs:
           rustc --version
           cargo clippy --version          
 
-      - name: Lint
-        run: |
-          # cd phaser
-          cargo fmt -- --check
-          cargo clippy -- -D warnings          
+      # - name: Lint
+      #   run: |
+      #     # cd phaser
+      #     cargo fmt -- --check
+      #     cargo clippy -- -D warnings          
 
       - name: Test
         run: |
@@ -41,10 +45,10 @@ jobs:
           cargo check
           cargo test --all          
 
-      - name: Build
-        run: |
-          # cd phaser
-          cargo build --release  
+      # - name: Build
+      #   run: |
+      #     # cd phaser
+      #     cargo build --release  
 
 
   
