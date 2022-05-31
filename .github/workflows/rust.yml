@@ -14,12 +14,18 @@ jobs:
 
   backend:
     # tools/act/bin/act -P rust=ghcr.io/rust-lang/rust:nightly-buster-slim
-    runs-on: rust=ghcr.io/rust-lang/rust:nightly-buster-slim
+    runs-on: ubuntu-latest
     
   
 
     steps:
-      - uses: actions/checkout@v2
+      - name: Check out repository code
+        uses: actions/checkout@v3
+
+      - name: Install jq tool
+        run: |
+          sudo apt-get update
+          sudo apt-get install jq
 
       # - name: Update local toolchain
       #   run: |

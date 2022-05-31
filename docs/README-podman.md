@@ -2,7 +2,9 @@
 
 # https://dev.to/thangchung/start-podman-on-wsl2-in-4-steps-3jn9
 
-# https://opensource.com/article/21/10/podman-windows-wsl
+* https://opensource.com/article/21/10/podman-windows-wsl
+* https://www.itzgeek.com/how-tos/linux/ubuntu-how-tos/install-containerd-on-ubuntu-22-04.html
+    podman machine ls
 
 # https://github.com/containers
 
@@ -36,3 +38,21 @@ skopeo can work with OCI images as well as the original Docker v2 images.
 
 skopeo inspect docker://registry.fedoraproject.org/fedora:latest
 
+# buildkit?
+https://blog.mobyproject.org/introducing-buildkit-17e056cc5317
+
+# containerd
+https://containerd.io/
+
+
+# rootless.
+ ## https://rootlesscontaine.rs/getting-started/common/sysctl/
+sudo sysctl --system
+what are user namespaces?
+https://rootlesscontaine.rs/how-it-works/userns/
+https://rootlesscontaine.rs/getting-started/common/subuid/
+
+https://github.com/containerd/nerdctl/releases/download/v0.20.0/nerdctl-0.20.0-linux-amd64.tar.gz
+
+# distrod
+https://github.com/nullpo-head/wsl-distrod

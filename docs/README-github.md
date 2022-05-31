@@ -13,3 +13,7 @@ https://www.webfx.com/tools/emoji-cheat-sheet/
 # https://github.com/ozum/concat-md#readme
 CLI and API to concatenate markdown files and modify as necessary.
 
+# running local tests
+https://github.com/nektos/act
+ gh repo clone nektos/act
+ ./install.sh

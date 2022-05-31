@@ -1,3 +1,8 @@
+
+turbofish (plural turbofishes) (programming) A syntactic element in Rust, ::<> , with arguments between < and > , that specifies the generic arguments of a function, method, struct, or enum in an expression.
+
+
+
 https://forge.rust-lang.org/infra/other-installation-methods.html#which
 
 
@@ -50,3 +55,8 @@ Message-passing concurrency, where channels send messages between threads
 Shared-state concurrency, where multiple threads have access to some piece of data
 The Sync and Send traits, which extend Rust’s concurrency guarantees to user-defined types as well as types provided by the standard library
 
+Ch 18
+refutable   let & for 
+both irrefutable     if let & while
+    * but warns on irrefutable
+    
