@@ -1,5 +1,8 @@
 ** WIP: Work in progress. 
 
+https://grow.google/certificates/interview-warmup/
+
+
 This is a sketch of my project.  Written for many audiences.  Everybody has their own process for launching a startup. 
 
 # TECH: VegeMight Stack (VMs) 

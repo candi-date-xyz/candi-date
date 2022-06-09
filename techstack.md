@@ -1,3 +1,9 @@
+
+```
+If you wish to make an apple pie from scratch, you must first invent the universe.
+-Carl Sagan
+```
+
 ** wip, unfinished.
 
 ## 
@@ -5,15 +11,15 @@ My Background:  http://bit.ly/resume-brianhorakh
 
 # The VegeMight Stack!
 
+* minimum tooling expectation(s), everything here is open source
+  & free (+ donations *if* we make something profitable)
+
+
 ## technologies in consideration
 * https://eips.ethereum.org/EIPS/eip-1155
 * https://ssbc.github.io/scuttlebutt-protocol-guide/
 
 
-```
-If you wish to make an apple pie from scratch, you must first invent the universe.
--Carl Sagan
-```
 
 This repo contains the foundations of the VegeMight Stack ("VMs") for Errs "👽" the agent inside Candy Date (explained below).  
 
