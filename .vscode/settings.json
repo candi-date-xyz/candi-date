@@ -1,3 +1,7 @@
 {
-    "docker.dockerPath": "podman"
+    "docker.dockerPath": "podman",
+    "cSpell.words": [
+        "imdb",
+        "keras"
+    ]
 }
