@@ -19,3 +19,4 @@ build-backend = "poetry.core.masonry.api"
 
 [tool.poetry.scripts]
 disc0rd = "disc0rd.bot:cli"
+hn = "hackern3ws.scraper:cli"
