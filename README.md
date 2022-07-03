@@ -2,6 +2,13 @@
 
 note: presently re-thinking this idea.
 
+* https://docs.google.com/presentation/d/1Jl_qYupulSBP248qQtg4FAXTftsIjb8BP6ISPu10OEg/edit#slide=id.g35f391192_00
+
+TODO:
+afterwork
+https://www.afterwork.vc/getintouch
+
+
 may use a genetic algo, to select 'survival of the fittest'
 https://github.com/m-decoster/RsGenetic
 
